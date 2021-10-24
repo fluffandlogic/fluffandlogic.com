@@ -1,0 +1,32 @@
+html,body {
+  height: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #f8f8f8;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+a:hover {
+  color: var(--color-hover);
+}
+
+p {
+  margin: 0 0 32px;
+}
