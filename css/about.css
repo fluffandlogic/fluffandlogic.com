@@ -1,0 +1,32 @@
+.page-title.page-about {
+  border-bottom: 1px solid var(--color-primary);
+}
+.profile {
+  display: flex;
+  column-gap: 64px;
+  margin-top: 96px;
+  padding-bottom: 64px;
+  margin-bottom: 64px;
+  border-bottom: 1px solid var(--color-primary);
+}
+.profile:last-child {
+  border-bottom: none;
+}
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  row-grap: 32px;
+  width: 40%;
+}
+.profile-desc {
+  width: 60%;
+}
+.profile-skills {
+  list-style-type: none;
+  padding-left: 0;
+}
+.profile-skill {
+  margin-bottom: 16px;
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+}

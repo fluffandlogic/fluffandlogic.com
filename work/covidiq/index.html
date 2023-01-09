@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fluff And Logic: CovidIQ</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/work.css">    
+    </head>
+    <body>
+        <main class="site">
+            <header class="site-section site-header">
+                <a href="/">
+                    <h1 class="site-header-brand">Fluff and Logic</h1>
+                </a>
+
+                <nav class="site-header-nav">
+                    <a class="site-header-nav-link" href="/">Home</a>
+                    <a class="site-header-nav-link" href="/work/">Our Work</a>
+                    <a class="site-header-nav-link" href="/about/">About Us</a>
+                    <a class="site-header-nav-link" href="/contact/">Contact Us</a>
+                </nav>
+                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
+            </header>
+            <div class="site-section site-content">
+              <a href="/work/">
+                <h2 class="page-title page-work">
+                  ← Our Work
+                </h2>
+              </a>
+              
+              <section class="section-work">
+                <aside class="section-work-sidebar">
+                  <h3 class="section-work-sidebar-category-title"></h3>
+              
+                  <div class="section-work-logo"></div>
+              
+                  <h4 class="section-work-sidebar-project-title"></h4>
+              
+                  <p class="section-work-sidebar-project-desc"></p>
+              
+                  <div class="services">
+                    <h5 class="services-title">
+                      Services Offered
+                    </h5>
+                    <ul class="services-list">
+              
+                    </ul>
+                  </div>
+              
+                </aside>
+                <article class="section-work-content">
+                  <img src="/projects/covidiq/img/logo-covidiq-tagline-desc.svg">
+
+                  <h3>
+                    About
+                  </h3>
+
+                  <p>
+                    In the early days of Covid-19, before vaccines and Covid at-home tests were available, one of the most important and
+                    difficult things to do was to figure out how to detect Covid hotspots before they could spread further. Unlike most
+                    other diseases, Covid sufferers are asymptomatic for up to two weeks after they're already become contagious and
+                    spreading the virus to others. Most of the data was based on self reporting by the CDC and state and city health officials
+                    after the fact.
+                  </p>
+
+                  <p>A team of engineers from Google and doctors from Florida decided to something about it. The goal was to develop a system
+                  to gather information on Covid spread much earlier than was possible at the time. I helped design the website, branding, and
+                  text messaging flow that would help users volunteer information about their Covid status and build an anonymized database of
+                  where Covid hotspots were, so health officials and experts could be dispatched to the right location to help curb the
+                  spread of the virus.</p>
+
+                  <h4>
+                    Brand logo and colors
+                  </h4>
+                  <p>
+                    <img src="/projects/covidiq/img/brand.png">
+                  </p>
+
+                  <h4>
+                    Social Media Imagery
+                  </h4>
+                  <p>
+                    <img src="/projects/covidiq/img/socialmedia_share_images.png">
+                  </p>
+
+                  <h4>
+                    Mobile Website
+                  </h4>
+                  <p>
+                    <img src="/projects/covidiq/img/screens_mobile.png">
+                  </p>
+
+
+                  <h4>
+                    Website Homepage
+                  </h4>
+                  <p>
+                    <img src="/projects/covidiq/img/desktop-home.png">
+                  </p>
+                </article>
+              </section>
+
+            </div>
+            <div class="site-footer-container hide">
+                <footer class="site-section site-footer">
+                    <h1 class="site-footer-brand">Fluff and Logic</h1>
+                    <div class="site-footer-social-media">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                    <nav class="site-footer-nav">
+                        <a class="site-footer-nav-link" href="/">Home</a>
+                        <a class="site-footer-nav-link" href="/work/">Our Work</a>
+                        <a class="site-footer-nav-link" href="/about/">About Us</a>
+                        <a class="site-footer-nav-link" href="/contact/">Contact Us</a>
+                    </nav>
+                    <button class="site-footer-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
+                </footer>
+            </div>
+        </main>
+
+        <div class="modal-menu-mobile">
+            <button class="btn-close-modal-menu-mobile" onclick="toggleMobileMenu()">X</button>
+            <nav class="site-nav">
+                <a class="site-nav-link" href="/">Home</a>
+                <a class="site-nav-link" href="/work/">Our Work</a>
+                <a class="site-nav-link" href="/about/">About Us</a>
+                <a class="site-nav-link" href="/contact/">Contact Us</a>
+            </nav>
+        </div>
+
+        <script src="/js/main.js"></script>
+        <script src="/js/work.js"></script>
+        <script>getWork('covidiq')</script>
+    </body>
+</html>

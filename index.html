@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="/css/main.css">    
+    </head>
+    <body>
+        <main class="site">
+            <header class="site-section site-header">
+                <a href="/">
+                    <h1 class="site-header-brand">Fluff and Logic</h1>
+                </a>
+
+                <nav class="site-header-nav">
+                    <a class="site-header-nav-link" href="/">Home</a>
+                    <a class="site-header-nav-link" href="/work/">Our Work</a>
+                    <a class="site-header-nav-link" href="/about/">About Us</a>
+                    <a class="site-header-nav-link" href="/contact/">Contact Us</a>
+                </nav>
+                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
+            </header>
+            <div class="site-section site-content">
+                
+                <div class="page-home">
+                    <section class="hero">
+                        <section class="hero-text">
+                            <p class="hero-text-para hide">
+                                We are a talented and experienced design and management consulting duo with a combined 40+ years of
+                                experience working with companies and organizations both big and small.
+                            </p>
+                            <a href="/work/" class="btn btn-primary hero-text-cta hide">See Our Work</a>
+                        </section>
+                        <section class="hero-media hide">
+                
+                        </section>
+                    </section>
+                </div>
+
+            </div>
+            <div class="site-footer-container hide">
+                <footer class="site-section site-footer">
+                    <h1 class="site-footer-brand">Fluff and Logic</h1>
+                    <div class="site-footer-social-media">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                    <nav class="site-footer-nav">
+                        <a class="site-footer-nav-link" href="/">Home</a>
+                        <a class="site-footer-nav-link" href="/work/">Our Work</a>
+                        <a class="site-footer-nav-link" href="/about/">About Us</a>
+                        <a class="site-footer-nav-link" href="/contact/">Contact Us</a>
+                    </nav>
+                    <button class="site-footer-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
+                </footer>
+            </div>
+        </main>
+
+        <div class="modal-menu-mobile">
+            <button class="btn-close-modal-menu-mobile" onclick="toggleMobileMenu()">X</button>
+            <nav class="site-nav">
+                <a class="site-nav-link" href="/">Home</a>
+                <a class="site-nav-link" href="/work/">Our Work</a>
+                <a class="site-nav-link" href="/about/">About Us</a>
+                <a class="site-nav-link" href="/contact/">Contact Us</a>
+            </nav>
+        </div>
+
+        <script src="/js/main.js"></script>        
+    </body>
+</html>

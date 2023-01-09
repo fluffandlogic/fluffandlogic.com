@@ -1,0 +1,11 @@
+figure {
+  margin: 0;
+}
+figure .media {
+  display: flex;
+  border: 1px solid var(--color-primary);
+}
+figure figcaption {
+  padding: 8px 0 24px;
+  text-align: center;
+}

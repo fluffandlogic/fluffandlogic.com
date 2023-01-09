@@ -1,0 +1,125 @@
+[
+  {
+    "id": "ezlynx-design-manager",
+    "url": "/work/ezlynx/design-leadership/",
+    "thumb": "/work/ezlynx/img/thumb.jpg",
+    "company": "EZLynx",
+    "category": "Insurance Software",
+    "desc": "Designing the next generation EZLynx platform",
+    "name": "Design Manager",
+    "services": [
+      "Design System",
+      "User Research",
+      "Ideation",
+      "Prototyping",
+      "UX Team Management",
+      "Behavioral Analytics",
+      "Project Management",
+      "Platform Design"
+    ],
+    "start-date": "2016-11",
+    "end-date": "2020-06"
+  },
+  {
+    "id": "yobi-app",
+    "url": "/work/yobi/app/",
+    "thumb": "/work/yobi/img/thumb.jpg",
+    "company": "Yobi",
+    "category": "Yobi",
+    "desc": "Helping a company break out of their niche into a bigger, more profitable, market.",
+    "name": "App",
+    "services": [
+      "Website Design",
+      "App Design",
+      "Ideation",
+      "Prototyping",
+      "UX Advisor"
+    ],
+    "start-date": "2016-11",
+    "end-date": "2020-06"
+  },
+  {
+    "id": "covidiq",
+    "url": "/work/covidiq/",
+    "thumb": "/work/covidiq/img/thumb.jpg",
+    "company": "Covid IQ",
+    "category": "Covid-19",
+    "desc": "Supporting a team developing a Covid-19 early warning system",
+    "name": "Covid-19 Early Warning System",
+    "services": [
+      "Branding",
+      "Web Design",
+      "Social Media Design"
+    ],
+    "start-date": "2020-08",
+    "end-date": "2020-11"
+  },
+  {
+    "id": "cocoa-app",
+    "url": "/work/cocoa/app/",
+    "thumb": "/work/cocoa/img/thumb.jpg",
+    "company": "Cocoa",
+    "category": "Commercial Insurance",
+    "desc": "An experiment in branding and app design, exploring the future of commercial insurance software for Gen Z.",
+    "name": "App",
+    "services": [
+      "App Design",
+      "Branding",
+      "Ideation",
+      "UX Discovery"
+    ],
+    "start-date": "2019-03",
+    "end-date": "2019-06"
+  },
+  {
+    "id": "securus-scp",
+    "url": "/work/securus/scp/",
+    "thumb": "/work/securus/img/thumb.jpg",
+    "company": "Securus",
+    "category": "Security Software",
+    "desc": "Re-architecting, re-branding, and modernizing a core application.",
+    "name": "Secure Communication Platform",
+    "services": [
+      "Prototyping",
+      "Usability Testing",
+      "Ideation",
+      "Prototyping",
+      "Branding"
+    ],
+    "start-date": "2014-03",
+    "end-date": "2015-08"
+  },
+  {
+    "id": "onyx-app",
+    "url": "/work/onyx/app/",
+    "thumb": "/work/onyx/img/thumb.jpg",
+    "company": "Onyx",
+    "category": "Event Management",
+    "desc": "Helping a company break out of their niche into a bigger, more profitable, market.",
+    "name": "Event Management",
+    "services": [
+      "Prototyping",
+      "Usability Testing",
+      "Ideation",
+      "Prototyping",
+      "Branding"
+    ],
+    "start-date": "2016-01",
+    "end-date": "2016-04"
+  },
+  {
+    "id": "uptime",
+    "url": "/work/uptime/",
+    "thumb": "/work/uptime/img/thumb.png",
+    "company": "Uptime",
+    "category": "Brand Redesign",
+    "desc": "Redesigning a brand to reflect its critical nature",
+    "name": "Autonomous Environment Control System",
+    "services": [
+      "Web Design",
+      "Branding"
+    ],
+    "start-date": "2019-03",
+    "end-date": "2019-03"
+  }
+]
