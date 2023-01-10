@@ -1,7 +1,7 @@
 [
   {
     "id": "ezlynx-design-manager",
-    "url": "/work/ezlynx/design-leadership/",
+    "url": "/work/ezlynx/",
     "thumb": "/work/ezlynx/img/thumb.jpg",
     "company": "EZLynx",
     "category": "Insurance Software",
@@ -22,7 +22,7 @@
   },
   {
     "id": "yobi-app",
-    "url": "/work/yobi/app/",
+    "url": "/work/yobi/",
     "thumb": "/work/yobi/img/thumb.jpg",
     "company": "Yobi",
     "category": "Yobi",
@@ -56,7 +56,7 @@
   },
   {
     "id": "cocoa-app",
-    "url": "/work/cocoa/app/",
+    "url": "/work/cocoa/",
     "thumb": "/work/cocoa/img/thumb.jpg",
     "company": "Cocoa",
     "category": "Commercial Insurance",
@@ -73,7 +73,7 @@
   },
   {
     "id": "securus-scp",
-    "url": "/work/securus/scp/",
+    "url": "/work/securus/",
     "thumb": "/work/securus/img/thumb.jpg",
     "company": "Securus",
     "category": "Security Software",
@@ -91,7 +91,7 @@
   },
   {
     "id": "onyx-app",
-    "url": "/work/onyx/app/",
+    "url": "/work/onyx/",
     "thumb": "/work/onyx/img/thumb.jpg",
     "company": "Onyx",
     "category": "Event Management",
