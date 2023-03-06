@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fluff And Logic: hntb</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/work.css">
+</head>
+<body>
+<main class="site">
+    <header class="site-section site-header">
+        <a href="/">
+            <h1 class="site-header-brand">Fluff and Logic</h1>
+        </a>
+
+        <nav class="site-header-nav">
+            <a class="site-header-nav-link" href="/">Home</a>
+            <a class="site-header-nav-link" href="/work/">Our Work</a>
+            <a class="site-header-nav-link" href="/about/">About Us</a>
+            <a class="site-header-nav-link" href="/contact/">Contact Us</a>
+        </nav>
+        <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
+    </header>
+    <div class="site-section site-content">
+        <a href="/work/">
+            <h2 class="page-title page-work">
+                ← Our Work
+            </h2>
+        </a>
+
+        <section class="section-work">
+            <aside class="section-work-sidebar">
+                <h3 class="section-work-sidebar-category-title"></h3>
+
+                <div class="section-work-logo">
+                    <img src="/work/hntb/img/logo.png" alt="">
+                </div>
+
+                <h4 class="section-work-sidebar-project-title"></h4>
+
+                <p class="section-work-sidebar-project-desc"></p>
+
+                <div class="services">
+                    <h5 class="services-title">
+                        Services Offered
+                    </h5>
+                    <ul class="services-list">
+
+                    </ul>
+                </div>
+
+            </aside>
+            <article class="section-work-content">
+                <img src="/work/hntb/img/hero.jpg">
+
+                <h3>
+                    About
+                </h3>
+
+                <p>
+                    At HNTB I worked on everything from custom websites, to CMSes, SharePoint, Flash, Silverlight and WPF.
+                </p>
+
+                <h4>
+                    Managed Lanes Decision Analysis (Georgia Dept of Transportation)
+                </h4>
+                <p>
+                    <img class="portfolio-img" src="/work/hntb/img/gdot1.png" alt="">
+                </p>
+                <p>
+                    <img class="portfolio-img" src="/work/hntb/img/gdot2.png" alt="">
+                </p>
+                <p>
+                    <img class="portfolio-img" src="/work/hntb/img/gdot3.jpg" alt="">
+                </p>
+
+                <h4>
+                    NTTA.org (TollTag website)
+                </h4>
+                <p>
+                    <img class="portfolio-img" src="/work/hntb/img/tolltag.png" alt="">
+                </p>
+
+                <h4>
+                    Urban Simulation (3D Group)
+                </h4>
+                <p>
+                    <img class="portfolio-img" src="/work/hntb/img/urban-sim1.jpg" alt="">
+                </p>
+                <p>
+                    <img class="portfolio-img" src="/work/hntb/img/urban-sim2.jpg" alt="">
+                </p>
+                <p>
+                    <img class="portfolio-img" src="/work/hntb/img/urban-sim3.jpg" alt="">
+                </p>
+
+            </article>
+        </section>
+
+    </div>
+    <div class="site-footer-container hide">
+        <footer class="site-section site-footer">
+            <h1 class="site-footer-brand">Fluff and Logic</h1>
+            <div class="site-footer-social-media">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Facebook</a>
+            </div>
+            <nav class="site-footer-nav">
+                <a class="site-footer-nav-link" href="/">Home</a>
+                <a class="site-footer-nav-link" href="/work/">Our Work</a>
+                <a class="site-footer-nav-link" href="/about/">About Us</a>
+                <a class="site-footer-nav-link" href="/contact/">Contact Us</a>
+            </nav>
+            <button class="site-footer-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
+        </footer>
+    </div>
+</main>
+
+<div class="modal-menu-mobile">
+    <button class="btn-close-modal-menu-mobile" onclick="toggleMobileMenu()">X</button>
+    <nav class="site-nav">
+        <a class="site-nav-link" href="/">Home</a>
+        <a class="site-nav-link" href="/work/">Our Work</a>
+        <a class="site-nav-link" href="/about/">About Us</a>
+        <a class="site-nav-link" href="/contact/">Contact Us</a>
+    </nav>
+</div>
+
+<script src="/js/main.js"></script>
+<script src="/js/work.js"></script>
+<script>getWork('hntb')</script>
+</body>
+</html>

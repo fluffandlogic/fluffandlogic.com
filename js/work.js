@@ -5,27 +5,24 @@ async function getWork(id) {
     let works;
     if (response.ok) {
         works = await response.json();
-        console.log([works]);
-    }
+        for (let work of works) {
+            if (work.id.toLowerCase() === id) {
+                // document.querySelector('.section-work-sidebar-category-title')
+                //     .insertAdjacentHTML('beforeend', work["category"]);
+                // document.querySelector('.section-work-logo')
+                //     .insertAdjacentHTML('beforeend', work["company"]);
+                document.querySelector('.section-work-sidebar-project-title')
+                    .insertAdjacentHTML('beforeend', work["company"]);
+                document.querySelector('.section-work-sidebar-project-desc')
+                    .insertAdjacentHTML('beforeend', work["desc"]);
 
-    for (let work of works) {
-        if (work.id.toLowerCase() === id) {
-            document.querySelector('.section-work-sidebar-category-title')
-                .insertAdjacentHTML('beforeend', work["category"]);
-            document.querySelector('.section-work-logo')
-                .insertAdjacentHTML('beforeend', work["company"]);
-            document.querySelector('.section-work-sidebar-project-title')
-                .insertAdjacentHTML('beforeend', work["name"]);
-            document.querySelector('.section-work-sidebar-project-desc')
-                .insertAdjacentHTML('beforeend', work["desc"]);
-
-            let services = '';
-            for (let service of work["services"]) {
-                services += `<li class="services-item">${service}</li>\n`
+                let services = '';
+                for (let service of work["services"]) {
+                    services += `<li class="services-item">${service}</li>\n`
+                }
+                document.querySelector('.services-list')
+                    .insertAdjacentHTML('beforeend', services);
             }
-            document.querySelector('.services-list')
-                .insertAdjacentHTML('beforeend', services);
-
         }
     }
 }

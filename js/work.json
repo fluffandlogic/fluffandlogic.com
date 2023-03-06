@@ -1,24 +1,35 @@
 [
   {
-    "id": "ezlynx-design-manager",
-    "url": "/work/ezlynx/",
-    "thumb": "/work/ezlynx/img/thumb.jpg",
-    "company": "EZLynx",
-    "category": "Insurance Software",
-    "desc": "Designing the next generation EZLynx platform",
-    "name": "Design Manager",
+    "id": "new-patients-inc",
+    "url": "/work/newpatientsinc/",
+    "thumb": "/work/newpatientsinc/img/thumb.png",
+    "company": "New Patients Inc",
+    "category": "Marketing Agency",
+    "desc": "Brand overhaul, website redesign, UX training",
+    "name": "Dental Marketing Agency",
     "services": [
-      "Design System",
-      "User Research",
-      "Ideation",
-      "Prototyping",
-      "UX Team Management",
-      "Behavioral Analytics",
-      "Project Management",
-      "Platform Design"
+      "Website Redesign",
+      "Branding",
+      "UX training"
     ],
-    "start-date": "2016-11",
-    "end-date": "2020-06"
+    "start-date": "2019-10",
+    "end-date": "2019-12"
+  },
+  {
+    "id": "call-sumo",
+    "url": "/work/callsumo/",
+    "thumb": "/work/callsumo/img/thumb.png",
+    "company": "Call Sumo",
+    "category": "Marketing Intelligence",
+    "desc": "Website and email campaign rebranding",
+    "name": "Marketing Intelligence",
+    "services": [
+      "Website Redesign",
+      "Email Campaign Redesign",
+      "Branding"
+    ],
+    "start-date": "2020-01",
+    "end-date": "2020-02"
   },
   {
     "id": "yobi-app",
@@ -72,6 +83,56 @@
     "end-date": "2019-06"
   },
   {
+    "id": "ezlynx-client-center",
+    "url": "/work/ezlynx/client-center/",
+    "thumb": "/work/ezlynx/client-center/img/thumb.png",
+    "company": "EZLynx",
+    "category": "Insurance Software",
+    "desc": "Client Center",
+    "name": "Client Center",
+    "services": [
+      "Discovery",
+      "Mobile App Design"
+    ],
+    "start-date": "2016-11",
+    "end-date": "2020-06"
+  },
+  {
+    "id": "ezlynx-asset-mgmt",
+    "url": "/work/ezlynx/asset-mgmt/",
+    "thumb": "/work/ezlynx/asset-mgmt/img/thumb.png",
+    "company": "EZLynx",
+    "category": "Insurance Software",
+    "desc": "Asset Management",
+    "name": "Asset Management",
+    "services": [
+      "Discovery"
+    ],
+    "start-date": "2016-11",
+    "end-date": "2020-06"
+  },
+  {
+    "id": "ezlynx-design-manager",
+    "url": "/work/ezlynx/",
+    "thumb": "/work/ezlynx/img/thumb.jpg",
+    "company": "EZLynx",
+    "category": "Insurance Software",
+    "desc": "Designing the next generation EZLynx platform",
+    "name": "Senior UX Designer",
+    "services": [
+      "Design System",
+      "User Research",
+      "Ideation",
+      "Prototyping",
+      "UX Team Management",
+      "Behavioral Analytics",
+      "Project Management",
+      "Platform Design"
+    ],
+    "start-date": "2016-11",
+    "end-date": "2020-06"
+  },
+  {
     "id": "securus-scp",
     "url": "/work/securus/",
     "thumb": "/work/securus/img/thumb.jpg",
@@ -108,18 +169,36 @@
     "end-date": "2016-04"
   },
   {
-    "id": "uptime",
-    "url": "/work/uptime/",
-    "thumb": "/work/uptime/img/thumb.png",
-    "company": "Uptime",
-    "category": "Brand Redesign",
-    "desc": "Redesigning a brand to reflect its critical nature",
-    "name": "Autonomous Environment Control System",
+    "id": "symon",
+    "url": "/work/symon/",
+    "thumb": "/work/symon/img/thumb.png",
+    "company": "Symon",
+    "name": "Enterprise Suite",
+    "category": "Digital Signage",
+    "desc": "Desktop and mobile apps for the Symon Enterprise Suite",
     "services": [
+      "Desktop App Design",
+      "Mobile App Design",
       "Web Design",
-      "Branding"
+      "Graphics Design"
     ],
-    "start-date": "2019-03",
-    "end-date": "2019-03"
+    "start-date": "2009-02",
+    "end-date": "2011-11"
+  },
+  {
+    "id": "hntb",
+    "url": "/work/hntb/",
+    "thumb": "/work/hntb/img/thumb.jpg",
+    "company": "HNTB",
+    "category": "Civil Engineering",
+    "desc": "Civil engineering consultant for municipalities, DOTs, toll companies, and more",
+    "name": "Civil Engineering",
+    "services": [
+      "Client websites",
+      "Intranets",
+      "Desktop Applications"
+    ],
+    "start-date": "2005-6",
+    "end-date": "2009-02"
   }
 ]
