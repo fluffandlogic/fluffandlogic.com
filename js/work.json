@@ -1,5 +1,21 @@
 [
   {
+    "id": "blueyonder-future-wms",
+    "url": "/work/blueyonder/future-wms/",
+    "thumb": "/work/blueyonder/future-wms/img/thumb.png",
+    "company": "Blue Yonder",
+    "category": "Supply Chain Software",
+    "desc": "Warehouse Management — the next 10 years",
+    "name": "Warehouse Management — the next 10 years",
+    "services": [
+      "Discovery",
+      "Ideation"
+    ],
+    "start-date": "2020-05",
+    "end-date": "2024-12",
+    "show": true
+  },
+  {
     "id": "new-patients-inc",
     "url": "/work/newpatientsinc/",
     "thumb": "/work/newpatientsinc/img/thumb.png",
@@ -13,7 +29,8 @@
       "UX training"
     ],
     "start-date": "2019-10",
-    "end-date": "2019-12"
+    "end-date": "2019-12",
+    "show": true
   },
   {
     "id": "call-sumo",
@@ -29,7 +46,8 @@
       "Branding"
     ],
     "start-date": "2020-01",
-    "end-date": "2020-02"
+    "end-date": "2020-02",
+    "show": true
   },
   {
     "id": "yobi-app",
@@ -47,7 +65,8 @@
       "UX Advisor"
     ],
     "start-date": "2016-11",
-    "end-date": "2020-06"
+    "end-date": "2020-06",
+    "show": true
   },
   {
     "id": "covidiq",
@@ -63,7 +82,8 @@
       "Social Media Design"
     ],
     "start-date": "2020-08",
-    "end-date": "2020-11"
+    "end-date": "2020-11",
+    "show": true
   },
   {
     "id": "cocoa-app",
@@ -80,7 +100,8 @@
       "UX Discovery"
     ],
     "start-date": "2019-03",
-    "end-date": "2019-06"
+    "end-date": "2019-06",
+    "show": true
   },
   {
     "id": "ezlynx-client-center",
@@ -95,7 +116,8 @@
       "Mobile App Design"
     ],
     "start-date": "2016-11",
-    "end-date": "2020-06"
+    "end-date": "2020-06",
+    "show": true
   },
   {
     "id": "ezlynx-mobile",
@@ -112,7 +134,8 @@
       "Responsive Web Design"
     ],
     "start-date": "2016-11",
-    "end-date": "2020-06"
+    "end-date": "2020-06",
+    "show": true
   },
   {
     "id": "ezlynx-submission",
@@ -129,7 +152,8 @@
       "App Design"
     ],
     "start-date": "2016-11",
-    "end-date": "2020-06"
+    "end-date": "2020-06",
+    "show": true
   },
   {
     "id": "ezlynx-certs",
@@ -146,7 +170,8 @@
       "App Design"
     ],
     "start-date": "2016-11",
-    "end-date": "2020-06"
+    "end-date": "2020-06",
+    "show": true
   },
   {
     "id": "ezlynx-asset-mgmt",
@@ -160,7 +185,8 @@
       "Discovery"
     ],
     "start-date": "2016-11",
-    "end-date": "2020-06"
+    "end-date": "2020-06",
+    "show": true
   },
   {
     "id": "ezlynx-design-manager",
@@ -181,7 +207,8 @@
       "Platform Design"
     ],
     "start-date": "2016-11",
-    "end-date": "2020-06"
+    "end-date": "2020-06",
+    "show": true
   },
   {
     "id": "onyx-app",
@@ -199,7 +226,8 @@
       "Branding"
     ],
     "start-date": "2016-01",
-    "end-date": "2016-04"
+    "end-date": "2016-04",
+    "show": true
   },
   {
     "id": "securus-scp",
@@ -217,7 +245,8 @@
       "Branding"
     ],
     "start-date": "2014-03",
-    "end-date": "2015-08"
+    "end-date": "2015-08",
+    "show": true
   },
   {
     "id": "symon",
@@ -234,7 +263,8 @@
       "Graphics Design"
     ],
     "start-date": "2009-02",
-    "end-date": "2011-11"
+    "end-date": "2011-11",
+    "show": true
   },
   {
     "id": "hntb",
@@ -250,6 +280,7 @@
       "Desktop Applications"
     ],
     "start-date": "2005-6",
-    "end-date": "2009-02"
+    "end-date": "2009-02",
+    "show": true
   }
 ]

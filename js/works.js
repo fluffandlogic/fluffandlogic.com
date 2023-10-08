@@ -15,8 +15,11 @@ async function getWorks() {
           </a>
         `;
 
-        document.querySelector('.section-works-list')
-            .insertAdjacentHTML('beforeend', code);
+
+        if (work["show"]) {
+            document.querySelector('.section-works-list')
+                .insertAdjacentHTML('beforeend', code);
+        }
 
     }
 }
