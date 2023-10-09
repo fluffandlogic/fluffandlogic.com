@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="link-to-work" transform="matrix(1,0,0,1,-597,-242)">
+        <rect x="597" y="242" width="64" height="64" style="fill:none;"/>
+        <g transform="matrix(1,0,0,1,78.5,6.5)">
+            <g transform="matrix(0.615625,0.788039,-0.788039,0.615625,416.046,-346.226)">
+                <text x="562.936px" y="253.373px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:12px;">⇽</text>
+            </g>
+            <g transform="matrix(0.218288,0.975884,-0.975884,0.218288,696.55,-351.346)">
+                <text x="567.584px" y="259.111px" style="font-family:'WorkSans-SemiBold', 'Work Sans';font-weight:600;font-size:12px;">O</text>
+            </g>
+            <g transform="matrix(-0.246386,0.969172,-0.969172,-0.246386,969.47,-217.972)">
+                <text x="569.481px" y="267.937px" style="font-family:'WorkSans-SemiBold', 'Work Sans';font-weight:600;font-size:12px;">U</text>
+            </g>
+            <g transform="matrix(-0.660406,0.750909,-0.750909,-0.660406,1149.53,32.8623)">
+                <text x="567.335px" y="276.366px" style="font-family:'WorkSans-SemiBold', 'Work Sans';font-weight:600;font-size:12px;">R</text>
+            </g>
+            <g transform="matrix(-0.98966,0.143433,-0.143433,-0.98966,1153.11,486.797)">
+                <text x="559.009px" y="284.962px" style="font-family:'WorkSans-SemiBold', 'Work Sans';font-weight:600;font-size:12px;">W</text>
+            </g>
+            <g transform="matrix(-0.9185,-0.39542,0.39542,-0.9185,936.768,765.594)">
+                <text x="547.282px" y="286.259px" style="font-family:'WorkSans-SemiBold', 'Work Sans';font-weight:600;font-size:12px;">O</text>
+            </g>
+            <g transform="matrix(-0.631961,-0.775,0.775,-0.631961,660.54,878.942)">
+                <text x="538.97px" y="282.629px" style="font-family:'WorkSans-SemiBold', 'Work Sans';font-weight:600;font-size:12px;">R</text>
+            </g>
+            <g transform="matrix(-0.237304,-0.971435,0.971435,-0.237304,391.844,860.175)">
+                <text x="533.594px" y="276.265px" style="font-family:'WorkSans-SemiBold', 'Work Sans';font-weight:600;font-size:12px;">K</text>
+            </g>
+        </g>
+    </g>
+</svg>
