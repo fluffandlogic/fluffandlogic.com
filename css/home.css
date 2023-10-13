@@ -1,0 +1,129 @@
+:root {
+  --color-fg: #2C2C2C;
+  --color-bg: #FCFCFC;
+}
+html,body {
+  height: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 4rem 3.333333333%;
+  background-color: var(--color-bg);
+  color: #2C2C2C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-fg);
+}
+a:hover {
+  background: linear-gradient(180deg, #FCFCFC 96%, #2C2C2C 96%);
+}
+
+h1, h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 4rem;
+}
+p {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.site-content {
+  padding-bottom: 4rem;
+}
+.site-header {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 1.5rem 0;
+  border-top: .25rem solid var(--color-fg);
+}
+.site-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.44444444%;
+}
+.hero-desc {
+  text-transform: none;
+  font-size: 1.5rem;
+}
+.hero-btn {
+  white-space: nowrap;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6666666667%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-bottom: 4rem;
+  padding: 1.5rem 0;
+  border-top: .5rem solid var(--color-fg);
+}
+.work a {
+  display: flex;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: .125rem solid var(--color-fg);
+}
+.work a:hover {
+  background-image: none;
+  box-shadow: 0 0 0 4px var(--color-fg);
+}
+.work-media {
+  display: inline-block;
+  width: auto;
+}
+
+.site-nav {
+  display: block;
+  border-top: .25rem solid var(--color-fg);
+  border-bottom: .25rem solid var(--color-fg);
+}
+.site-nav-link-right {
+  text-transform: uppercase;
+}
+.site-nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .125rem solid var(--color-fg);
+  padding: 1.5rem 0;
+}
+.site-nav-link:last-child {
+  border-bottom: none;
+}
+
+footer {
+  display: block;
+  margin-top: 1rem;
+}
+footer p {
+  text-align: right;
+  font-size: 0.725rem;
+}

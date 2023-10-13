@@ -1,78 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/css/main.css">    
-    </head>
-    <body>
-        <main class="site">
-            <header class="site-section site-header">
-                <a href="/">
-                    <h1 class="site-header-brand">Fluff and Logic</h1>
-                </a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <nav class="site-header-nav">
-                    <a class="site-header-nav-link" href="/">Home</a>
-                    <a class="site-header-nav-link" href="/work/">Our Work</a>
-                    <a class="site-header-nav-link" href="/about/">About Us</a>
-                    <a class="site-header-nav-link" href="/contact/">Contact Us</a>
-                </nav>
-                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-            </header>
-            <div class="site-section site-content">
+  <title>Fluff And Logic</title>
 
-                <div class="page-home">
-                    <section class="hero">
-                        <section class="hero-text">
-                            <p class="hero-text-para hide">
-                                We are a talented and experienced design and management consulting duo with a combined 40+ years of
-                                experience working with companies and organizations both big and small.
-                            </p>
-                            <a href="/work/" class="btn btn-primary hero-text-cta hide">See Our Work</a>
-                        </section>
-                        <section class="hero-media hide">
-                
-                        </section>
-                    </section>
-                </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 
-            </div>
-            <div class="site-footer-container hide">
-                <footer class="site-section site-footer">
-                    <h1 class="site-footer-brand">Fluff and Logic</h1>
-                    <div class="site-footer-social-media">
-                        <a href="#">Twitter</a>
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Facebook</a>
-                    </div>
-                    <nav class="site-footer-nav">
-                        <a class="site-footer-nav-link" href="/">Home</a>
-                        <a class="site-footer-nav-link" href="/work/">Our Work</a>
-                        <a class="site-footer-nav-link" href="/about/">About Us</a>
-                        <a class="site-footer-nav-link" href="/contact/">Contact Us</a>
-                    </nav>
-                    <button class="site-footer-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-                </footer>
-            </div>
-        </main>
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <main class="site-content">
+    <header class="site-header">
+      <h1 class="site-brand">
+        <img src="img/logo-fluff.svg" alt="Fluff" style="width:40.41666666667%; height:auto" />
+        <img src="img/logo-invader.svg" alt="and" style="width:10%; height:auto" />
+        <img src="img/logo-logic.svg" alt="Logic" style="width:39.89197530861%; height:auto" />
+      </h1>
 
-        <div class="modal-menu-mobile">
-            <button class="btn-close-modal-menu-mobile" onclick="toggleMobileMenu()">X</button>
-            <nav class="site-nav">
-                <a class="site-nav-link" href="/">Home</a>
-                <a class="site-nav-link" href="/work/">Our Work</a>
-                <a class="site-nav-link" href="/about/">About Us</a>
-                <a class="site-nav-link" href="/contact/">Contact Us</a>
-            </nav>
+      <div class="hero">
+        <p class="hero-desc">
+          We are a talented and experienced design and management consulting duo with a combined 40+ years of
+          experience working with companies and organizations both big and small.
+        </p>
+        <a href="/work/" class="hero-btn">See Our Work</a>
+      </div>
+    </header>
+
+    <section class="work">
+      <a href="work/onyx/"><img src="work/onyx/img/thumb.jpg" alt="Onyx" class="work-media"></a>
+      <a href="work/ezlynx/certs/"><img src="work/ezlynx/certs/img/thumb.png" alt="EZlynx Certificates" class="work-media"></a>
+      <a href="work/callsumo/"><img src="work/callsumo/img/thumb.png" alt="Call Sumo" class="work-media"></a>
+
+
+    </section>
+
+    <nav class="site-nav">
+      <a class="site-nav-link" href="/work/">
+        <div class="site-nav-link-left">
+          <h2>
+            Our Work
+          </h2>
+          <p>New Patients Inc, Call Sumo, Yobi, EZLynx, Onyx, Symon, HNTB</p>
         </div>
+        <div class="site-nav-link-right" aria-hidden="true">
+          T3VyIFdvcms=
+        </div>
+      </a>
 
-        <script src="/js/main.js"></script>   
-        <script src="/js/home.js"></script>        
-    </body>
+      <a class="site-nav-link" href="/work/">
+        <div class="site-nav-link-left">
+          <h2>
+            About Us
+          </h2>
+          <div class="site-nav-link-left-desc-group">
+            <p>
+              One part seasoned UX designer
+            <p>
+            <p>
+              One part communications and marketing consultant
+            </p>
+          </div>
+        </div>
+        <div class="site-nav-link-right" aria-hidden="true">
+          QUJPVVQgVVM=
+        </div>
+      </a>
+
+      <a class="site-nav-link" href="/contact/">
+        <div class="site-nav-link-left">
+          <h2>
+            Contact Us
+          </h2>
+          <p>
+            LinkedIn is best
+          </p>
+        </div>
+        <div class="site-nav-link-right" aria-hidden="true">
+          Q29udGFjdA==
+        </div>
+      </a>
+    </nav>
+
+    <footer>
+      <p>
+        The characters on the right are base64 encoded
+      </p>
+    </footer>
+
+  </main>
+
+</body>
 </html>
