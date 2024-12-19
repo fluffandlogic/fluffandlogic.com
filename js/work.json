@@ -16,40 +16,6 @@
     "show": true
   },
   {
-    "id": "new-patients-inc",
-    "url": "/work/newpatientsinc/",
-    "thumb": "/work/newpatientsinc/img/thumb.png",
-    "company": "New Patients Inc",
-    "category": "Marketing Agency",
-    "desc": "Brand overhaul, website redesign, UX training",
-    "name": "Dental Marketing Agency",
-    "services": [
-      "Website Redesign",
-      "Branding",
-      "UX training"
-    ],
-    "start-date": "2019-10",
-    "end-date": "2019-12",
-    "show": true
-  },
-  {
-    "id": "call-sumo",
-    "url": "/work/callsumo/",
-    "thumb": "/work/callsumo/img/thumb.png",
-    "company": "Call Sumo",
-    "category": "Marketing Intelligence",
-    "desc": "Website and email campaign rebranding",
-    "name": "Marketing Intelligence",
-    "services": [
-      "Website Redesign",
-      "Email Campaign Redesign",
-      "Branding"
-    ],
-    "start-date": "2020-01",
-    "end-date": "2020-02",
-    "show": true
-  },
-  {
     "id": "yobi-app",
     "url": "/work/yobi/",
     "thumb": "/work/yobi/img/thumb.jpg",
@@ -66,41 +32,6 @@
     ],
     "start-date": "2016-11",
     "end-date": "2020-06",
-    "show": true
-  },
-  {
-    "id": "covidiq",
-    "url": "/work/covidiq/",
-    "thumb": "/work/covidiq/img/thumb.jpg",
-    "company": "Covid IQ",
-    "category": "Covid-19",
-    "desc": "Supporting a team developing a Covid-19 early warning system",
-    "name": "Covid-19 Early Warning System",
-    "services": [
-      "Branding",
-      "Web Design",
-      "Social Media Design"
-    ],
-    "start-date": "2020-08",
-    "end-date": "2020-11",
-    "show": true
-  },
-  {
-    "id": "cocoa-app",
-    "url": "/work/cocoa/",
-    "thumb": "/work/cocoa/img/thumb.jpg",
-    "company": "Cocoa",
-    "category": "Commercial Insurance",
-    "desc": "An experiment in branding and app design, exploring the future of commercial insurance software for Gen Z.",
-    "name": "App",
-    "services": [
-      "App Design",
-      "Branding",
-      "Ideation",
-      "UX Discovery"
-    ],
-    "start-date": "2019-03",
-    "end-date": "2019-06",
     "show": true
   },
   {
@@ -249,38 +180,72 @@
     "show": true
   },
   {
-    "id": "symon",
-    "url": "/work/symon/",
-    "thumb": "/work/symon/img/thumb.png",
-    "company": "Symon",
-    "name": "Enterprise Suite",
-    "category": "Digital Signage",
-    "desc": "Desktop and mobile apps for the Symon Enterprise Suite",
+    "id": "new-patients-inc",
+    "url": "/work/newpatientsinc/",
+    "thumb": "/work/newpatientsinc/img/thumb.png",
+    "company": "New Patients Inc",
+    "category": "Marketing Agency",
+    "desc": "Brand overhaul, website redesign, UX training",
+    "name": "Dental Marketing Agency",
     "services": [
-      "Desktop App Design",
-      "Mobile App Design",
-      "Web Design",
-      "Graphics Design"
+      "Website Redesign",
+      "Branding",
+      "UX training"
     ],
-    "start-date": "2009-02",
-    "end-date": "2011-11",
+    "start-date": "2019-10",
+    "end-date": "2019-12",
     "show": true
   },
   {
-    "id": "hntb",
-    "url": "/work/hntb/",
-    "thumb": "/work/hntb/img/thumb.jpg",
-    "company": "HNTB",
-    "category": "Civil Engineering",
-    "desc": "Civil engineering consultant for municipalities, DOTs, toll companies, and more",
-    "name": "Civil Engineering",
+    "id": "call-sumo",
+    "url": "/work/callsumo/",
+    "thumb": "/work/callsumo/img/thumb.png",
+    "company": "Call Sumo",
+    "category": "Marketing Intelligence",
+    "desc": "Website and email campaign rebranding",
+    "name": "Marketing Intelligence",
     "services": [
-      "Client websites",
-      "Intranets",
-      "Desktop Applications"
+      "Website Redesign",
+      "Email Campaign Redesign",
+      "Branding"
     ],
-    "start-date": "2005-6",
-    "end-date": "2009-02",
+    "start-date": "2020-01",
+    "end-date": "2020-02",
+    "show": true
+  },
+  {
+    "id": "covidiq",
+    "url": "/work/covidiq/",
+    "thumb": "/work/covidiq/img/thumb.jpg",
+    "company": "Covid IQ",
+    "category": "Covid-19",
+    "desc": "Supporting a team developing a Covid-19 early warning system",
+    "name": "Covid-19 Early Warning System",
+    "services": [
+      "Branding",
+      "Web Design",
+      "Social Media Design"
+    ],
+    "start-date": "2020-08",
+    "end-date": "2020-11",
+    "show": true
+  },
+  {
+    "id": "cocoa-app",
+    "url": "/work/cocoa/",
+    "thumb": "/work/cocoa/img/thumb.jpg",
+    "company": "Cocoa",
+    "category": "Commercial Insurance",
+    "desc": "An experiment in branding and app design, exploring the future of commercial insurance software for Gen Z.",
+    "name": "App",
+    "services": [
+      "App Design",
+      "Branding",
+      "Ideation",
+      "UX Discovery"
+    ],
+    "start-date": "2019-03",
+    "end-date": "2019-06",
     "show": true
   }
 ]

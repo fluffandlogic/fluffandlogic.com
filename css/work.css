@@ -102,6 +102,15 @@
   margin-top: 0;
 }
 
+.mobile {
+  border: 2px solid #000;
+  padding-bottom: 4px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+  background-color: #000;
+}
+
 @media screen and (max-width: 848px) {
   .section-work {
     flex-direction: column;
