@@ -1,6 +1,7 @@
 :root {
-  --color-fg: #2C2C2C;
-  --color-bg: #FCFCFC;
+  --color-fg: #000;
+  --color-bg: #FFE14D;
+  --color-link: #fff;
 }
 html {
   box-sizing: border-box;
@@ -8,187 +9,255 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+header, nav {
+  display: block;
+}
 body {
   margin: 0;
+  overflow-x: hidden;
   background-color: var(--color-bg);
-  color: #2C2C2C;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.5;
+  color: var(--color-fg);
+  font-family: "Lexend Zetta", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-fg);
-}
-a:hover {
-  background: linear-gradient(180deg, #FCFCFC 96%, #2C2C2C 96%);
+  color: var(--color-link);
 }
 
-h1, h2 {
+h1 {
   margin: 0;
-  text-transform: uppercase;
   line-height: 1;
-}
-h2 {
-  font-size: 4rem;
+  font-weight: 900;
+  font-size: 4vw;
+  letter-spacing: -2px;
 }
 p {
   margin: 0;
-  font-size: 1rem;
+  letter-spacing: -2px;
+}
+
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 68.88888% 31.11111%;
+  grid-template-rows: repeat(14, auto);
+  grid-template-areas:
+    "header-text header-stripe"
+    "header-image header-image"
+    "nav-text nav-stripe"
+    "product-text product-stripe"
+    "design design"
+    "location-text location-image"
+    "requirements requirements"
+    "skills skills"
+    "design-system design-system"
+    "bridge bridge"
+    "startup startup"
+    "help help"
+    "footer-nav-text footer-nav-stripe"
+    "footer footer";
+  gap: 0;
+}
+.header-text {
+  grid-area: header-text;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  height: 15rem;
   text-transform: uppercase;
 }
-
-.site-content {
-  display: block;
-  margin: 4vw;
-
+.header-text h1 {
 }
-.site-header {
-  display: flex;
-  flex-direction: column-reverse;
-  padding: 1.5rem 0;
-  border-top: .25rem solid var(--color-fg);
+.header-stripe {
+  grid-area: header-stripe;
+  background: #00B6FF url(../img/stripes.png);
 }
-.site-brand {
-  position: relative;
-  width: 100%;
+.header-image {
+  grid-area: header-image;
+  background: url(../img/architecture.jpg) no-repeat center left;
+  background-size: cover;
+  height: 20rem;
+}
+.nav-text {
+  grid-area: nav-text;
+}
+.nav-text,
+.footer-nav-text
+{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 8vw 0;
-  white-space: nowrap;
-}
-.site-brand-fluff {
-  width: 40.41666666667%;
-  height: auto;
-}
-.site-brand-and {
-  display: block;
-  width: 10%;
-  height: 100%;
-  text-indent: -9999px;
-  text-align: center;
-}
-.site-brand-icon {
-  position: absolute;
-  left: 42.222222%;
-  top: 1.1111111%;
-  width: 15.555555%;
-  height: 100%;
-  background: url(../img/logo-blob1.png) no-repeat center center;
-  background-size: contain;
-}
-.site-brand-and img {
-  width: 100%;
-  height: auto;
-  opacity: 0;
-}
-.site-brand-logic {
-  width:39.89197530861%;
-  height:auto;
-}
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 4.44444444%;
-}
-.hero-desc {
-  text-transform: none;
-  font-size: 1.5rem;
-}
-.hero-btn {
-  white-space: nowrap;
-  font-size: 2rem;
-  font-weight: 700;
+  padding-left: 3rem;
+  gap: 2rem;
+  background-color: #A872CA;
   text-transform: uppercase;
-}
 
-.work {
+}
+.nav-text a,
+.footer-nav-text a {
   display: flex;
-  justify-content: space-between;
-  gap: 1.6666666667%;
-  margin-bottom: 4rem;
-  padding: 3.33333333vw 0;
-  border-top: .5rem solid var(--color-fg);
+  padding: 1rem 3rem;
 }
-.work a {
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-  border-radius: 1.5rem;
-  border: .125rem solid var(--color-fg);
+.nav-text a:hover,
+.footer-nav-text a:hover {
+  background-color: #00B6FF;
+  color: #000;
+  transition: background-color 0.3s;
 }
-.work a:hover {
-  background-image: none;
-  box-shadow: 0 0 0 4px var(--color-fg);
+.nav-stripe {
+  grid-area: nav-stripe;
 }
-.work-media {
-  display: flex;
-  flex-grow: 1;
-  width: 100%;
-  height: auto;
-}
+.product-text {
+  grid-area: product-text;
+  padding: 3.375rem 3rem;
+  font-size: 2.75vw;
+  line-height:1;
+  text-transform: uppercase;
 
-.site-nav {
-  display: block;
-  border-top: .25rem solid var(--color-fg);
-  border-bottom: .25rem solid var(--color-fg);
 }
-.site-nav-link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: .125rem solid var(--color-fg);
-  padding: 1.5rem 0;
+.product-stripe {
+  grid-area: product-stripe;
+  background: #00B6FF url(../img/stripes.png);
 }
-.site-nav-link:last-child {
-  border-bottom: none;
-}
-.site-nav-link-left {
+.design {
+  grid-area: design;
   display: flex;
   flex-direction: column;
-  gap: 0.555555vw;
+  gap: 4rem;
+  background-color: #6AC834;
+  padding: 3.375rem 3rem;
+  font-size: 2.75vw;
+  line-height:1;
+  text-transform: uppercase;
+
 }
-.site-nav-link-right {
+.location-text {
+  grid-area: location-text;
+  background: #1D82D5 url(../img/flower.svg) no-repeat center center;
+  background-size: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 3rem;
+  font-size: 2.75vw;
+  line-height:1;
+  text-transform: uppercase;
+
+}
+.location-image {
+  grid-area: location-image;
+  background: url(../img/nasa.jpg)  no-repeat bottom left;
+  background-size: cover;
+}
+.requirements {
+  grid-area: requirements;
+  padding: 1rem 3rem;
+  font-size: 2.25vw;
+  line-height:1;
+  text-transform: uppercase;
+
+}
+.skills {
+  grid-area: skills;
+  padding: 13rem 6rem 13rem 3rem;
+  background: #864EA9 url(../img/arrow-head.svg) repeat-x center left;
+  font-size: 2vw;
+  font-weight: 300;
+  line-height:1.3;
   text-transform: uppercase;
 }
-
-footer {
-  display: block;
-  margin-top: 2rem;
+.design-system {
+  grid-area: design-system;
+  background: #6AC834;
+  padding: 1.25rem 3rem;
+  font-size: 2vw;
+  text-transform: uppercase;
 }
-footer p {
-  font-size: 0.725rem;
+.bridge {
+  grid-area: bridge;
+  height: 25rem;
+  background: url(../img/bridge.jpg)  no-repeat center left;
+  background-size: cover;
+}
+.startup {
+  grid-area: startup;
+  background: #FF7575 url(../img/starburst.svg) no-repeat center center;
+  background-size: 60%;
+  padding: 6rem 3rem;
+  font-size: 2.75vw;
+  line-height:1;
+  text-transform: uppercase;
+}
+.help {
+  grid-area: help;
+  padding: 2rem 3rem;
+  background: linear-gradient(90deg, #DCCCBC 41.52%, #F7691D 67.85%);
+  font-size: 2.75vw;
+  line-height:1;
+}
+.footer-nav-text { grid-area: footer-nav-text; }
+.footer-nav-stripe { grid-area: footer-nav-stripe; }
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: linear-gradient(90deg, #3B6C88 23.43%, #C4572F 100%);
+  font-size: 0.75rem;
+  padding: 2rem 3rem 6rem 3rem;
+}
+.footer p {
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-  h2 {
-    font-size: 3rem;
+   h1 {
+     font-size: 5vw;
+   }
+  .header-text {
+    height: auto;
+    padding: 2rem 1.5rem;
   }
-  .site-header {
-    flex-direction: column;
+  .nav-text {
+    padding-left: 1.5rem;
+    gap: 0;
   }
-  .site-brand {
-    margin: 0;
-    padding: 2rem 0;
+  .nav-text a,
+  .footer-nav-text a {
+    padding: 0.5rem 1.5rem;
   }
-  .hero {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4vw;
-    margin-bottom: 4rem;
+  .product-text {
+    padding: 2.5rem 1.5rem;
+    font-size: 4vw;
   }
-  .hero-desc {
-    font-size: 1rem;
+  .design {
+    gap: 2rem;
+    padding: 2.5rem 1.5rem;
+    font-size: 4vw;
   }
-  .work {
-    flex-direction: column;
-    gap: 4vw;
+  .requirements {
+    padding: 1rem 1.5rem;
+    font-size: 3vw;
   }
-  .site-nav-link-right {
-    display: none;
+  .location-text {
+    padding: 2.5rem 1.5rem;
+    font-size: 4vw;
+  }
+  .skills {
+    padding: 4rem 1.5rem;
+    font-size: 4vw;
+  }
+  .design-system {
+    padding-left: 1.5rem;
+  }
+  .startup {
+    padding: 2.5rem 1.5rem;
+    font-size: 4vw;
+  }
+  .help {
+    padding-left: 1.5rem;
   }
 }
