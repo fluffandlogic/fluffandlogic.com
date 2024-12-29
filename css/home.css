@@ -1,6 +1,6 @@
 :root {
   --color-fg: #000;
-  --color-bg: #FFE14D;
+  --color-yellow: #FFE14D;
   --color-link: #fff;
 }
 html {
@@ -15,7 +15,7 @@ header, nav {
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: var(--color-bg);
+  background-color: #fff;
   color: var(--color-fg);
   font-family: "Lexend Zetta", serif;
   font-optical-sizing: auto;
@@ -43,7 +43,8 @@ p {
 .container {
   width: 100vw;
   display: grid;
-  grid-template-columns: 68.88888% 31.11111%;
+  padding: 1rem;
+  grid-template-columns: .7fr .3fr;
   grid-template-rows: repeat(14, auto);
   grid-template-areas:
     "header-text header-stripe"
@@ -60,17 +61,15 @@ p {
     "help help"
     "footer-nav-text footer-nav-stripe"
     "footer footer";
-  gap: 0;
+  gap: 1rem;
 }
 .header-text {
   grid-area: header-text;
   display: flex;
   align-items: center;
-  padding-left: 3rem;
-  height: 15rem;
+  padding: 3rem 3rem;
+  background-color: #FFE14D;
   text-transform: uppercase;
-}
-.header-text h1 {
 }
 .header-stripe {
   grid-area: header-stripe;
@@ -110,10 +109,12 @@ p {
 }
 .nav-stripe {
   grid-area: nav-stripe;
+  background-color: #FFE14D;
 }
 .product-text {
   grid-area: product-text;
   padding: 3.375rem 3rem;
+  background-color: #FFE14D;
   font-size: 2.75vw;
   line-height:1;
   text-transform: uppercase;
@@ -155,10 +156,10 @@ p {
 .requirements {
   grid-area: requirements;
   padding: 1rem 3rem;
+  background-color: #FFE14D;
   font-size: 2.25vw;
   line-height:1;
   text-transform: uppercase;
-
 }
 .skills {
   grid-area: skills;
@@ -173,7 +174,7 @@ p {
   grid-area: design-system;
   background: #6AC834;
   padding: 1.25rem 3rem;
-  font-size: 2vw;
+  font-size: 3vw;
   text-transform: uppercase;
 }
 .bridge {
@@ -198,19 +199,24 @@ p {
   font-size: 2.75vw;
   line-height:1;
 }
-.footer-nav-text { grid-area: footer-nav-text; }
-.footer-nav-stripe { grid-area: footer-nav-stripe; }
+.footer-nav-text {
+  grid-area: footer-nav-text;
+}
+.footer-nav-stripe {
+  grid-area: footer-nav-stripe;
+  background-color: #FFE14D;
+}
 .footer {
   grid-area: footer;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
   background: linear-gradient(90deg, #3B6C88 23.43%, #C4572F 100%);
-  font-size: 0.75rem;
+  color: rgba(255,255,255,.7);
+  font-size: 0.8rem;
   padding: 2rem 3rem 6rem 3rem;
 }
 .footer p {
-  margin-bottom: 2rem;
+  margin-bottom: 0.75rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -221,8 +227,9 @@ p {
     height: auto;
     padding: 2rem 1.5rem;
   }
-  .nav-text {
-    padding-left: 1.5rem;
+  .nav-text,
+  .footer-nav-text {
+    padding-left: 0;
     gap: 0;
   }
   .nav-text a,
@@ -259,5 +266,9 @@ p {
   }
   .help {
     padding-left: 1.5rem;
+  }
+  .footer {
+    font-size: 0.6rem;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
   }
 }

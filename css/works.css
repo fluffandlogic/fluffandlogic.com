@@ -1,81 +1,224 @@
-.section-works {
+:root {
+}
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+header, nav {
+  display: block;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Lexend Zetta", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.work-link {
   display: flex;
-  justify-content: stretch;
-  border-top: 1px solid var(--color-primary);
-  border-bottom: 1px solid var(--color-primary);
-  flex-grow: 1;
-}
-.section-works-search-and-filter {
-  width: 320px;
-  padding: 16px 16px 48px 0;
-  border-right: 1px solid var(--color-primary);
-}
-.search-field {
-  background-color: var(--color-placeholder);
-}
-.search-field input {
   width: 100%;
-  height: 48px;
-  padding: 0 16px;
-  background: transparent;
-  border: none;
-  font-family: inherit;
-  font-size: 100%;
+  height: 100%;
 }
-.search-field input:focus {
-  outline: none;
-}
-.section-works-list {
+.container {
   width: 100%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(11, auto);
+  grid-template-areas:
+    "title subtitle subtitle"
+    "nav-text nav-text nav-stripe"
+    "yobi wms wms"
+    "submissions submissions clientcenter"
+    "ezlynxmobile certs certs"
+    "cocoa ezlynx ezlynx"
+    "asset asset onyx"
+    "npi covidiq callsumo"
+    "securus securus securus"
+    "footer-nav-text footer-nav-text footer-nav-stripe"
+    "footer footer footer";
+  gap: 1rem;
+}
+.title {
+  grid-area: title;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  background-color: #FFE14D;
+  font-size: 1.75vw;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.subtitle {
+  grid-area: subtitle;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  background: #00B6FF url(../img/stripes-angled.svg) repeat-x left top;
+  font-size: 1.75vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.yobi {
+  grid-area: yobi;
+  height: 33rem;
+  background: #000 url(../work/yobi/img/mobile1.png) no-repeat 6vw 3vw;
+  background-size: 90%;
+}
+.wms {
+  grid-area: wms;
+  height: 33rem;
+  background: #00B6FF url(../work/blueyonder/future-wms/img/select.png) no-repeat center 3vw;
+  background-size: 90%;
+}
+.submissions {
+  grid-area: submissions;
+  height: 33rem;
+  background: #FFF176 url(../work/ezlynx/submission/img/dashboard.png) no-repeat -3vw 2vw;
+  background-size: 100%;
+}
+.clientcenter {
+  grid-area: clientcenter;
+  height: 33rem;
+  background: #2ACB75 url(../work/ezlynx/client-center/img/home.png) no-repeat center 4vw;
+  background-size: 50%;
+}
+.ezlynxmobile {
+  grid-area: ezlynxmobile;
+  height: 33rem;
+  background: #6AC834 url(../work/ezlynx/mobile/img/homepage.png) no-repeat center 3vw;
+  background-size: 90%;
+}
+.certs {
+  grid-area: certs;
+  height: 33rem;
+  background: #864EA9 url(../work/ezlynx/certs/img/mockup1.png) no-repeat center 2vw;
+  background-size: 100%;
+}
+.cocoa {
+  grid-area: cocoa;
+  height: 33rem;
+  background: #1D82D5 url(../work/cocoa/img/cocoa-dashboard.png) no-repeat 13vw 3vw;
+  background-size: 70%;
+}
+.ezlynx {
+  grid-area: ezlynx;
+  height: 33rem;
+  background: #FF7575 url(../work/ezlynx/img/logo.png) no-repeat center center;
+}
+.asset {
+  grid-area: asset;
+  height: 33rem;
+  background: #982022 url(../work/ezlynx/asset-mgmt/img/hero.png) no-repeat center center;
+  background-size: cover;
+}
+.onyx {
+  grid-area: onyx;
+  height: 33rem;
+  background: #fff url(../work/onyx/img/onyx-home.jpeg) no-repeat 6vw 2vw;
+  background-size: 90%;
+}
+.npi {
+  grid-area: npi;
+  height: 33rem;
+  background: #3A5459 url(../work/newpatientsinc/img/logo.svg) no-repeat center center;
+  background-size: 56%;
+}
+.covidiq {
+  grid-area: covidiq;
+  height: 33rem;
+  background: #019FAA url(../work/covidiq/img/thumb.jpg) no-repeat -7vw top;
+  background-size: cover;
+}
+.callsumo {
+  grid-area: callsumo;
+  height: 33rem;
+  background: #FF7575 url(../work/callsumo/img/hero.png) no-repeat;
+  background-size: cover;
+}
+.securus {
+  grid-area: securus;
+  height: 33rem;
+  background: #6AC834 url(../work/securus/img/project-securus.png) no-repeat center -2vw;
+  background-size: 80%;
+}
+.nav-text {
+  grid-area: nav-text;
+}
+.nav-stripe {
+  grid-area: nav-stripe;
+  background-color:  #FFE14D;
+}
+.footer-nav-text { grid-area: footer-nav-text; }
+.footer-nav-stripe {
+  grid-area: footer-nav-stripe;
+  background-color:  #FFE14D;
+}
+.nav-text,
+.footer-nav-text
+{
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  padding: 24px 0;
-}
-.work {
-  width: calc(calc(100% / 3) - 16px);
-  display: flex;
-  flex-direction: column;
-  grid-row-gap: 4px;
-}
-.work-img {
-  background-color: var(--color-placeholder);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-  border: 1px solid rgba(0,0,0,.2);
-  width: 100%;
-  height: 220px;
-}
-
-.section-works-search-and-filter .filters ul {
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
-  list-style-type: none;
-  padding: 32px 0;
+  align-items: center;
+  padding-left: 3rem;
+  gap: 2rem;
+  background-color: #A872CA;
   text-transform: uppercase;
-  border-bottom: 1px solid var(--color-primary);
+
+}
+.nav-text a,
+.footer-nav-text a {
+  display: flex;
+  padding: 1rem 3rem;
+}
+.nav-text a:hover,
+.footer-nav-text a:hover {
+  background-color: #00B6FF;
+  color: #000;
+  transition: background-color 0.3s;
+}
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #3B6C88 23.43%, #C4572F 100%);
+  color: rgba(255,255,255,.7);
+  font-size: 0.8rem;
+  padding: 2rem 3rem 6rem 3rem;
+}
+.footer p {
+  margin-bottom: 0.75rem;
 }
 
 @media screen and (max-width: 848px) {
-  .section-works {
-    flex-direction: column;
+  .container {
+    padding: .25rem;
+    gap: .5rem;
   }
-  .section-works-search-and-filter {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    border-right: none;
+  .work-link {
+    height: 9rem;
   }
-  .filters {
-    display: none;
+  .title,
+  .subtitle {
+    padding-left: 1rem;
+    font-size: 1rem;
   }
-  .section-works-list {
-    padding-left: 0;
-    padding-right: 0;
+  .nav-text,
+  .footer-nav-text {
+    padding-left: 1rem;
+    gap: .25rem;
   }
-  .work {
-    width: calc(calc(100% / 2) - 16px);
+  .nav-text a,
+  .footer-nav-text a {
+    display: flex;
+    padding: .5rem 1rem;
+  }
+  .footer {
+    padding: 1rem;
+    font-size: 0.6rem;
   }
 }
