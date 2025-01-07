@@ -1,4 +1,7 @@
 :root {
+  --color-fg: #000;
+  --color-yellow: #FFE14D;
+  --color-link: #fff;
 }
 html {
   box-sizing: border-box;
@@ -6,6 +9,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
 header, nav {
   display: block;
 }
@@ -26,13 +34,14 @@ body {
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(11, auto);
+  grid-template-rows: repeat(12, auto);
   grid-template-areas:
     "title subtitle subtitle"
     "nav-text nav-text nav-stripe"
     "yobi wms wms"
     "submissions submissions clientcenter"
     "ezlynxmobile certs certs"
+    "api api api"
     "cocoa ezlynx ezlynx"
     "asset asset onyx"
     "npi covidiq callsumo"
@@ -62,6 +71,12 @@ body {
   font-size: 1.75vw;
   font-weight: 400;
   text-transform: uppercase;
+}
+.api {
+  grid-area: api;
+  height: 33rem;
+  background: #FF7575 url(../work/blueyonder/api-dashboard/img/monitoring-dashboard.png) no-repeat center 3vw;
+  background-size: 50%;
 }
 .yobi {
   grid-area: yobi;

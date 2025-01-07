@@ -5,117 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>I'm Sherif. This is home.</title>
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+    *, *::before, *::after {
+      box-sizing: inherit;
+    }
+    body {
+      margin: 0;
+      background-color: #3D3D3D;
+    }
+    .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .layout img{
+      width: 100%;
+      height: auto;
+    }
+    .nav {
+      display: flex;
+    }
+    .nav .layout {
+      width: 50%;
+    }
+  </style>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 
-    <div class="container">
-      <div class="header-text">
-        <h1>Hello, I'm Sherif</h1>
-      </div>
-      <div class="header-stripe">
-      </div>
+<div class="container">
+  <div class="layout header">
+    <img src="img/2025/header.svg" alt="">
+  </div>
 
-      <div class="header-image">
-      </div>
+  <div class="nav">
+    <a href="/work/" class="layout my-work"><img src="img/2025/my-work.svg" alt="My Work"></a>
+    <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="layout linkedin"><img src="img/2025/linked-in.svg" alt="Linked In"></a>
+  </div>
 
-      <div class="nav-text">
-        <a href="/work/" class="hero-btn">My Work</a>
-        <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank">LinkedIn</a>
-      </div>
-      <div class="nav-stripe"></div>
+  <div class="layout product">
+    <img src="img/2025/product.svg" alt="">
+  </div>
+  <div class="layout design">
+    <img src="img/2025/design.svg" alt="">
+  </div>
 
-      <div class="product-text">
-        <p>
-          I'm a<br>
-          product manager<br>
-          product designer &<br>
-          product strategist.
-        </p>
-      </div>
-      <div class="product-stripe">
-      </div>
+  <div class="layout locations">
+    <img src="img/2025/locations.svg" alt="">
+  </div>
 
-      <div class="design">
-        <p>
-          I've designed and delivered (to production) multiple products from zero to one.
-        </p>
-        <p>
-          I've designed and led teams, built websites, web apps, native apps, mobile apps, design systems, and even APIs.
-        </p>
-      </div>
+  <div class="layout requirements">
+    <img src="img/2025/requirements.svg" alt="">
+  </div>
 
-      <div class="location-text">
-        <p>
-          I've worked with scrum teams in multiple locations including Mexico, USA, Germany, Ukraine, and India.
-        </p>
-      </div>
-      <div class="location-image">
-      </div>
+  <div class="layout skills">
+    <img src="img/2025/skills.svg" alt="">
+  </div>
 
-      <div class="requirements">
-        <p>I eat requirements for breakfast.</p>
-      </div>
+  <div class="layout design-systems">
+    <img src="img/2025/design-systems.svg" alt="">
+  </div>
 
-      <div class="skills">
-        <p>
-          I can roadmap a product, research the personas and user journeys, prioritize the features, design the screens,
-          and have enough experience with HTML, CSS, and some JavaScript to guide front-end developers with design system
-          components and libraries during development.
-        </p>
-      </div>
+  <div class="layout startups">
+    <img src="img/2025/startups.svg" alt="">
+  </div>
 
-      <div class="design-system">
-        <p>I've even built a couple of designs systems from zero.</p>
-      </div>
+  <div class="nav">
+    <a href="/work/" class="layout my-work"><img src="img/2025/my-work.svg" alt="My Work"></a>
+    <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="layout linkedin"><img src="img/2025/linked-in.svg" alt="Linked In"></a>
+  </div>
 
-      <div class="bridge">
-        &nbsp;
-      </div>
+  <footer class="layout footer">
+    <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank">
+      <img src="img/2025/footer.svg" alt="">
+    </a>
+  </footer>
 
-      <div class="startup">
-        <p>
-          I've advised several startups on their product design and journey, including an award winning AI company in Silicon Valley.
-        </p>
-      </div>
-
-      <div class="help">
-        <p>How can I help you?</p>
-      </div>
-
-      <div class="footer-nav-text">
-        <a href="/work/" class="hero-btn">My Work</a>
-        <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank">LinkedIn</a>
-      </div>
-      <div class="footer-nav-stripe"></div>
-      <footer class="footer">
-        <p>
-          &copy; 2024 Sherif Tariq.
-        </p>
-
-        <p>This is my portfolio site. It&#x2019;s also where I experiment with graphics design and front-end coding. This site has been built using PHP, Jekyll, Hugo, React, Vue, Svelte, and now just plain vanilla HTML, CSS, and JavaScript.</p>
-
-        <p>I&#x2019;ve experimented with skeumorphic, and illustrative art in the past. I&#x2019;m now trying out brutalist graphics design. It is risky, but I think it&#x2019;s worth a try. What do you think?</p>
-
-        <p>
-          Photo by <a href="https://unsplash.com/@jacksonjost?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jackson Jost</a> on
-          <a href="https://unsplash.com/photos/low-angle-photography-of-building-RMynbTjDu_g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-          <br>
-          Photo by <a href="https://unsplash.com/@nasa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NASA</a> on
-          <a href="https://unsplash.com/photos/view-of-earth-and-satellite-yZygONrUBe8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-          <br>
-          Photo by <a href="https://unsplash.com/@sergei_gussev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sergei Gussev</a> on
-          <a href="https://unsplash.com/photos/a-large-bridge-spanning-over-a-large-body-of-water-HidulzKYnwY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-        </p>
-
-
-      </footer>
-
-    </div>
+</div>
 </body>
 </html>

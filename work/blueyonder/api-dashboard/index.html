@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sherif Worked With API Dashboard</title>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/work.css">
+        <style>
+            .images-grid {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+            .images-grid-img {
+                width: calc(50% - 1rem);
+                height: auto;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <main class="site">
+            <header class="site-section site-header">
+                <a href="/">
+                    <h1 class="site-header-brand">Hello, I'm Sherif</h1>
+                </a>
+
+                <nav class="site-header-nav">
+                    <a class="site-header-nav-link" href="/">Home</a>
+                    <a class="site-header-nav-link" href="/work/">My Work</a>
+
+                </nav>
+                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
+            </header>
+            <div class="site-section site-content">
+              <a href="/work/">
+                <h2 class="page-title page-work">
+                  ← My Work
+                </h2>
+              </a>
+              
+              <section class="section-work">
+                <aside class="section-work-sidebar">
+                  <h3 class="section-work-sidebar-category-title"></h3>
+              
+                  <div class="section-work-logo">
+                      <img src="/work/blueyonder/img/logo.png" alt="">
+                  </div>
+              
+                  <h4 class="section-work-sidebar-project-title"></h4>
+              
+                  <p class="section-work-sidebar-project-desc"></p>
+              
+                  <div class="services">
+                    <h5 class="services-title">
+                      Services Offered
+                    </h5>
+                    <ul class="services-list">
+              
+                    </ul>
+                  </div>
+              
+                </aside>
+                <article class="section-work-content">
+
+                    <h3>
+                      API Usage And Reporting Dashboard
+                    </h3>
+
+                    <p>
+                        One the thirteen scrum teams I supported throughout my time at Blue Yonder was the API Management
+                        team. One of the products I built for the team was a dashboard to monitor the health and status
+                        of their APIs. Until then, the operations team did not have a single place to monitor the health
+                        of their various APIs. Frequently, the team would only find out something was failing when a
+                        customer would call and point it out.
+                    </p>
+
+                    <p>The goal of the API Dashboard was to give the API operations team a way to monitor the health
+                    of their APIs and surface problems before our customers noticed.</p>
+
+                    <h3>
+                        Designs
+                    </h3>
+
+                    <p>
+                        <img class="portfolio-img" src="/work/blueyonder/api-dashboard/img/monitoring-dashboard.png" alt="">
+                    </p>
+
+                    <div class="images-grid">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/errors.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/gateway-response-time-by-view.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/gateway-response-time-cust-view.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/request-bytes.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/response-bytes.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/response-time.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/server-error-breakdown.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/server-fails-successes.png" alt="">
+                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/total-api-calls.png" alt="">
+                    </div>
+
+
+
+                </article>
+              </section>
+
+            </div>
+
+        </main>
+
+Hello, I'm Sherif
+
+        <script src="/js/main.js"></script>
+        <script src="/js/work.js"></script>
+        <script>getWork('blueyonder-future-wms')</script>
+    </body>
+</html>
