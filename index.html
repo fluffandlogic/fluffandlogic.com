@@ -3,88 +3,127 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/home.css" type="text/css">
 
   <title>I'm Sherif. This is home.</title>
   <style>
-    html {
-      box-sizing: border-box;
-    }
-    *, *::before, *::after {
-      box-sizing: inherit;
-    }
-    body {
-      margin: 0;
-      background-color: #3D3D3D;
-    }
-    .container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-    }
-    .layout img{
-      width: 100%;
-      height: auto;
-    }
-    .nav {
-      display: flex;
-    }
-    .nav .layout {
-      width: 50%;
-    }
+
+
   </style>
 
 </head>
 <body>
+  <header class="brand">
+    <h1>Fluff &amp; Logic</h1>
 
-<div class="container">
-  <div class="layout header">
-    <img src="img/2025/header.svg" alt="">
-  </div>
+    <nav class="brand-nav">
+      <a href="/work/" class="brand-nav-link">My Work</a>
+      <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">Linked In</a>
+    </nav>
+  </header>
 
-  <div class="nav">
-    <a href="/work/" class="layout my-work"><img src="img/2025/my-work.svg" alt="My Work"></a>
-    <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="layout linkedin"><img src="img/2025/linked-in.svg" alt="Linked In"></a>
-  </div>
+  <main class="main">
 
-  <div class="layout product">
-    <img src="img/2025/product.svg" alt="">
-  </div>
-  <div class="layout design">
-    <img src="img/2025/design.svg" alt="">
-  </div>
+    <div class="hello">
+      <div class="block-text">
+        <span class="hello-text-hello">Hello</span>
+        <span class="hello-text-im">I'm</span>
+        <span class="hello-text-sherif">Sherif!</span>
+      </div>
+    </div>
 
-  <div class="layout locations">
-    <img src="img/2025/locations.svg" alt="">
-  </div>
+    <div class="product">
+      <div class="block-text">
+        <span class="product-text-iama">I am a</span>
+        <span class="product-text-product">Product</span>
+        <span class="product-text-designer">Designer</span>
+        <span class="product-text-manager">Manager</span>
+        <span class="product-text-strategist">Strategist</span>
+      </div>
+    </div>
 
-  <div class="layout requirements">
-    <img src="img/2025/requirements.svg" alt="">
-  </div>
+    <div class="design">
+      <div class="design-text">
+        I have built and led teams, designed and built
+        <span class="design-text-websites">websites,</span>
+        <span class="design-text-webapps">web apps,</span>
+        <span class="design-text-nativeapps">native apps,</span>
+        <span class="design-text-mobileapps">mobile apps,</span>
+        <span class="design-text-designsystems">design systems,</span>
+        <span class="design-text-apis">and even APIs.</span>
+      </div>
+      <div class="design-media">
+        <div class="design-media-img design-media-webapp"><img src="img/web-app.svg" alt=""></div>
+        <div class="design-media-img design-media-designsystem"><img src="img/design-system.svg" alt=""></div>
+        <div class="design-media-img design-media-mobile"><img src="img/mobile-app.svg" alt=""></div>
+        <div class="design-media-img design-media-api"><img src="img/api.svg" alt=""></div>
+      </div>
+    </div>
 
-  <div class="layout skills">
-    <img src="img/2025/skills.svg" alt="">
-  </div>
+    <div class="location">
+      <div class="location-text">
+        I’ve worked with scrum teams around the world including
+      </div>
+      <div class="location-media">
+        <div class="location-media-img location-world"><img src="img/world.svg" alt=""></div>
+        <div class="location-media-img location-canada"><img src="img/canada.svg" alt=""></div>
+        <div class="location-media-img location-usa"><img src="img/usa.svg" alt=""></div>
+        <div class="location-media-img location-mexico"><img src="img/mexico.svg" alt=""></div>
+        <div class="location-media-img location-ukraine"><img src="img/ukraine.svg" alt=""></div>
+        <div class="location-media-img location-germany"><img src="img/germany.svg" alt=""></div>
+        <div class="location-media-img location-india"><img src="img/india.svg" alt=""></div>
+      </div>
+    </div>
 
-  <div class="layout design-systems">
-    <img src="img/2025/design-systems.svg" alt="">
-  </div>
+    <div class="requirement">
+      I eat requirements for breakfast
+    </div>
 
-  <div class="layout startups">
-    <img src="img/2025/startups.svg" alt="">
-  </div>
+    <div class="skill">
+      <p class="skill-ican">I can</p>
 
-  <div class="nav">
-    <a href="/work/" class="layout my-work"><img src="img/2025/my-work.svg" alt="My Work"></a>
-    <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="layout linkedin"><img src="img/2025/linked-in.svg" alt="Linked In"></a>
-  </div>
+      <div class="skill-cards">
 
-  <footer class="layout footer">
-    <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank">
-      <img src="img/2025/footer.svg" alt="">
-    </a>
-  </footer>
+        <div class="skill-col">
+          <p class="skill-card">
+            Roadmap a product
+          </p>
+        </div>
 
-</div>
+        <div class="skill-col">
+          <p class="skill-card">
+            Research the personas
+          </p>
+
+          <p class="skill-card">
+            And user Journeys
+          </p>
+        </div>
+
+        <div class="skill-col">
+          <p class="skill-card">
+            prioritize the features
+          </p>
+
+          <p class="skill-card">
+            Design the screens
+          </p>
+        </div>
+
+        <div class="skill-col-wide">
+          <p class="skill-card">
+            And guide front end developers with design system components
+            and libraries during development.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </main>
 </body>
 </html>
