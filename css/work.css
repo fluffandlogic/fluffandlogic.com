@@ -3,7 +3,7 @@
 @import url("_footer.css");
 
 h2 {
-  margin-bottom: 0;
+  margin: 0;
   font-weight: 900;
   font-size: 5.16129vw; /* 40px */
   text-transform: uppercase;
@@ -11,7 +11,7 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 0;
+  margin: 0;
   font-weight: 900;
   font-size: 3.2258vw; /* 40px */
   text-transform: uppercase;
@@ -45,3 +45,30 @@ section {
   height: auto;
 }
 
+.figure {
+  border: 0.32258vw solid var(--color-black);
+  width: 100%;
+  margin-bottom: 1.93548vw;
+}
+
+.intro-logo {
+  grid-column : span 4;
+  height: 30.9677vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--color-cyan) url(/img/spiral-blue.svg) no-repeat center center;
+  background-size: cover;
+  color: var(--color-black);
+}
+
+.intro-text {
+  grid-column: span 8;
+  height: 30.9677vw;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 300;
+  font-size: 3.2258vw;
+  line-height: 1.2;
+}

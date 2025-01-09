@@ -1,4 +1,5 @@
-.help {
+.help,
+.help p {
     grid-column: span 12;
     display: flex;
     align-items: center;

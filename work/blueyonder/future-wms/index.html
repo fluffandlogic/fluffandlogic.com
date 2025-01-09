@@ -4,116 +4,160 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sherif Worked With   future-wms</title>
-    
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/work.css">    
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+
+        <link rel="stylesheet" href="/css/work.css">
+        <style>
+            .main {
+                margin: 0 1.9354838vw 0; /* 0 24px 0 */
+            }
+
+            .main {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(8, auto);
+                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
+            }
+
+            .intro-logo {
+                background: var(--color-cyan) url(/img/spiral-blue.svg) no-repeat center center;
+                color: var(--color-black);
+            }
+
+            .about {
+                grid-column: span 12;
+                background-color: var(--color-alice-blue);
+                flex-direction: row;
+            }
+            .about-title {
+                display: flex;
+                align-items: center;
+                width: 31%;
+            }
+            .about-desc {
+                width: 69%;
+            }
+
+            .discovery {
+                grid-column: span 12;
+                background-color: #E5E5E5;
+            }
+
+            .discovery {
+                grid-column: span 12;
+                background-color: #E5E5E5;
+            }
+
+            .personas {
+                grid-column: span 12;
+                background-color: #E5E5E5;
+            }
+
+            .mental-model {
+                grid-column: span 12;
+                background-color: #E5E5E5;
+            }
+
+            .workflow {
+                grid-column: span 12;
+                background-color: #E5E5E5;
+            }
+
+            .screens {
+                grid-column: span 12;
+                background-color: var(--color-pale-green);
+            }
+
+        </style>
     </head>
     <body>
-        <main class="site">
-            <header class="site-section site-header">
-                <a href="/">
-                    <h1 class="site-header-brand">Hello, I'm Sherif</h1>
-                </a>
+        <header class="brand">
+            <h1><a href="/">Fluff &amp; Logic</a></h1>
 
-                <nav class="site-header-nav">
-                    <a class="site-header-nav-link" href="/">Home</a>
-                    <a class="site-header-nav-link" href="/work/">My Work</a>
+            <nav class="brand-nav">
+                <a href="/work/" class="brand-nav-link">My Work</a>
+                <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">LinkedIn</a>
+            </nav>
+        </header>
 
-                </nav>
-                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-            </header>
-            <div class="site-section site-content">
-              <a href="/work/">
-                <h2 class="page-title page-work">
-                  ← My Work
-                </h2>
-              </a>
-              
-              <section class="section-work">
-                <aside class="section-work-sidebar">
-                  <h3 class="section-work-sidebar-category-title"></h3>
-              
-                  <div class="section-work-logo">
-                      <img src="/work/blueyonder/img/logo.png" alt="">
-                  </div>
-              
-                  <h4 class="section-work-sidebar-project-title"></h4>
-              
-                  <p class="section-work-sidebar-project-desc"></p>
-              
-                  <div class="services">
-                    <h5 class="services-title">
-                      Services Offered
-                    </h5>
-                    <ul class="services-list">
-              
-                    </ul>
-                  </div>
-              
-                </aside>
-                <article class="section-work-content">
-                    <img src="/work/blueyonder/future-wms/img/hero.png" style="width: 100%; height: auto">
+        <main class="main">
+            <div class="intro-logo">
+                <h2>Blue Yonder</h2>
+            </div>
+            <div class="intro-text">
+                Blue Yonder delivers a machine learning-driven digital fulfillment platform to enable clients to deliver
+                to their customers when, how and where they want it..
+            </div>
 
+            <section class="about">
+                <div class="about-title">
                     <h3>
-                      About
+                        Warehouse 2030
                     </h3>
-
+                </div>
+                <div class="about-desc">
                     <p>
                         What will a Warehouse Management System look like in 10 years? How do we reduce the current
                         timeframe to set up a new warehouse from 18 months down to a few weeks? Can we use machine learning
                         to help reduce the time needed to streamline the incredibly complex configuration process?
                     </p>
+                </div>
+            </section>
 
-                    <h3>
-                        Discovery
-                    </h3>
+            <section class="discovery">
+                <h3>
+                    Types of Stores
+                </h3>
+                <img class="figure" src="/work/blueyonder/future-wms/img/research.png" alt="">
+            </section>
 
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/future-wms/img/research.png" alt="">
-                    </p>
+            <section class="personas">
+                <h3>
+                    Personas
+                </h3>
+                <img class="figure" src="/work/blueyonder/future-wms/img/personas.png" alt="">
+            </section>
 
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/future-wms/img/personas.png" alt="">
-                    </p>
+            <section class="mental-model">
+                <h3>
+                    Mental Model
+                </h3>
+                <img class="figure" src="/work/blueyonder/future-wms/img/mental-model.png" alt="">
+            </section>
 
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/future-wms/img/mental-model.png" alt="">
-                    </p>
+            <section class="workflow">
+                <h3>Workflow</h3>
+                <img class="figure" src="/work/blueyonder/future-wms/img/workflow.png" alt="">
+            </section>
 
+            <section class="screens">
+                <h3>
+                    Screens
+                </h3>
+                <div>
+                    <img class="figure" src="/work/blueyonder/future-wms/img/manage.png" alt="">
+                    <img class="figure" src="/work/blueyonder/future-wms/img/select.png" alt="">
+                    <img class="figure" src="/work/blueyonder/future-wms/img/dashboard.png" alt="">
+                </div>
+            </section>
 
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/future-wms/img/workflow.png" alt="">
-                    </p>
-
-                    <h3>
-                        Mockups
-                    </h3>
-
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/future-wms/img/manage.png" alt="">
-                    </p>
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/future-wms/img/select.png" alt="">
-                    </p>
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/future-wms/img/dashboard.png" alt="">
-                    </p>
-
-                </article>
-              </section>
-
+            <div class="help">
+                <p class="help-text">So. How can I help you?</p>
+                <div class="actions">
+                    <a class="help-action" href="/work/">My Work</a>
+                    <a class="help-action" href="https://www.linkedin.com/in/sheriftariq/" target="_blank">Contact Me Via LinkedIn</a>
+                </div>
             </div>
 
         </main>
 
-Hello, I'm Sherif
+        <footer>
+            <p>&copy; 2025 Sherif Tariq</p>
+            <p>This is my portfolio site. I also experiment with graphics designs and web development here.</p>
+        </footer>
 
-        <script src="/js/main.js"></script>
-        <script src="/js/work.js"></script>
-        <script>getWork('blueyonder-future-wms')</script>
     </body>
 </html>
