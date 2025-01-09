@@ -5,9 +5,6 @@
     margin: 4.516129vw 1.9354838vw 1vw;
     color: var(--color-gray-80);
 }
-.brand a:hover {
-    color: var(--color-indigo);
-}
 .brand-nav {
     display: flex;
     flex-direction: row;
@@ -19,6 +16,9 @@
 }
 .brand-nav-link {
     display: flex;
+}
+.brand a:hover {
+    color: var(--color-indigo);
 }
 .brand-nav-link:hover {
     color: var(--color-indigo);

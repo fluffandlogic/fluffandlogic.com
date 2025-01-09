@@ -4,198 +4,258 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sherif Worked With   Yobi</title>
-    
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+
         <link rel="stylesheet" href="/css/work.css">
         <style>
-            .mobile-first {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: 1fr;
-                gap: 1rem;
-                margin-bottom: 1rem;
-            }
-            .onboarding {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(3, 1fr);
-                gap: 1rem;
-                margin-bottom: 1rem;
+            .main {
+                margin: 0 1.9354838vw 0; /* 0 24px 0 */
             }
 
-            .thumb {
-                border: 2px solid #000;
-                border-radius: 1.5rem;
-                overflow: hidden;
-                text-align: center;
-                background-color: #000;
+            .main {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(9, auto);
+                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
             }
+
+            .intro-logo {
+                grid-column : span 4;
+                height: 30.9677vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                background: var(--color-affair) url(/img/spiral.svg) no-repeat center center;
+                background-size: cover;
+                color: var(--color-white);
+            }
+
+            .intro-text {
+                grid-column: span 8;
+                height: 30.9677vw;
+                display: flex;
+                align-items: flex-end;
+                font-weight: 300;
+                font-size: 3.2258vw;
+                line-height: 1.2;
+            }
+
+            .funding {
+                grid-column: span 12;
+                background-color: var(--color-light-yellow);
+                flex-direction: row;
+                gap: 1.93548vw;
+            }
+            .funding-title {
+                width:31%;
+                display: flex;
+                align-items: center;
+            }
+            .funding-desc {
+                width: 69%;
+            }
+            .iteration {
+                grid-column : span 12;
+                background-color: var(--color-gray-10);
+                flex-direction: row;
+            }
+            .iteration-media {
+                width: 69%;
+            }
+            .iteration-text {
+                width: 31%
+            }
+            .iteration-media img {
+                border: 2px solid var(--color-black);
+            }
+            .mobile-first {
+                grid-column: span 12;
+                background-color: var(--color-periwinkle);
+            }
+            .onboarding {
+                grid-column: span 12;
+                background-color: var(--color-beige);
+            }
+            .website {
+                grid-column: span 12;
+            }
+            .profit {
+                grid-column: span 12;
+                background-color: var(--color-coral);
+            }
+
 
         </style>
     </head>
     <body>
-        <main class="site">
-            <header class="site-section site-header">
-                <a href="/">
-                    <h1 class="site-header-brand">Hello, I'm Sherif</h1>
-                </a>
 
-                <nav class="site-header-nav">
-                    <a class="site-header-nav-link" href="/">Home</a>
-                    <a class="site-header-nav-link" href="/work/">My Work</a>
+        <header class="brand">
+            <h1><a href="/">Fluff &amp; Logic</a></h1>
 
-                </nav>
-                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-            </header>
-            <div class="site-section site-content">
-              <a href="/work/">
-                <h2 class="page-title page-work">
-                  ← My Work
-                </h2>
-              </a>
-              
-              <section class="section-work">
-                <aside class="section-work-sidebar">
-                  <h3 class="section-work-sidebar-category-title"></h3>
-              
-                  <div class="section-work-logo">
-                      <img src="/work/yobi/img/logo.png" alt="">
-                  </div>
-              
-                  <h4 class="section-work-sidebar-project-title"></h4>
-              
-                  <p class="section-work-sidebar-project-desc"></p>
-              
-                  <div class="services">
-                    <h5 class="services-title">
-                      Services Offered
-                    </h5>
-                    <ul class="services-list">
-              
-                    </ul>
-                  </div>
-              
-                </aside>
-                <article class="section-work-content">
-                  <div class="placeholder" style="background: url(/work/yobi/img/yobi-jane-thread-1.png) no-repeat center top; background-size: 80%;height: 380px; border-bottom: 1px solid #ccc;"></div>
+            <nav class="brand-nav">
+                <a href="/work/" class="brand-nav-link">My Work</a>
+                <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">LinkedIn</a>
+            </nav>
+        </header>
 
-                    <h3>About</h3>
+        <main class="main">
+            <div class="intro-logo">
+                <h2>Yobi</h2>
+            </div>
+            <div class="intro-text">
+                Yobi is an award-winning AI company based out of Silicon Valley. Yobi's platform harnesses the
+                collaborative power of humans and AI, simplifying operations and empowering teams to drive business
+                growth.
+            </div>
 
-                    <p>
-                      Yobi is an award-winning AI company based out of Silicon Valley. Yobi's platform harnesses the collaborative power of humans and AI,
-                        simplifying operations and empowering teams to drive business growth.
-                    </p>
-
+            <section class="funding">
+                <div class="funding-title">
                     <h3>
-                      But first, they’re going to need funding.
+                        But first,<br> they’re going<br> to need funding
                     </h3>
-
+                </div>
+                <div class="funding-desc">
                     <p>
-                      Back in 2019, Yobi was just an idea. Silicon Valley is awash in incredibly brilliant and hard-working enterpreneurs working on the next big idea.
-                      To scale their ideas into million (and billion dollar) companies they need funding from venture capitalists and other investors
-                      so they can build a team and start growing. Yobi’s founder, Ahmed Reza, was candid about the problem: to secure much needed
-                      investment, the product design and the pitch had to look amazing. That’s where I came in.
+                        Back in 2019, Yobi was just an idea. Silicon Valley is awash in incredibly brilliant and hard-working
+                        enterpreneurs working on the next big idea. To scale their ideas into million (and billion dollar)
+                        companies they need funding from venture capitalists and other investors so they can build a team and
+                        start growing. Yobi’s founder, Ahmed Reza, was candid about the problem: to secure much needed investment,
+                        the product design and the pitch had to look amazing. That’s where I came in.
                     </p>
+                </div>
+            </section>
 
+            <section class="iteration">
+                <div class="iteration-media">
+                    <img src="img/yobi-desktop.png" alt="" style="width: 100%; height: auto;">
+                </div>
+                <div class="iteration-text">
                     <h3>
-                      The first iteration.
+                        The first iteration.
                     </h3>
+                    <p>
+                        The first idea for Yobi was a desktop or web app. I was able to use my experience designing intuitive UIs for complex
+                        enterprise apps to take the founder's idea and turn it into a first step.
+                    </p>
+                </div>
+            </section>
 
-                    <div class="placeholder" style="background: url(/work/yobi/img/yobi-desktop.png) no-repeat center top; background-size: 95%;height: 420px; border-bottom: 1px solid #ccc;"></div>
+            <section class="mobile-first">
+                <h3>
+                    The future is<br> mobile first.
+                </h3>
+                <p>
+                    As the team continued to explore how users would use the app, I referenced some user research I had done over the
+                    previous year or so. The world is going mobile first. Most Gen Z and Millenial users are going to spend to spend their
+                    time on mbile devices instead of desktops. So we switched from desktop to mobile.
+                </p>
+                <div class="media-row">
+                    <img class="mobile-screen" src="img/mobile1.png" alt="">
+                    <img class="mobile-screen" src="img/mobile2.png" alt="">
+                    <img class="mobile-screen" src="img/mobile3.png" alt="">
+                </div>
+            </section>
+
+            <section class="onboarding">
+                <h3>
+                    Onboarding has to be dead simple.
+                </h3>
+
+                <p>
+                    For Yobi to succeed, the onboarding experience has to be as easy as possible.
+                </p>
+
+                <div class="media-row">
+                    <img class="mobile-screen" src="img/step1.png" alt="">
+                    <img class="mobile-screen" src="img/step2.png" alt="">
+                    <img class="mobile-screen" src="img/step3.png" alt="">
+                </div>
+
 
                     <p>
-                      The first idea for Yobi was a desktop or web app. I was able to use my experience designing intuitive UIs for complex
-                      enterprise apps to take the founder's idea and turn it into a first step.
+                        Poor onboarding experience can result in a lot of
+                        support calls before the user has even started to
+                        use the app, and that can mean angry customers
+                        and cancellations.
                     </p>
 
-                    <h3>
-                      The future is mobile first.
-                    </h3>
 
-                    <div class="mobile-first">
-                        <div class="thumb"><img src="img/mobile1.png" alt=""></div>
-                        <div class="thumb"><img src="img/mobile2.png" alt=""></div>
-                        <div class="thumb"><img src="img/mobile3.png" alt=""></div>
-                    </div>
 
-                    <p>
-                      As the team continued to explore how users would use the app, I referenced some user research I had done over the
-                      previous year or so. The world is going mobile first. Most Gen Z and Millenial users are going to spend to spend their
-                      time on mbile devices instead of desktops. So we switched from desktop to mobile.
-                    </p>
+                <div class="media-row">
+                    <img class="mobile-screen" src="img/step4.png" alt="">
+                    <img class="mobile-screen" src="img/step5.png" alt="">
+                    <img class="mobile-screen" src="img/step6.png" alt="">
+                </div>
 
-                    <h3>
-                      Onboarding has to be dead simple.
-                    </h3>
+                <p>
+                    To make sure the Yobi onboarding experience is as
+                    painless as possible, I had to match the onboarding
+                    experience as closely as possible with
+                    the user’s mental model.
+                </p>
 
-<!--                    <div class="placeholder" style="background: url(/work/yobi/img/yobi-first-time-user.png) no-repeat center top; background-size: 70%;height: 500px; border-bottom: 1px solid #ccc"></div>-->
+                <div class="media-row">
+                    <img class="mobile-screen" src="img/step7.png" alt="">
+                    <img class="mobile-screen" src="img/step8.png" alt="">
+                    <img class="mobile-screen" src="img/step9.png" alt="">
+                </div>
 
-                    <p>
-                      For Yobi to succeed, the onboarding experience has to be as easy as possible. A poor onboarding experience can result
-                      in a lot of support calls before the user has even started to use the app, and that can mean angry customers and
-                      cancellations. To make sure the Yobi onboarding experience is as painless as possible, I had to match the onboarding
-                      experience as closely as possible with the user’s mental model. I did extensive research into various social media
-                      apps to understand what users were expecting.
-                    </p>
+                <p>
+                    I did extensive research into various social media apps to understand what users were expecting.
+                </p>
+            </section>
 
-                    <div class="onboarding">
-                        <div class="thumb"><img src="img/step1.png" alt=""></div>
-                        <div class="thumb"><img src="img/step2.png" alt=""></div>
-                        <div class="thumb"><img src="img/step3.png" alt=""></div>
-                        <div class="thumb"><img src="img/step4.png" alt=""></div>
-                        <div class="thumb"><img src="img/step5.png" alt=""></div>
-                        <div class="thumb"><img src="img/step6.png" alt=""></div>
-                        <div class="thumb"><img src="img/step7.png" alt=""></div>
-                        <div class="thumb"><img src="img/step8.png" alt=""></div>
-                        <div class="thumb"><img src="img/step9.png" alt=""></div>
-                    </div>
+            <section class="website">
+                <h3>
+                    Next, we need a website.<br> And logo. And identity.
+                </h3>
+                <p>
+                    In my experience, a seamless brand experience is key in helping people remember your product. For Yobi, The brand had
+                    to be polished so they could create an incredible pitch deck and rise above the other startup pitches. In addition,
+                    the founders wanted to get early adopters interested in the product and start signing up. For Yobi, I designed an
+                    interim logo, designed the website, and settled on a brand color.
+                </p>
+                <img src="img/yobi-website.jpeg" alt="">
+            </section>
 
-                    <h3>
-                      Next, we need a website. And logo. And identity.
-                    </h3>
+            <section class="profit">
+                <h3>
+                    And ... Profit?
+                </h3>
 
-                    <p>
-                      In my experience, a seamless brand experience is key in helping people remember your product. For Yobi, The brand had
-                      to be polished so they could create an incredible pitch deck and rise above the other startup pitches. In addition,
-                      the founders wanted to get early adopters interested in the product and start signing up. For Yobi, I designed an
-                      interim logo, designed the website, and settled on a brand color.
-                    </p>
+                <p>
+                    Ahmed took the newly designed pitch deck with my new product designs to a pitch meeting for seed stage startups looking for funding
+                    and made his presentation. His presentation was a success. After the meeting was over, he was approached by a pair of investors who
+                    wanted to buy the product. Ahmed was blown away. People wanted to buy his product already, and he hadn't even started building it yet,
+                    just on the value of the design alone! That was the impetus that Ahmed needed to start scaling up his operation.
+                </p>
 
-                    <div class="placeholder" style="background: url(/work/yobi/img/yobi-website.jpeg) no-repeat center top; background-size: cover; height: 760px; border-bottom: 1px solid #ccc"></div>
+                <p>
+                    I've continued to work with Ahmed as an unpaid product advisor, helping him build a design system, design the initial product screens,
+                    and provide feedback on the Gen AI tools that came out in 2022, including ChatGPT 3.5 and MidJourney.
+                </p>
 
-                    <h3>
-                        And ... Profit?
-                    </h3>
+                <p>Check out some of their amazing work at <a href="https://yobi.com/" target="_blank">Yobi.com</a></p>
+            </section>
 
-                    <p>
-                        Ahmed took the newly designed pitch deck with my new product designs to a pitch meeting for seed stage startups looking for funding
-                        and made his presentation. His presentation was a success. After the meeting was over, he was approached by a pair of investors who
-                        wanted to buy the product. Ahmed was blown away. People wanted to buy his product already, and he hadn't even started building it yet,
-                        just on the value of the design alone! That was the impetus that Ahmed needed to start scaling up his operation.
-                    </p>
-
-                    <p>
-                        I've continued to work with Ahmed as an unpaid product advisor, helping him build a design system, design the initial product screens,
-                        and provide feedback on the Gen AI tools that came out in 2022, including ChatGPT 3.5 and MidJourney.
-                    </p>
-
-                    <p>Check out some of their amazing work at <a href="https://yobi.com/" target="_blank">Yobi.com</a></p>
-
-                </article>
-              </section>
-
+            <div class="help">
+                <p class="help-text">So. How can I help you?</p>
+                <div class="actions">
+                    <a class="help-action" href="/work/">My Work</a>
+                    <a class="help-action" href="https://www.linkedin.com/in/sheriftariq/" target="_blank">Contact Me Via LinkedIn</a>
+                </div>
             </div>
 
         </main>
 
-Hello, I'm Sherif
+        <footer>
+            <p>&copy; 2025 Sherif Tariq</p>
+            <p>This is my portfolio site. I also experiment with graphics designs and web development here.</p>
+        </footer>
 
-        <script src="/js/main.js"></script>
-        <script src="/js/work.js"></script>
-        <script>getWork('yobi-app')</script>
     </body>
 </html>
