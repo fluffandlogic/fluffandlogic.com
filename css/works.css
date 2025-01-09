@@ -1,239 +1,124 @@
-:root {
-  --color-fg: #000;
-  --color-glo-green: #FFE14D;
-  --color-link: #fff;
-}
-html {
-  box-sizing: border-box;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-a {
-  text-decoration: none;
-  color: var(--color-link);
+@import url("_common.css");
+@import url("_brand.css");
+@import url("_footer.css");
+
+.main {
+  margin: 0 1.9354838vw 0;
 }
 
-header, nav {
-  display: block;
-}
-body {
-  overflow-x: hidden;
-  font-family: "Lexend Zetta", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, auto);
+  gap: 1.9354838vw 1.9354838vw;
 }
 .work-link {
   display: flex;
+  position: relative;
+  height: 30.96774vw;
+  border: 0.16129vw solid var(--color-gray-70);
+  background-size: cover;
+}
+.work-link img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.2s ease-in;
+}
+.work-link p {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-}
-.container {
-  width: 100%;
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(12, auto);
-  grid-template-areas:
-    "title subtitle subtitle"
-    "nav-text nav-text nav-stripe"
-    "yobi wms wms"
-    "submissions submissions clientcenter"
-    "ezlynxmobile certs certs"
-    "api api api"
-    "cocoa ezlynx ezlynx"
-    "asset asset onyx"
-    "npi covidiq callsumo"
-    "securus securus securus"
-    "footer-nav-text footer-nav-text footer-nav-stripe"
-    "footer footer footer";
-  gap: 1rem;
-}
-.title {
-  grid-area: title;
-  height: 6rem;
+  padding: 1.9354838vw;
   display: flex;
   align-items: center;
-  padding-left: 3rem;
-  background-color: #FFE14D;
-  font-size: 1.75vw;
+  justify-content: center;
+  font-size: 2.580645vw;
   font-weight: 900;
+  color: var(--color-gray-90);
+  text-align: center;
   text-transform: uppercase;
+  transition: opacity 0.2s ease-in;
 }
-.subtitle {
-  grid-area: subtitle;
-  height: 6rem;
-  display: flex;
-  align-items: center;
-  padding-left: 3rem;
-  background: #00B6FF url(../img/stripes-angled.svg) repeat-x left top;
-  font-size: 1.75vw;
-  font-weight: 400;
-  text-transform: uppercase;
+.work-link:hover > img {
+  opacity: 0.1;
 }
+.work-link:hover > img + p {
+  opacity: 1;
+}
+
 .api {
-  grid-area: api;
-  height: 33rem;
-  background: #FF7575 url(../work/blueyonder/api-dashboard/img/monitoring-dashboard.png) no-repeat center 3vw;
-  background-size: 50%;
+  grid-column: span 12;
+  background-color: var(--color-celadon);
 }
+
 .yobi {
-  grid-area: yobi;
-  height: 33rem;
-  background: #000 url(../work/yobi/img/mobile1.png) no-repeat 6vw 3vw;
-  background-size: 90%;
+  grid-column: span 4;
+  background-color: var(--color-affair) ;
+}
+.yobi p {
+  color: var(--color-white);
 }
 .wms {
-  grid-area: wms;
-  height: 33rem;
-  background: #00B6FF url(../work/blueyonder/future-wms/img/select.png) no-repeat center 3vw;
-  background-size: 90%;
+  grid-column: span 8;
+  background-color: var(--color-cyan);
 }
 .submissions {
-  grid-area: submissions;
-  height: 33rem;
-  background: #FFF176 url(../work/ezlynx/submission/img/dashboard.png) no-repeat -3vw 2vw;
-  background-size: 100%;
+  grid-column: span 9;
+  background-color: var(--color-lime-green);
 }
 .clientcenter {
-  grid-area: clientcenter;
-  height: 33rem;
-  background: #2ACB75 url(../work/ezlynx/client-center/img/home.png) no-repeat center 4vw;
-  background-size: 50%;
+  grid-column: span 3;
+  background-color: var(--color-pale-green);
 }
 .ezlynxmobile {
-  grid-area: ezlynxmobile;
-  height: 33rem;
-  background: #6AC834 url(../work/ezlynx/mobile/img/homepage.png) no-repeat center 3vw;
-  background-size: 90%;
+  grid-column: span 5;
+  height: 30.96774vw;
+  background-color: var(--color-turquoise);
 }
 .certs {
-  grid-area: certs;
-  height: 33rem;
-  background: #864EA9 url(../work/ezlynx/certs/img/mockup1.png) no-repeat center 2vw;
-  background-size: 100%;
+  grid-column: span 7;
+  background-color: var(--color-orchid);
 }
 .cocoa {
-  grid-area: cocoa;
-  height: 33rem;
-  background: #1D82D5 url(../work/cocoa/img/cocoa-dashboard.png) no-repeat 13vw 3vw;
-  background-size: 70%;
+  grid-column: span 5;
+  background-color: var(--color-beige);
 }
 .ezlynx {
-  grid-area: ezlynx;
-  height: 33rem;
-  background: #FF7575 url(../work/ezlynx/img/logo.png) no-repeat center center;
+  grid-column: span 7;
+  background-color: var(--color-coral);
 }
 .asset {
-  grid-area: asset;
-  height: 33rem;
-  background: #982022 url(../work/ezlynx/asset-mgmt/img/hero.png) no-repeat center center;
-  background-size: cover;
+  grid-column: span 8;
+  background-color: var(--color-dark-red);
 }
+.asset p {
+  color: var(--color-white);
+}
+
 .onyx {
-  grid-area: onyx;
-  height: 33rem;
-  background: #fff url(../work/onyx/img/onyx-home.jpeg) no-repeat 6vw 2vw;
-  background-size: 90%;
+  grid-column: span 4;
+  background-color: var(--color-periwinkle);
 }
 .npi {
-  grid-area: npi;
-  height: 33rem;
-  background: #3A5459 url(../work/newpatientsinc/img/logo.svg) no-repeat center center;
-  background-size: 56%;
+  grid-column: span 4;
+  background-color: var(--color-celadon);
 }
 .covidiq {
-  grid-area: covidiq;
-  height: 33rem;
-  background: #019FAA url(../work/covidiq/img/thumb.jpg) no-repeat -7vw top;
-  background-size: cover;
+  grid-column: span 4;
+  background-color: var(--color-turquoise);
 }
 .callsumo {
-  grid-area: callsumo;
-  height: 33rem;
-  background: #FF7575 url(../work/callsumo/img/hero.png) no-repeat;
-  background-size: cover;
+  grid-column: span 4;
+  background-color: var(--color-dark-green);
 }
-.securus {
-  grid-area: securus;
-  height: 33rem;
-  background: #6AC834 url(../work/securus/img/project-securus.png) no-repeat center -2vw;
-  background-size: 80%;
-}
-.nav-text {
-  grid-area: nav-text;
-}
-.nav-stripe {
-  grid-area: nav-stripe;
-  background-color:  #FFE14D;
-}
-.footer-nav-text { grid-area: footer-nav-text; }
-.footer-nav-stripe {
-  grid-area: footer-nav-stripe;
-  background-color:  #FFE14D;
-}
-.nav-text,
-.footer-nav-text
-{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-left: 3rem;
-  gap: 2rem;
-  background-color: #A872CA;
-  text-transform: uppercase;
-
-}
-.nav-text a,
-.footer-nav-text a {
-  display: flex;
-  padding: 1rem 3rem;
-}
-.nav-text a:hover,
-.footer-nav-text a:hover {
-  background-color: #00B6FF;
-  color: #000;
-  transition: background-color 0.3s;
-}
-.footer {
-  grid-area: footer;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(90deg, #3B6C88 23.43%, #C4572F 100%);
-  color: rgba(255,255,255,.7);
-  font-size: 0.8rem;
-  padding: 2rem 3rem 6rem 3rem;
-}
-.footer p {
-  margin-bottom: 0.75rem;
+.callsumo p {
+  color: var(--color-white);
 }
 
 @media screen and (max-width: 848px) {
-  .container {
-    padding: .25rem;
-    gap: .5rem;
-  }
-  .work-link {
-    height: 9rem;
-  }
-  .title,
-  .subtitle {
-    padding-left: 1rem;
-    font-size: 1rem;
-  }
-  .nav-text,
-  .footer-nav-text {
-    padding-left: 1rem;
-    gap: .25rem;
-  }
-  .nav-text a,
-  .footer-nav-text a {
-    display: flex;
-    padding: .5rem 1rem;
-  }
-  .footer {
-    padding: 1rem;
-    font-size: 0.6rem;
-  }
+
 }

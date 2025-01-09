@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 :root {
+    --color-black: #000;
     --color-gray-90: #313131;
-    --color-gray-80: #6E6E6E;
-    --color-gray-70: #857C7C;
-    --color-light-gray: #E2E2E2;
+    --color-gray-80: #4f4f4f;
+    --color-gray-70: #6E6E6E;
+    --color-gray-60: #857C7C;
+    --color-gray-20: #E2E2E2;
+    --color-gray-10: #F4F3F3;
+    --color-white: #fff;
     --color-beige: #FADBA2;
     --color-gold: #B98E01;
     --color-dark-red: #721C1D;
@@ -52,6 +56,21 @@ header, footer, nav, section, main {
 
 a {
     text-decoration: none;
-    color: var(--color-link);
+    transition: color .2s ease-in;
+}
+a:hover {
     cursor: pointer;
 }
+
+h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3.54838vw;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+}
+

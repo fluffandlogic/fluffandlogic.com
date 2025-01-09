@@ -1,0 +1,25 @@
+.brand {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4.516129vw 1.9354838vw 1vw;
+    color: var(--color-gray-80);
+}
+.brand a:hover {
+    color: var(--color-indigo);
+}
+.brand-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2903225vw;
+
+    font-weight: 700;
+    font-size: 1.93548387vw;
+    text-transform: uppercase;
+}
+.brand-nav-link {
+    display: flex;
+}
+.brand-nav-link:hover {
+    color: var(--color-indigo);
+}

@@ -1,63 +1,54 @@
-.site-footer-container {
-  position: sticky;
-  top: 100vh;
-  width: 100%;
-  background-color: var(--color-primary);
-  transition: opacity .3s ease-in;
-}
-.site-footer-container.hide {
-  opacity: 0;
-}
-.site-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 48px auto 0;
-  padding-top: 0;
-  padding-bottom: 96px;
-  border-bottom: 1px solid var(--color-primary);
-  color: var(--color-inverse);
-}
-.site-footer-brand {
-  font-weight: var(--weight-light);
-  font-size: var(--base-font-size);
-  white-space: nowrap;
-}
-.site-footer-social-media {
-  display: flex;
-  column-gap: 48px;
-
-}
-.site-footer-nav {
-  display: flex;
-  column-gap: 48px;
-}
-.site-footer-nav .site-footer-nav-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  white-space: nowrap;
-  color: var(--color-inverse);
-}
-.site-footer-nav .contact {
-  background-color: var(--color-secondary);
-}
-.site-footer-nav-btn-mobile {
-  display: none;
-}
-
-@media screen and (max-width: 848px) {
-  .site-footer-nav {
-    display: none;
-  }
-  .site-footer-nav-btn-mobile {
+.help {
+    grid-column: span 12;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: var(--color-secondary);
-    color: var(--color-inverse);
-  }
+    justify-content: space-between;
+    height: 7.741935vw;
+    padding-left: 1.9354838vw;
+    padding-right: 1.9354838vw;
+    background-color: var(--color-affair);
+    color: var(--color-periwinkle);
+    font-size: 2.580645vw;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.help-text {
+    letter-spacing: 1px;
+}
+.help-action {
+    border: 1px solid var(--color-periwinkle);
+    border-radius: 0.64516vw;
+    font-size: 1.29032vw;
+    color: var(--color-periwinkle);
+    padding: 0.725806vw 1.9354838vw;
+    transition: color .2s ease-in;
+}
+.help-action:hover {
+    background-color: var(--color-periwinkle);
+    color: var(--color-black);
 }
 
+footer {
+    margin-top: 1.9354838vw;
+    height: 19.3548387vw;
+    padding: 1.9354838vw;
+    position: relative;
+    background-color: var(--color-gray-10);
+    color: var(--color-gray-70);
+    font-size: 1.129vw;
+    overflow: hidden;
+}
+footer::after {
+    content: "FLUFF AND LOGIC";
+    text-transform: uppercase;
+    position: absolute;
+    left: -0.80645vw;
+    bottom: -2.177419vw;
+    font-weight: 700;
+    white-space: nowrap;
+    line-height: 1;
+    font-size: 12.2887vw;
+    letter-spacing: -7px;
+    color: rgba(137,137,137, .17);
+}
