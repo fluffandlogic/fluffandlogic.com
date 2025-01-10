@@ -2,7 +2,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 4.516129vw 1.9354838vw 1vw;
+    margin: 4.516129vw 1.9354838vw 3vw;
     color: var(--color-gray-80);
 }
 .brand-nav {
@@ -22,4 +22,9 @@
 }
 .brand-nav-link:hover {
     color: var(--color-indigo);
+}
+.brand-nav-link-active,
+.brand-nav-link-active:hover {
+    color: var(--color-gray-20) !important;
+    cursor: default;
 }

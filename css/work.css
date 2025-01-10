@@ -18,17 +18,34 @@ h3 {
   line-height: 1;
 }
 
-p {
+h4 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.5806vw; /* 32px */
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+
+p, li {
   font-weight: 300;
   font-size: 1.6129vw; /* 20px */
   line-height: 1.6;
+}
+ul {
+  margin: 0;
 }
 
 section {
   display: flex;
   gap: 1.93548vw;
-  padding: 1.93548vw 4.51613vw; /* 24px 56px */
+  padding: 4.51613vw; /* 24px = 1.93548vw  56px */
 }
+
+section p {
+  margin-bottom: 2.6vw;
+}
+
 .mobile-screen {
   border-radius:  3.93548vw;
   border: 0.32258vw solid var(--color-black);
@@ -44,6 +61,18 @@ section {
   width: 24vw;
   height: auto;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.93548vw;
+}
+.grid img {
+  width: 30%;
+  height: auto;
+  border-color: var(--color-dark-green);
+}
+
 
 .figure {
   border: 0.32258vw solid var(--color-black);
@@ -71,4 +100,5 @@ section {
   font-weight: 300;
   font-size: 3.2258vw;
   line-height: 1.2;
+  color: var(--color-gray-80);
 }

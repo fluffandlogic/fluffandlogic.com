@@ -3,111 +3,139 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sherif Worked With   New Patients Inc</title>
-    
+        <title>Sherif Worked With New Patients Inc</title>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/work.css">    
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+
+        <link rel="stylesheet" href="/css/work.css">
+        <style>
+            .main {
+                margin: 0 1.9354838vw 0; /* 0 24px 0 */
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(4, auto);
+                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
+            }
+            .intro-logo {
+                background: var(--color-orange) url(/img/crescents.svg) no-repeat center center;
+                background-size: cover;
+                color: var(--color-white);
+            }
+
+            .logo {
+                grid-column: span 12;
+                background-color: var(--color-celadon);
+                flex-direction: row;
+            }
+            .logo-title {
+                width: 39%;
+                align-items: center;
+            }
+            .logo-desc {
+                width: 61%;
+                display: flex;
+                flex-direction: column;
+            }
+
+
+            .website {
+                grid-column: span 12;
+                background-color: var(--color-gray-20);
+                display: flex;
+                flex-direction: row;
+            }
+            .website-title {
+                width: 39%;
+            }
+            .website-desc {
+                width: 61%;
+            }
+
+
+            .poster {
+                grid-column: span 12;
+                background-color: var(--color-coral);
+            }
+
+
+        </style>
     </head>
     <body>
-        <main class="site">
-            <header class="site-section site-header">
-                <a href="/">
-                    <h1 class="site-header-brand">Hello, I'm Sherif</h1>
-                </a>
+        <header class="brand">
+            <h1><a href="/">Fluff &amp; Logic</a></h1>
 
-                <nav class="site-header-nav">
-                    <a class="site-header-nav-link" href="/">Home</a>
-                    <a class="site-header-nav-link" href="/work/">My Work</a>
+            <nav class="brand-nav">
+                <a href="/" class="brand-nav-link">Home</a>
+                <a href="/work/" class="brand-nav-link">My Work</a>
+                <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">LinkedIn</a>
+            </nav>
+        </header>
 
-                </nav>
-                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-            </header>
-            <div class="site-section site-content">
-              <a href="/work/">
-                <h2 class="page-title page-work">
-                  ← My Work
-                </h2>
-              </a>
-              
-              <section class="section-work">
-                <aside class="section-work-sidebar">
-                  <h3 class="section-work-sidebar-category-title"></h3>
-              
-                  <div class="section-work-logo">
-                      <img src="/work/newpatientsinc/img/logo.svg" alt="">
-                  </div>
-              
-                  <h4 class="section-work-sidebar-project-title"></h4>
-              
-                  <p class="section-work-sidebar-project-desc"></p>
-              
-                  <div class="services">
-                    <h5 class="services-title">
-                      Services Offered
-                    </h5>
-                    <ul class="services-list">
-              
-                    </ul>
-                  </div>
-              
-                </aside>
-                <article class="section-work-content">
-                  <div class="placeholder" style="background: url(/work/newpatientsinc/img/hero.png) no-repeat center center; background-size: contain"></div>
-
-                    <h3>
-                      About
-                    </h3>
-
-                    <p>
-                        New Patients Inc is a marketing agency for dental practices founded in 1989. They support dentists with both digital and print design including websites, email campaigns, flyers, ads, and more.
-                    </p>
-
-                    <h3>
-                        Logo Redesign
-                    </h3>
-
-                    <div style="display: flex; gap: 32px;">
-                        <img class="portfolio-img" src="/work/newpatientsinc/img/npi-logo.svg" alt="NPI logo" style="width: 40%;">
-                        <img class="portfolio-img" src="/work/newpatientsinc/img/logo-reverse.svg" alt="NPI logo for reverse backgrounds" style="width: 40%;">
-                    </div>
-
-
-                    <h3>
-                      Website Redesign
-                    </h3>
-
-                    <p>
-                        <img class="portfolio-img" src="/work/newpatientsinc/img/website-home.png" alt="website design">
-                    </p>
-
-                    <h3>
-                        Poster Design
-                    </h3>
-
-                    <p>
-                        <img class="portfolio-img" src="/work/newpatientsinc/img/poster1.png" alt="poster design 1">
-                    </p>
-
-                    <p>
-                        <img class="portfolio-img" src="/work/newpatientsinc/img/poster2.png" alt="poster design 2">
-                    </p>
-
-
-                </article>
-              </section>
-
+        <main class="main">
+            <div class="intro-logo">
+                <h2>New Patients Inc</h2>
+            </div>
+            <div class="intro-text">
+                New Patients Inc is a marketing agency for dental practices founded in 1989. They support dentists with
+                both digital and print design including websites, email campaigns, flyers, ads, and more.
             </div>
 
+            <section class="logo">
+                <div class="logo-title">
+                    <h3>
+                        Logo
+                    </h3>
+                </div>
+
+                <div class="logo-desc">
+                    <img class="figure" src="img/npi-logo.svg" alt="" style="width: 48%;">
+                    <img class="figure" src="img/logo-reverse.svg" alt="" style="width: 48%;">
+                </div>
+            </section>
+
+            <section class="website">
+                <div class="website-title">
+                    <h3>
+                        Website
+                    </h3>
+                </div>
+
+                <div class="website-desc">
+                    <p>
+                        <img class="figure" src="img/website-home.png" alt="website design" style="width: 80%">
+                    </p>
+                </div>
+            </section>
+
+            <section class="poster">
+                <h3>
+                    Posters
+                </h3>
+
+                <div class="grid">
+                    <img class="figure" src="img/poster1.png" alt="" style="width: 48%">
+                    <img class="figure" src="img/poster2.png" alt="" style="width: 48%">
+                </div>
+            </section>
+
+            <div class="help">
+                <p class="help-text">So, How can I help you?</p>
+                <div class="actions">
+                    <a class="help-action" href="/work/">My Work</a>
+                    <a class="help-action" href="https://www.linkedin.com/in/sheriftariq/" target="_blank">Contact Me Via LinkedIn</a>
+                </div>
+            </div>
         </main>
 
-Hello, I'm Sherif
-
-        <script src="/js/main.js"></script>
-        <script src="/js/work.js"></script>
-        <script>getWork('new-patients-inc')</script>
+        <footer>
+            <p>&copy; 2025 Sherif Tariq</p>
+            <p>This is my portfolio site. I also experiment with graphics designs and web development here.</p>
+        </footer>
     </body>
 </html>

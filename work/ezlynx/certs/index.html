@@ -3,101 +3,116 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sherif Worked With   EZLynx</title>
-    
+        <title>Sherif Worked With EZLynx</title>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/work.css">    
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+
+        <link rel="stylesheet" href="/css/work.css">
+        <style>
+            .main {
+                margin: 0 1.9354838vw 0; /* 0 24px 0 */
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(4, auto);
+                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
+            }
+            .intro-logo {
+                background: var(--color-red) url(/img/stripes-coral.svg) no-repeat center center;
+                background-size: cover;
+                color: var(--color-white);
+            }
+
+            .about {
+                grid-column: span 12;
+                background-color: var(--color-orchid);
+            }
+
+            .analysis {
+                grid-column: span 12;
+                background-color: var(--color-gray-10);
+            }
+
+            .workflows {
+                grid-column: span 12;
+                background-color: var(--color-coral);
+            }
+
+            .screens {
+                grid-column: span 12;
+                background-color: var(--color-pale-green);
+            }
+
+        </style>
     </head>
     <body>
-        <main class="site">
-            <header class="site-section site-header">
-                <a href="/">
-                    <h1 class="site-header-brand">Hello, I'm Sherif</h1>
-                </a>
+        <header class="brand">
+            <h1><a href="/">Fluff &amp; Logic</a></h1>
 
-                <nav class="site-header-nav">
-                    <a class="site-header-nav-link" href="/">Home</a>
-                    <a class="site-header-nav-link" href="/work/">My Work</a>
+            <nav class="brand-nav">
+                <a href="/" class="brand-nav-link">Home</a>
+                <a href="/work/" class="brand-nav-link">My Work</a>
+                <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">LinkedIn</a>
+            </nav>
+        </header>
 
-                </nav>
-                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-            </header>
-            <div class="site-section site-content">
-              <a href="/work/">
-                <h2 class="page-title page-work">
-                  ← My Work
-                </h2>
-              </a>
-              
-              <section class="section-work">
-                <aside class="section-work-sidebar">
-                  <h3 class="section-work-sidebar-category-title"></h3>
-              
-                  <div class="section-work-logo">
-                      <img src="/work/ezlynx/img/logo.png" alt="">
-                  </div>
-              
-                  <h4 class="section-work-sidebar-project-title"></h4>
-              
-                  <p class="section-work-sidebar-project-desc"></p>
-              
-                  <div class="services">
-                    <h5 class="services-title">
-                      Services Offered
-                    </h5>
-                    <ul class="services-list">
-              
-                    </ul>
-                  </div>
-              
-                </aside>
-                <article class="section-work-content">
-                    <img src="/work/ezlynx/certs/img/hero.png" style="width: 100%; height: auto">
-
-                    <h3>
-                      About
-                    </h3>
-
-                    <h3>
-                        Discovery
-                    </h3>
-                    <p>
-                        <img class="portfolio-img" src="/work/ezlynx/certs/img/features.png" alt="">
-                    </p>
-                    <p>
-                        <img class="portfolio-img" src="/work/ezlynx/certs/img/usability.png" alt="">
-                    </p>
-
-                    <h3>
-                        Ideation
-                    </h3>
-
-                    <p>
-                        <img class="portfolio-img" src="/work/ezlynx/certs/img/workflow.svg" alt="">
-                    </p>
-
-                    <h3>
-                        Screens
-                    </h3>
-                    <p>
-                        <img class="portfolio-img" src="/work/ezlynx/certs/img/mockup1.png" alt="">
-                    </p>
-
-                </article>
-              </section>
-
+        <main class="main">
+            <div class="intro-logo">
+                <h2>EZLynx</h2>
             </div>
+            <div class="intro-text">
+                EZLynx’s all-in-one agency management system combines your comparative rater, policy management,
+                lead tracking, automated workflows, reporting, and more to help your agency run smoothly and efficiently.
+            </div>
+            <section class="about">
+                <h3>
+                    Commercial Insurance Certificates
+                </h3>
+            </section>
 
+            <section class="analysis">
+                <h3>
+                    Analysis
+                </h3>
+                <div class="grid">
+                    <img class="figure" src="img/features.png" alt="" style="width: 48%">
+                    <img class="figure" src="img/usability.png" alt="" style="width: 48%">
+                </div>
+            </section>
+
+            <section class="workflows">
+                <h3>
+                    New Workflows
+                </h3>
+
+                <img class="figure" src="img/workflow.svg" alt="">
+            </section>
+
+            <section class="screens">
+                <h3>
+                    Sample Screen
+                </h3>
+                <p>
+                    <img class="figure" src="img/mockup1.png" alt="">
+                </p>
+            </section>
+            <div class="help">
+                <p class="help-text">So, How can I help you?</p>
+                <div class="actions">
+                    <a class="help-action" href="/work/">My Work</a>
+                    <a class="help-action" href="https://www.linkedin.com/in/sheriftariq/" target="_blank">Contact Me Via LinkedIn</a>
+                </div>
+            </div>
         </main>
 
-Hello, I'm Sherif
-
-        <script src="/js/main.js"></script>
-        <script src="/js/work.js"></script>
-        <script>getWork('ezlynx-certs')</script>
+        <footer>
+            <p>&copy; 2025 Sherif Tariq</p>
+            <p>This is my portfolio site. I also experiment with graphics designs and web development here.</p>
+        </footer>
     </body>
 </html>

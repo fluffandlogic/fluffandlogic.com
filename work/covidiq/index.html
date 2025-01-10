@@ -7,51 +7,95 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,700;1,400&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css" type="text/css">
 
-  <!--        <link rel="stylesheet" href="/css/main.css">-->
-  <!--        <link rel="stylesheet" href="/css/work.css">    -->
-  <link rel="stylesheet" href="covidiq.css">
+  <link rel="stylesheet" href="/css/work.css">
+  <style>
+
+    .main {
+      margin: 0 1.9354838vw 0; /* 0 24px 0 */
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: repeat(4, auto);
+      gap: 3.87097vw 1.9354838vw; /* 24px 24px */
+    }
+    .intro-logo {
+      background: url(/img/circles-coral-on-blue.svg) no-repeat center center;
+      background-size: cover;
+      color: var(--color-white);
+    }
+
+    .about {
+      grid-column: span 12;
+      background-color: var(--color-turquoise);
+    }
+    .about-desc {
+      column-count: 2;
+      column-gap: 1.93548vw;
+    }
+
+    .covidiq-banner img {
+      background-color: var(--color-white);
+    }
+
+    .covidiq-brand {
+      grid-column: span 12;
+      background-color: var(--color-periwinkle);
+      flex-direction: row;
+    }
+    .covidiq-brand-title {
+      display: flex;
+      align-items: center;
+      width: 39%;
+    }
+    .covidiq-brand-desc {
+      width: 61%;
+    }
+
+    .social {
+      grid-column: span 12;
+      background-color: var(--color-periwinkle);
+    }
+
+    .mobile {
+      grid-column: span 12;
+      background-color: var(--color-periwinkle);
+    }
+
+    .website {
+      grid-column: span 12;
+      background-color: var(--color-periwinkle);
+    }
+
+
+  </style>
 </head>
 <body>
-<main class="site">
-  <section class="colophon">
-    Note: The layout on this page is different from the rest of the site. I'm experimenting with a brutalist style.
-  </section>
 
-  <header class="site-section site-header">
-    <a href="/">
-      <h1 class="site-header-brand">Fluff and <span>Logic</span></h1>
-    </a>
+<header class="brand">
+  <h1><a href="/">Fluff &amp; Logic</a></h1>
 
-    <nav class="site-header-nav">
-      <a class="site-header-nav-link" href="/">Home</a>
-      <a class="site-header-nav-link" href="/work/">My Work</a>
-      <a class="site-header-nav-link" href="/about/">About Us</a>
-      <a class="site-header-nav-link" href="/contact/">Contact Us</a>
-    </nav>
-    <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-  </header>
+  <nav class="brand-nav">
+    <a href="/" class="brand-nav-link">Home</a>
+    <a href="/work/" class="brand-nav-link">My Work</a>
+    <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">LinkedIn</a>
+  </nav>
+</header>
 
-  <div class="site-section site-content">
+<main class="main">
 
-    <a href="/work/" class="link-to-work">
-      <img src="img/link-to-work-text.svg" alt="Back To My Work">
-    </a>
+  <div class="intro-logo">
+    <h2>CovidIQ</h2>
+  </div>
 
-    <div class="hero">
-      <h2 class="hero-title">
-        Covid IQ
-      </h2>
+  <div class="intro-text">
+    Supporting a team developing a Covid-19 early warning system
+  </div>
 
-      <h3 class="hero-subtitle">
-        Supporting a team developing a Covid-19 early warning system
-      </h3>
-    </div>
-    <!-- end hero -->
+  <section class="about">
+    <h3>Early Warning</h3>
 
-    <div class="intro">
+    <div class="about-desc">
       <p>
         In the early days of Covid-19, before vaccines and Covid at-home tests were available, one of
         the most important and difficult things to do was to figure out how to detect Covid hotspots
@@ -70,71 +114,62 @@
         the right location to help curb the spread of the virus.
       </p>
     </div>
-    <!-- end intro -->
 
-    <div class="banner">
-      <img src="img/logo-covidiq-tagline-desc.png" alt="">
+
+    <div class="covidiq-banner">
+      <img class="figure" src="img/logo-covidiq-tagline-desc.png" alt="">
     </div>
-    <!-- end banner -->
+  </section>
 
-    <section class="brand">
-      <h4>
-        Brand<br>
-        <span>
-          logo and colors
-        </span>
-      </h4>
-      <img src="/work/covidiq/img/brand.png" alt="">
-    </section>
-    <!-- end brand -->
+  <section class="covidiq-brand">
+    <div class="covidiq-brand-title">
+      <h3>
+        Brand logo &amp; colors
+      </h3>
+    </div>
+    <div class="covidiq-brand-desc">
+      <img class="figure" src="/work/covidiq/img/brand.png" alt="">
+    </div>
 
-    <section class="social">
-      <div class="social-title">
-        <h4>
-          Social Media <span>Imagery</span>
-        </h4>
-      </div>
-      <img src="/work/covidiq/img/socialmedia_share_images.png" alt="">
-    </section>
-    <!-- end social -->
+  </section>
 
-    <section class="mobile">
-      <h4>
-        <span>Mobile</span> Website
-      </h4>
-      <img src="/work/covidiq/img/screens_mobile.png" alt="">
-    </section>
-    <!-- end mobile -->
+  <section class="social">
+    <h3>
+      Social Media Imagery
+    </h3>
 
+    <img class="figure" src="/work/covidiq/img/socialmedia_share_images.png" alt="">
+  </section>
 
-    <section class="website">
-      <h4>
-        Website Homepage
-      </h4>
-      <img src="/work/covidiq/img/desktop-home.png" alt="">
-    </section>
-    <!-- end website -->
+  <section class="mobile">
+    <h3>
+      Mobile Website
+    </h3>
+    <img class="figure" src="/work/covidiq/img/screens_mobile.png" alt="">
+  </section>
 
-    <footer>
-      <div class="footer-img"></div>
-    </footer>
+  <section class="website">
+    <h3>
+      Website Homepage
+    </h3>
+    <img class="figure" src="/work/covidiq/img/desktop-home.png" alt="">
+  </section>
 
+  <div class="help">
+    <p class="help-text">So, How can I help you?</p>
+    <div class="actions">
+      <a class="help-action" href="/work/">My Work</a>
+      <a class="help-action" href="https://www.linkedin.com/in/sheriftariq/" target="_blank">Contact Me Via LinkedIn</a>
+    </div>
   </div>
 </main>
 
-<div class="modal-menu-mobile">
-  <button class="btn-close-modal-menu-mobile" onclick="toggleMobileMenu()">X</button>
-  <nav class="site-nav">
-    <a class="site-nav-link" href="/">Home</a>
-    <a class="site-nav-link" href="/work/">My Work</a>
-    <a class="site-nav-link" href="/about/">About Us</a>
-    <a class="site-nav-link" href="/contact/">Contact Us</a>
-  </nav>
-</div>
+<footer>
+  <p>&copy; 2025 Sherif Tariq</p>
+  <p>This is my portfolio site. I also experiment with graphics designs and web development here.</p>
+</footer>
 
-<!--        <script src="/js/main.js"></script>-->
-<!--        <script src="/js/work.js"></script>-->
-<!--        <script>getWork('covidiq')</script>-->
-        <script src="main.js"></script>
+
+
 </body>
 </html>

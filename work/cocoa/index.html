@@ -4,76 +4,157 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sherif Worked With   Cocoa</title>
-    
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/work.css">    
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+
+        <link rel="stylesheet" href="/css/work.css">
+        <style>
+            .main {
+                margin: 0 1.9354838vw 0; /* 0 24px 0 */
+            }
+
+            .main {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(9, auto);
+                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
+            }
+
+            .intro-logo {
+                grid-column : span 4;
+                height: 30.9677vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                background: var(--color-dark-red) url(/img/crescents.svg) no-repeat center center;
+                background-size: cover;
+                color: var(--color-white);
+            }
+
+            .intro-text {
+                grid-column: span 8;
+                height: 30.9677vw;
+                display: flex;
+                align-items: flex-end;
+                font-weight: 300;
+                font-size: 3.2258vw;
+                line-height: 1.2;
+            }
+
+            .about {
+                grid-column: span 12;
+                background-color: var(--color-coral);
+                flex-direction: row;
+            }
+            .about-title {
+                width: 39%;
+            }
+            .about-desc {
+                width: 61%;
+            }
+
+            .persona {
+                grid-column: span 12;
+                background-color: var(--color-alice-blue);
+                flex-direction: row;
+            }
+            .persona-title {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 39%;
+                gap: 1.93548vw;
+            }
+            .persona-title img {
+                border-radius: 50%;
+                border:  0.32258vw solid var(--color-black);
+            }
+
+            .persona-desc {
+                width: 61%;
+            }
+
+            .flow {
+                grid-column: span 12;
+                background-color: var(--color-light-pink);
+            }
+            .flow .figure {
+                padding: 1.93548vw;
+                background-color: var(--color-white);
+            }
+
+            .screens {
+                grid-column: span 12;
+                background-color: var(--color-pale-green);
+            }
+            .screen {
+                display: flex;
+                gap: 1.93548vw;
+                align-items: center;
+            }
+            .screen.reverse {
+                flex-direction: row-reverse;
+            }
+            .screen-text
+             {
+                width: 48%;
+            }
+            .screen-media {
+                display: flex;
+                justify-content: center;
+            }
+            .screen-media img {
+                width: 80%;
+            }
+
+        </style>
     </head>
     <body>
-        <main class="site">
-            <header class="site-section site-header">
-                <a href="/">
-                    <h1 class="site-header-brand">Hello, I'm Sherif</h1>
-                </a>
+        <header class="brand">
+            <h1><a href="/">Fluff &amp; Logic</a></h1>
 
-                <nav class="site-header-nav">
-                    <a class="site-header-nav-link" href="/">Home</a>
-                    <a class="site-header-nav-link" href="/work/">My Work</a>
+            <nav class="brand-nav">
+                <a href="/" class="brand-nav-link">Home</a>
+                <a href="/work/" class="brand-nav-link">My Work</a>
+                <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">LinkedIn</a>
+            </nav>
+        </header>
 
-                </nav>
-                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-            </header>
-            <div class="site-section site-content">
-              <a href="/work/">
-                <h2 class="page-title page-work">
-                  ← My Work
-                </h2>
-              </a>
-              
-              <section class="section-work">
-                <aside class="section-work-sidebar">
-                  <h3 class="section-work-sidebar-category-title"></h3>
-              
-                  <div class="section-work-logo">
-                      <img src="/work/cocoa/img/logo.svg" alt="">
-                  </div>
-              
-                  <h4 class="section-work-sidebar-project-title"></h4>
-              
-                  <p class="section-work-sidebar-project-desc"></p>
-              
-                  <div class="services">
-                    <h5 class="services-title">
-                      Services Offered
-                    </h5>
-                    <ul class="services-list">
-              
-                    </ul>
-                  </div>
-              
-                </aside>
-                <article class="section-work-content">
-                    <div class="placeholder" style="background: url(/work/cocoa/img/cocoa-dashboard.png) no-repeat center top; background-size: 60%;height: 420px; border-bottom: 1px solid #ccc;"></div>
+        <main class="main">
+            <div class="intro-logo">
+                <h2>Cocoa</h2>
+            </div>
+            <div class="intro-text">
+                Cocoa is an idea incubation app based on my experience designing insurance software.
+            </div>
 
+            <section class="about">
+                <div class="about-title">
                     <h3>
                         About
                     </h3>
-
+                </div>
+                <div class="about-desc">
                     <p>
-                        Cocoa is a fictional app based on my experience designing insurance software. The goal is to figure out where
-                        insurance software needs to go to appeal to the next generation of insurance agents: Generation Z and beyond. For more
-                        details on this project, including context scenarios and other research information, contact me.
+                        The goal is to figure out where
+                        insurance software needs to go to appeal to the next generation of insurance agents: Generation Z and beyond.
                     </p>
+                </div>
+            </section>
 
+            <section class="persona">
+                <div class="persona-title">
                     <h3>
-                        Meet Maria.
+                        Meet Maria
                     </h3>
+                    <img src="img/photo-maria.jpeg" alt="">
 
-                    <div class="placeholder" style="background: url(/work/cocoa/img/photo-maria.jpeg) no-repeat center center; height: 400px;"></div>
+                </div>
 
+                <div class="persona-desc">
                     <p>
                         Maria is a young insurance agent. She’s completed her training and is looking for a way to earn a living as an agent.
                         Maria didn’t choose to become an agent. She did so because there wasn’t enough money coming from freelancing as an
@@ -87,81 +168,102 @@
                         engaging experience even in a commercial, enterprise app. Maria will not accept sub-par experiences. She demands a
                         higher quality experience.
                     </p>
+                </div>
+            </section>
 
-                    <h3>
-                        User Flows.
-                    </h3>
+            <section class="flow">
+                <h3>
+                    User Flows.
+                </h3>
 
-                    <div class="placeholder" style="background: white url(/work/cocoa/img/workflow-customer-requests.png) no-repeat center center; background-size: 150%; height: 300px; border: 1px solid #eee;"></div>
+                <img class="figure" src="img/workflow-customer-requests.png" alt="">
+                <img class="figure" src="img/workflow-discussions.png" alt="">
+                <img class="figure" src="img/workflow-new-customer.png" alt="">
+            </section>
 
-                    <div class="placeholder" style="background: white url(/work/cocoa/img/workflow-discussions.png) no-repeat center center; background-size: 150%; height: 300px; border: 1px solid #eee;"></div>
+            <section class="screens">
+                <h3>Screens</h3>
 
-                    <div class="placeholder" style="background: white url(/work/cocoa/img/workflow-new-customer.png) no-repeat center center; background-size: 150%; height: 300px; border: 1px solid #eee;"></div>
+                <div class="screen">
+                    <div class="screen-text">
+                        <h4>
+                            Homepage
+                        </h4>
+                        <p>
+                            The homepage offers Maria an at-a-glance view of how her business is doing. Insurance agents get paid with commissions
+                            and agency fees on premiums from customers. Keeping track of that information vs. the number of claims that are eating
+                            into their revenue and profits is an important indicator on how Maria’s agency is doing.
+                        </p>
+                    </div>
+                    <div class="screen-media">
+                        <img src="img/cocoa-dashboard.png" alt="">
+                    </div>
+                </div>
 
-                    <h3>
-                        Designs.
-                    </h3>
+                <div class="screen reverse">
+                    <div class="screen-text">
+                        <h4>
+                            Customer Details
+                        </h4>
+                        <p>
+                            Maria can quickly search for any customer and find out about their policy details, claims history, premiums and other
+                            information. The app is built around search. Speed is the key.
+                        </p>
+                    </div>
+                    <div class="screen-media">
+                        <img src="img/cocoa-profile.png" alt="">
+                    </div>
+                </div>
 
-                    <h4>
-                        Homepage.
-                    </h4>
+                <div class="screen">
+                    <div class="screen-text">
+                        <h4>
+                            Chat With Customers
+                        </h4>
+                        <p>
+                            For an insurance agent like Maria with hundreds of customers, it’s very difficult to remember the last thing a
+                            customer might have said weeks or months ago. For Maria’s customer though, that is the thing they remember. And they
+                            expect their agent to be able to quick respond based on their last converstaion. The Chat view is a Slack-style
+                            interface that lets Maria talk to one customer or dozens, and quickly switch context when a customer asks a question.
+                        </p>
+                    </div>
+                    <div class="screen-media">
+                        <img src="img/cocoa-chat.png" alt="">
+                    </div>
+                </div>
 
-                    <div class="placeholder" style="background: url(/work/cocoa/img/cocoa-dashboard.png) no-repeat center center; background-size: 80%;height: 700px; border-bottom: 1px solid #ccc;"></div>
+                <div class="screen reverse">
+                    <div class="screen-text">
+                        <h4>
+                            Maria’s Todos.
+                        </h4>
+                        <p>
+                            Maria has a lot on her mind. Rather than try to juggle hundreds of tasks on pieces of paper or across several apps,
+                            Cocoa has a built-in todo manager that helps Maria keep track of her tasks and relate them to the specific customers
+                            that they are related to.
+                        </p>
+                    </div>
+                    <div class="screen-media">
+                        <img src="img/cocoa-todos.png" alt="">
+                    </div>
+                </div>
+            </section>
 
-                    <p>
-                        The homepage offers Maria an at-a-glance view of how her business is doing. Insurance agents get paid with commissions
-                        and agency fees on premiums from customers. Keeping track of that information vs. the number of claims that are eating
-                        into their revenue and profits is an important indicator on how Maria’s agency is doing.
-                    </p>
-
-                    <h4>
-                        Customer Details.
-                    </h4>
-
-                    <div class="placeholder" style="background: url(/work/cocoa/img/cocoa-profile.png) no-repeat center top; background-size: 80%;height: 400px; border-bottom: 1px solid #ccc;"></div>
-
-                    <p>
-                        Maria can quickly search for any customer and find out about their policy details, claims history, premiums and other
-                        information. The app is built around search. Speed is the key.
-                    </p>
-
-                    <h4>
-                        Chat With Customers.
-                    </h4>
-
-                    <div class="placeholder" style="background: url(/work/cocoa/img/cocoa-chat.png) no-repeat center bottom; background-size: 80%;height: 300px; border-top: 1px solid #ccc;"></div>
-
-                    <p>
-                        For an insurance agent like Maria with hundreds of customers, it’s very difficult to remember the last thing a
-                        customer might have said weeks or months ago. For Maria’s customer though, that is the thing they remember. And they
-                        expect their agent to be able to quick respond based on their last converstaion. The Chat view is a Slack-style
-                        interface that lets Maria talk to one customer or dozens, and quickly switch context when a customer asks a question.
-                    </p>
-
-                    <h4>
-                        Maria’s Todos.
-                    </h4>
-
-                    <div class="placeholder" style="background: url(/work/cocoa/img/cocoa-todos.png) no-repeat center bottom; background-size: 80%;height: 600px; border-top: 1px solid #ccc;"></div>
-
-                    <p>
-                        Maria has a lot on her mind. Rather than try to juggle hundreds of tasks on pieces of paper or across several apps,
-                        Cocoa has a built-in todo manager that helps Maria keep track of her tasks and relate them to the specific customers
-                        that they are related to.
-                    </p>
-
-                </article>
-              </section>
-
+            <div class="help">
+                <p class="help-text">So, How can I help you?</p>
+                <div class="actions">
+                    <a class="help-action" href="/work/">My Work</a>
+                    <a class="help-action" href="https://www.linkedin.com/in/sheriftariq/" target="_blank">Contact Me Via LinkedIn</a>
+                </div>
             </div>
 
         </main>
 
-Hello, I'm Sherif
+        <footer>
+            <p>&copy; 2025 Sherif Tariq</p>
+            <p>This is my portfolio site. I also experiment with graphics designs and web development here.</p>
+        </footer>
 
-        <script src="/js/main.js"></script>
-        <script src="/js/work.js"></script>
-        <script>getWork('cocoa-app')</script>
     </body>
 </html>
 

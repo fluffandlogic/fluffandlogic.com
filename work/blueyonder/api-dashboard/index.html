@@ -4,119 +4,135 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sherif Worked With API Dashboard</title>
-    
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+
         <link rel="stylesheet" href="/css/work.css">
         <style>
-            .images-grid {
+            .main {
+                margin: 0 1.9354838vw 0; /* 0 24px 0 */
+            }
+
+            .main {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(4, auto);
+                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
+            }
+            .intro-logo {
+                background: var(--color-cyan) url(/img/spiral-blue.svg) no-repeat center center;
+                color: var(--color-black);
+            }
+
+            .about {
+                grid-column: span 12;
+                background-color: var(--color-glo-green);
+            }
+            .about-desc {
+                column-count: 2;
+                column-gap: 1.93548vw;
+            }
+
+            .dashboard {
+                grid-column: span 12;
+                background-color: var(--color-alice-blue);
+            }
+            .widgets {
+                grid-column: span 12;
+                background-color: var(--color-gray-20);
+            }
+            .widgets-grid {
                 display: flex;
+                flex-direction: row;
                 flex-wrap: wrap;
-                gap: 1rem;
             }
-            .images-grid-img {
-                width: calc(50% - 1rem);
-                height: auto;
+            .widgets .figure {
+                border: 0;
+                width: 48%;
             }
+
         </style>
         
     </head>
     <body>
-        <main class="site">
-            <header class="site-section site-header">
-                <a href="/">
-                    <h1 class="site-header-brand">Hello, I'm Sherif</h1>
-                </a>
+    <header class="brand">
+        <h1><a href="/">Fluff &amp; Logic</a></h1>
 
-                <nav class="site-header-nav">
-                    <a class="site-header-nav-link" href="/">Home</a>
-                    <a class="site-header-nav-link" href="/work/">My Work</a>
+        <nav class="brand-nav">
+            <a href="/" class="brand-nav-link">Home</a>
+            <a href="/work/" class="brand-nav-link">My Work</a>
+            <a href="https://www.linkedin.com/in/sheriftariq/" target="_blank" class="brand-nav-link">LinkedIn</a>
+        </nav>
+    </header>
 
-                </nav>
-                <button class="site-header-nav-btn-mobile" onclick="toggleMobileMenu()">=</button>
-            </header>
-            <div class="site-section site-content">
-              <a href="/work/">
-                <h2 class="page-title page-work">
-                  ← My Work
-                </h2>
-              </a>
-              
-              <section class="section-work">
-                <aside class="section-work-sidebar">
-                  <h3 class="section-work-sidebar-category-title"></h3>
-              
-                  <div class="section-work-logo">
-                      <img src="/work/blueyonder/img/logo.png" alt="">
-                  </div>
-              
-                  <h4 class="section-work-sidebar-project-title"></h4>
-              
-                  <p class="section-work-sidebar-project-desc"></p>
-              
-                  <div class="services">
-                    <h5 class="services-title">
-                      Services Offered
-                    </h5>
-                    <ul class="services-list">
-              
-                    </ul>
-                  </div>
-              
-                </aside>
-                <article class="section-work-content">
+    <main class="main">
 
-                    <h3>
-                      API Usage And Reporting Dashboard
-                    </h3>
+        <div class="intro-logo">
+            <h2>Blue Yonder</h2>
+        </div>
+        <div class="intro-text">
+            Blue Yonder delivers a machine learning-driven digital fulfillment platform to enable clients to deliver
+            to their customers when, how and where they want it..
+        </div>
 
-                    <p>
-                        One the thirteen scrum teams I supported throughout my time at Blue Yonder was the API Management
-                        team. One of the products I built for the team was a dashboard to monitor the health and status
-                        of their APIs. Until then, the operations team did not have a single place to monitor the health
-                        of their various APIs. Frequently, the team would only find out something was failing when a
-                        customer would call and point it out.
-                    </p>
+        <section class="about">
+            <h3>
+                API Usage And Reporting Dashboard
+            </h3>
 
-                    <p>The goal of the API Dashboard was to give the API operations team a way to monitor the health
+            <div class="about-desc">
+                <p>
+                    One the thirteen scrum teams I supported throughout my time at Blue Yonder was the API Management
+                    team. One of the products I built for the team was a dashboard to monitor the health and status
+                    of their APIs. Until then, the operations team did not have a single place to monitor the health
+                    of their various APIs. Frequently, the team would only find out something was failing when a
+                    customer would call and point it out.
+                </p>
+
+                <p>The goal of the API Dashboard was to give the API operations team a way to monitor the health
                     of their APIs and surface problems before our customers noticed.</p>
-
-                    <h3>
-                        Designs
-                    </h3>
-
-                    <p>
-                        <img class="portfolio-img" src="/work/blueyonder/api-dashboard/img/monitoring-dashboard.png" alt="">
-                    </p>
-
-                    <div class="images-grid">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/errors.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/gateway-response-time-by-view.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/gateway-response-time-cust-view.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/request-bytes.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/response-bytes.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/response-time.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/server-error-breakdown.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/server-fails-successes.png" alt="">
-                        <img class="images-grid-img" src="/work/blueyonder/api-dashboard/img/total-api-calls.png" alt="">
-                    </div>
-
-
-
-                </article>
-              </section>
-
             </div>
+        </section>
 
-        </main>
+        <section class="dashboard">
+            <h3>
+                Dashboard
+            </h3>
 
-Hello, I'm Sherif
+            <img class="figure" src="img/monitoring-dashboard.png" alt="">
+        </section>
 
-        <script src="/js/main.js"></script>
-        <script src="/js/work.js"></script>
-        <script>getWork('blueyonder-future-wms')</script>
+        <section class="widgets">
+            <h3>Widgets</h3>
+            <div class="widgets-grid">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/errors.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/gateway-response-time-by-view.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/gateway-response-time-cust-view.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/request-bytes.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/response-bytes.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/response-time.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/server-fails-successes.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/total-api-calls.png" alt="">
+            </div>
+            <img class="figure" src="/work/blueyonder/api-dashboard/img/server-error-breakdown.png" alt="" style="width: 96%;">
+        </section>
+
+        <div class="help">
+            <p class="help-text">So, How can I help you?</p>
+            <div class="actions">
+                <a class="help-action" href="/work/">My Work</a>
+                <a class="help-action" href="https://www.linkedin.com/in/sheriftariq/" target="_blank">Contact Me Via LinkedIn</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sherif Tariq</p>
+        <p>This is my portfolio site. I also experiment with graphics designs and web development here.</p>
+    </footer>
+
     </body>
 </html>

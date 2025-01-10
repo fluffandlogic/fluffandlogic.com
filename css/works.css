@@ -52,7 +52,7 @@
 
 .api {
   grid-column: span 12;
-  background-color: var(--color-celadon);
+  background-color: var(--color-glo-green);
 }
 
 .yobi {
@@ -85,7 +85,7 @@
 }
 .cocoa {
   grid-column: span 5;
-  background-color: var(--color-beige);
+  background-color: var(--color-coral);
 }
 .ezlynx {
   grid-column: span 7;
