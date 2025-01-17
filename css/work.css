@@ -11,7 +11,7 @@ h2 {
 }
 
 h3 {
-  margin: 0;
+  margin: 0 0 1vw 0;
   font-weight: 900;
   font-size: 3.2258vw; /* 40px */
   text-transform: uppercase;
@@ -43,7 +43,7 @@ section {
 }
 
 section p {
-  margin-bottom: 2.6vw;
+  margin-bottom: 1.2vw;
 }
 
 .mobile-screen {
@@ -78,6 +78,12 @@ section p {
   border: 0.32258vw solid var(--color-black);
   width: 100%;
   margin-bottom: 1.93548vw;
+}
+
+.main {
+  display: grid;
+  margin: 0 1.9354838vw 0; /* 0 24px 0 */
+  gap: 3.87097vw 1.9354838vw; /* 24px 24px */
 }
 
 .intro-logo {
