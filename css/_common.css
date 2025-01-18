@@ -76,17 +76,27 @@ p {
 
 table {
     border-collapse: collapse;
+    border-bottom: 3px solid var(--color-gray-70);
 }
-table th {
+th {
     text-align: left;
-    border-bottom: 2px solid var(--color-gray-60);
-    padding-bottom: 1.25vw;
+    border-bottom: 3px solid var(--color-gray-70);
+    font-weight: 900;
 }
-table td {
-    border-bottom: 1px solid var(--color-gray-60);
-    vertical-align: top;
-    padding-top: 1.25vw;
+td {
+    border-bottom: 1px solid var(--color-gray-70);
+    vertical-align: middle;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
 }
-table td ul {
+td ul {
     margin-top: 0;
+}
+
+.row {
+    display: flex;
+    gap: 2.25vw;
+}
+.col {
+    flex: 1;
 }
