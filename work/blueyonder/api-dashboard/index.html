@@ -39,10 +39,42 @@
                 grid-column: span 12;
                 background-color: var(--color-alice-blue);
             }
+
+            .process {
+                grid-column: span 12;
+                background-color: var(--color-gray-20);
+            }
+
+            .persona {
+                grid-column: span 12;
+                background-color: var(--color-gray-20);
+            }
+
+            .persona .goals {
+                column-count: 3;
+                column-gap: 3.87098vw;
+            }
+
+            .research {
+                grid-column: span 12;
+                background-color: var(--color-gray-20);
+            }
+
+            .analysis {
+                grid-column: span 12;
+                background-color: var(--color-gray-20);
+            }
+
             .widgets {
                 grid-column: span 12;
                 background-color: var(--color-gray-20);
             }
+
+            .conclusion {
+                grid-column: span 12;
+                background-color: var(--color-light-pink);
+            }
+
             .widgets-grid {
                 display: flex;
                 flex-direction: row;
@@ -96,27 +128,436 @@
             </div>
         </section>
 
+        <section class="process">
+            <h3>
+                Kick Off
+            </h3>
+
+            <p>
+                The kick-off meeting started with a surprise. The team requesting the API dashboard did not know what
+                kind of metrics they wanted to see in the dashboard. This was unusual because I would usually
+                get the requirements from the product managers and/or subject matter experts before I started a project.
+            </p>
+            <p>
+                For this project, I would have to do my own research into what an operations persona would wanted to
+                measure and then develop the requirements from that. I would then have to review them with the
+                stakeholders, and iterate over them before starting on ideation.
+            </p>
+
+            <h3>
+                Process
+            </h3>
+
+            <p>
+                For this project, I used the following process.
+            </p>
+
+            <img src="img/ux-lifecycle.svg"
+                 alt="UX Lifecycle: personas, research, analysis,  tasks / use cases,  mockups">
+
+        </section>
+
+        <section class="persona">
+
+            <h3>
+                Personas
+            </h3>
+
+            <p>By now I had been working with various internal Blue Yonder teams, and I already had several personas
+                I was able to look at for reference. For the Blue Yonder Operations users, these were the details</p>
+
+            <ul class="goals">
+                <li>
+                    Gives visibility to the product managers about API usage growth trends and stability
+                </li>
+                <li>
+                    Gives visibility to business about top customers by API usage and can also give insights into API
+                    retention for least use APIs
+                </li>
+                <li>
+                    Can help with answers to questions like
+                </li>
+                <li>
+                    How many calls for this API during the last week broken down by 5 min timeframe
+                </li>
+                <li>
+                    How many calls and how much data was transferred by WFM last week
+                </li>
+                <li>
+                    How was the avg response time for our customer GEA for all their apis last week broken down by hour.
+                </li>
+                <li>
+                    Provides visibility about LIAM adoption and also how the environments are being used by various
+                    customers/applications thereby triggering decisions like continuing/decommissioning any less used
+                    realms etc
+                </li>
+                <li>
+                    Provides visibility about LIAM adoption and also how the environments are being used by various
+                    customers/applications thereby triggering decisions like continuing/decommissioning any less used
+                    realms etc
+                </li>
+                <li>
+                    Top customers by API usage
+                </li>
+                <li>
+                    API retention for least use APIs
+                </li>
+                <li>
+                    How many calls for this API?
+                </li>
+                <li>
+                    How many calls and how much data was transferred by WFM
+                </li>
+                <li>
+                    How was the avg response time for our customer GEA for all their apis
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="research">
+            <h3>
+                Research
+            </h3>
+            <p>
+                Since the Operations team didn't know what they wanted, I had to do some competitive research on the
+                web to see what metrics other operations teams captured in their dashboards. The following is a sample
+                of the screenshots that I used for reference.
+            </p>
+
+            <div class="grid">
+                <img class="figure" src="img/research1.png" alt="">
+                <img class="figure" src="img/research2.png" alt="">
+                <img class="figure" src="img/research3.png" alt="">
+                <img class="figure" src="img/research4.png" alt="">
+                <img class="figure" src="img/research5.png" alt="">
+            </div>
+        </section>
+
+        <section class="analysis">
+            <h3>Analysis</h3>
+            <p>
+                I analysed the screenshots of the operations dashboards I found to see what kind of metrics they
+                measured and what kind of charts they used, and what the articles where I found the screenshots said
+                about the various types of metrics. I then broke them down into the following tables.
+            </p>
+
+            <h4>
+               Dimensions to be captured from APIM for every call
+            </h4>
+
+            <table>
+                <tr>
+                    <th>
+                        Dimension
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Timestamp
+                    </td>
+                    <td>
+                        The time when the request reached the APIM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        URI
+                    </td>
+                    <td>
+                        The URI which used to register in APIM (usually first 2 to 3)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Version
+                    </td>
+                    <td>
+                        The version used to register
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        location
+                    </td>
+                    <td>
+                        The region of the APIGateway event
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Http Method
+                    </td>
+                    <td>
+                        The type of the HTTP Method used in the request
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        productID
+                    </td>
+                    <td>
+                        The productID of the API call
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        apiId
+                    </td>
+                    <td>
+                        the apiID of the API call
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        RequestSize
+                    </td>
+                    <td>
+                        The size of the incoming payload
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Realm
+                    </td>
+                    <td>
+                        The realm of the request
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        AudClaim
+                    </td>
+                    <td>
+                        The Aud Claim used in the request's token
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CorrelationID
+                    </td>
+                    <td>
+                        The correlation ID used for tracking
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        AGWCorrelationID
+                    </td>
+                    <td>
+                        The app gateway correlation IT that was sent
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Response Code
+                    </td>
+                    <td>
+                        The http response code for the incoming request
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Backend Response Code
+                    </td>
+                    <td>
+                        The http response code from the point of view of the implementation
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Response Size
+                    </td>
+                    <td>
+                        The size of the outgoing payload for the request
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Status
+                    </td>
+                    <td>
+                        The success / failure status
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Total Time
+                    </td>
+                    <td>
+                        Response time of Total Processing time of the gateway
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Backend Time
+                    </td>
+                    <td>
+                        Response time of the implementation only
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Calculated - GW Time
+                    </td>
+                    <td>
+                        The difference of Total Time - Backend Time
+                    </td>
+                </tr>
+            </table>
+
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        Aggregate dimensions to be captured from APIM
+                    </h4>
+
+                    <table>
+                        <tr>
+                            <th>
+                                Aggregate Dimension
+                            </th>
+                            <th>
+                                Function
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Interval Time</td>
+                            <td>Time Interval</td>
+                        </tr>
+                        <tr>
+                            <td>TimeTaken</td>
+                            <td>Average</td>
+                        </tr>
+                        <tr>
+                            <td>TimeTaken</td>
+                            <td>Max</td>
+                        </tr>
+                        <tr>
+                            <td>RequestSize</td>
+                            <td>Sum</td>
+                        </tr>
+                        <tr>
+                            <td>ResponseSize</td>
+                            <td>Sum</td>
+                        </tr>
+                        <tr>
+                            <td>Backend time</td>
+                            <td>Average</td>
+                        </tr>
+                        <tr>
+                            <td>Backend time</td>
+                            <td>Max</td>
+                        </tr>
+                        <tr>
+                            <td>GW Time</td>
+                            <td>Average</td>
+                        </tr>
+                        <tr>
+                            <td>GW Time</td>
+                            <td>Max</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <h4>
+                        The aggregates should be grouped by
+                    </h4>
+
+                    <table>
+                        <tr>
+                            <th>Grouped By</th>
+                        </tr>
+                        <tr>
+                            <td>URI</td>
+                        </tr>
+                        <tr>
+                            <td>Realm</td>
+                        </tr>
+                        <tr>
+                            <td>ProductId</td>
+                        </tr>
+                        <tr>
+                            <td>apiID</td>
+                        </tr>
+                        <tr>
+                            <td>location</td>
+                        </tr>
+                        <tr>
+                            <td>status</td>
+                        </tr>
+                        <tr>
+                            <td>http Method</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <p>
+                While I was able to catalog the data, I still wasn't sure what a lot of the metrics meant. I needed
+                additional meetings with the stakeholders from the Operations team to make more sense of these
+                measurements and to figure out which ones are captured by Blue Yonder, and which ones aren't.
+            </p>
+
+            <p>
+                One problem I've run into with many, many product and engineering people is that they struggle to
+                provide feedback on the more abstract product design artefacts like customer journeys and personas.
+                In a lot of cases, I won't get good feedback on features and requirements until I have translated
+                them into wireframes or mockups. This was the case with this project as well.
+            </p>
+
+            <p>
+                When I discussed my
+                findings with the Operations team, they weren't able to determine whether the metrics I had selected
+                would make for a good set of measurements. I had to distill them into a set of screens with filters
+                and charts before I would get useful feedback.
+            </p>
+        </section>
+
         <section class="dashboard">
             <h3>
                 Dashboard
             </h3>
 
-            <img class="figure" src="img/monitoring-dashboard.png" alt="">
+            <p>
+                It took several iterations to go from an initial set of very rough charts to the final version below.
+                During those iterations, the scope of the project expanded as we added additional filters to allow
+                the Operations persona to drill down to a more granular view of the data.
+            </p>
+            <img class="figure" src="img/screen-monitoring-dashboard.png" alt="">
         </section>
 
         <section class="widgets">
             <h3>Widgets</h3>
+            <p>There were more charts than could fit in the mockups without making them unwieldy to review. So I
+                broke out the various charts into widgets and requested the team add a feature to let users
+                drag-and-drop charts as needed.</p>
+
             <div class="widgets-grid">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/errors.png" alt="">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/gateway-response-time-by-view.png" alt="">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/gateway-response-time-cust-view.png" alt="">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/request-bytes.png" alt="">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/response-bytes.png" alt="">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/response-time.png" alt="">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/server-fails-successes.png" alt="">
-                <img class="figure" src="/work/blueyonder/api-dashboard/img/total-api-calls.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-errors.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-gateway-response-time-by-view.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-gateway-response-time-cust-view.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-request-bytes.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-response-bytes.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-response-time.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-server-fails-successes.png" alt="">
+                <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-total-api-calls.png" alt="">
             </div>
-            <img class="figure" src="/work/blueyonder/api-dashboard/img/server-error-breakdown.png" alt="" style="width: 96%;">
+            <img class="figure" src="/work/blueyonder/api-dashboard/img/widget-server-error-breakdown.png" alt="" style="width: 96%;">
+        </section>
+
+        <section class="conclusion">
+            <h3>
+                Conclusion
+            </h3>
+            <p>
+                This project was an example of my ability to take unclear requirements from project owners and
+                do the research to be able to provide direction to the project. API metrics was a domain I was
+                inexperienced with. The Operations team, by comparison were deep domain experts in this area. Yet the
+                team trusted me to do the research and develop a viable solution, one they were happy with in the end.
         </section>
 
         <div class="help">
