@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2550 3300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(4.16667,0,0,4.16667,0,0)">
+        <clipPath id="_clip1">
+            <rect x="48" y="48" width="516" height="695.96" clip-rule="nonzero"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(1,0,0,1,0,-696)">
+                <rect x="47.96" y="48" width="527.29" height="1392" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,810.415,122.215)">
+                <ellipse cx="70.315" cy="740.1" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,802.015,190.615)">
+                <ellipse cx="100.315" cy="701.7" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,792.415,200.215)">
+                <ellipse cx="100.315" cy="692.1" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,782.815,209.815)">
+                <ellipse cx="100.315" cy="682.5" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,773.215,219.415)">
+                <ellipse cx="100.315" cy="672.9" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,754.015,238.615)">
+                <ellipse cx="100.315" cy="653.7" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,704.815,227.815)">
+                <ellipse cx="70.315" cy="634.5" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,706.015,286.615)">
+                <ellipse cx="100.315" cy="605.7" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,686.815,305.815)">
+                <ellipse cx="100.315" cy="586.5" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,637.615,295.015)">
+                <ellipse cx="70.315" cy="567.3" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,648.415,344.215)">
+                <ellipse cx="100.315" cy="548.1" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,638.815,353.815)">
+                <ellipse cx="100.315" cy="538.5" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,629.215,363.415)">
+                <ellipse cx="100.315" cy="528.9" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,630.415,422.215)">
+                <ellipse cx="130.315" cy="500.1" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,592.015,460.615)">
+                <ellipse cx="130.315" cy="461.7" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,544.015,508.615)">
+                <ellipse cx="130.315" cy="413.7" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,496.015,556.615)">
+                <ellipse cx="130.315" cy="365.7" rx="1.54" ry="1.535"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,981.49,370.09)">
+                <circle cx="279.79" cy="701.7" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,952.69,398.89)">
+                <circle cx="279.79" cy="672.9" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,847.99,443.59)">
+                <circle cx="249.79" cy="598.2" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,838.39,453.19)">
+                <circle cx="249.79" cy="588.6" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,876.19,529.39)">
+                <circle cx="306.79" cy="569.4" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,748.99,542.59)">
+                <circle cx="249.79" cy="499.2" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,750.19,601.39)">
+                <circle cx="279.79" cy="470.4" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,730.99,620.59)">
+                <circle cx="279.79" cy="451.2" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,681.79,609.79)">
+                <circle cx="249.79" cy="432" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,692.59,658.99)">
+                <circle cx="279.79" cy="412.8" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,682.99,668.59)">
+                <circle cx="279.79" cy="403.2" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,654.19,697.39)">
+                <circle cx="279.79" cy="374.4" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,644.59,706.99)">
+                <circle cx="279.79" cy="364.8" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,625.39,726.19)">
+                <circle cx="279.79" cy="345.6" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,606.19,745.39)">
+                <circle cx="279.79" cy="326.4" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,616.99,794.59)">
+                <circle cx="309.79" cy="307.2" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,597.79,813.79)">
+                <circle cx="309.79" cy="288" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,608.59,862.99)">
+                <circle cx="339.79" cy="268.8" r="1.54"/>
+            </g>
+            <g transform="matrix(0,-1,-1,0,570.19,901.39)">
+                <circle cx="339.79" cy="230.4" r="1.54"/>
+            </g>
+            <g transform="matrix(0.24,0,0,0.24,59.28,37.908)">
+                <g transform="matrix(33.2917,0,0,33.2917,542.443,73.7585)">
+                </g>
+                <g transform="matrix(33.2917,0,0,33.2917,551.692,73.7585)">
+                </g>
+                <text x="78px" y="73.759px" style="font-family:'Helvetica';font-size:33.292px;">Sometimes had to wait in the ofﬁce</text>
+                <text x="78px" y="113.759px" style="font-family:'Helvetica';font-size:33.292px;">until after hours because customer</text>
+                <text x="78px" y="153.759px" style="font-family:'Helvetica';font-size:33.292px;">can&apos;<tspan x="139.057px " y="153.759px ">t</tspan> come in until after closing.</text>
+                <text x="78px" y="193.759px" style="font-family:'Helvetica';font-size:33.292px;">6pm, 7pm.</text>
+                <text x="203px" y="233.759px" style="font-family:'Helvetica';font-size:33.292px;">Everything was printed.</text>
+                <g transform="matrix(33.2917,0,0,33.2917,345.478,273.759)">
+                </g>
+                <g transform="matrix(33.2917,0,0,33.2917,354.726,273.759)">
+                </g>
+                <text x="203px" y="273.759px" style="font-family:'Helvetica';font-size:33.292px;">Stored in ﬁle cabinets.</text>
+                <text x="203px" y="313.759px" style="font-family:'Helvetica';font-size:33.292px;">Except notes in ezAgent.</text>
+                <text x="203px" y="353.759px" style="font-family:'Helvetica';font-size:33.292px;">Then stored off<tspan x="426.906px " y="353.759px ">-</tspan>site in</text>
+                <text x="203px" y="393.759px" style="font-family:'Helvetica';font-size:33.292px;">storage unit for 7 years.</text>
+                <text x="203px" y="433.759px" style="font-family:'Helvetica';font-size:33.292px;">Almost never referred to</text>
+                <text x="203px" y="473.759px" style="font-family:'Helvetica';font-size:33.292px;">that except for lawsuits</text>
+                <text x="78px" y="513.759px" style="font-family:'Helvetica';font-size:33.292px;">Photos of vehicles, home</text>
+                <text x="78px" y="553.759px" style="font-family:'Helvetica';font-size:33.292px;">inspections stored digitally on</text>
+                <text x="78px" y="593.759px" style="font-family:'Helvetica';font-size:33.292px;">computers with backups.</text>
+                <text x="203px" y="633.759px" style="font-family:'Helvetica';font-size:33.292px;">Never went back to old</text>
+                <text x="203px" y="673.759px" style="font-family:'Helvetica';font-size:33.292px;">pics</text>
+                <text x="203px" y="713.759px" style="font-family:'Helvetica';font-size:33.292px;">For new claims, took new</text>
+                <text x="203px" y="753.759px" style="font-family:'Helvetica';font-size:33.292px;">photos (of damage)</text>
+                <text x="78px" y="793.759px" style="font-family:'Helvetica';font-size:33.292px;">Before EZLy<tspan x="263.03px " y="793.759px ">n</tspan>x, used ezAgent for</text>
+                <text x="78px" y="833.759px" style="font-family:'Helvetica';font-size:33.292px;">note-taking and task management</text>
+                <text x="203px" y="873.759px" style="font-family:'Helvetica';font-size:33.292px;">Wa<tspan x="252.933px " y="873.759px ">s</tspan> painful to use</text>
+                <text x="203px" y="913.759px" style="font-family:'Helvetica';font-size:33.292px;">System would go down</text>
+                <text x="203px" y="953.759px" style="font-family:'Helvetica';font-size:33.292px;">Wo<tspan x="252.932px " y="953.759px ">r</tspan>st feeling is being in</text>
+                <text x="203px" y="993.759px" style="font-family:'Helvetica';font-size:33.292px;">front of a customer and not</text>
+                <text x="203px" y="1033.76px" style="font-family:'Helvetica';font-size:33.292px;">being able to do your job.</text>
+                <text x="328px" y="1073.76px" style="font-family:'Helvetica';font-size:33.292px;">When computer</text>
+                <text x="328px" y="1113.76px" style="font-family:'Helvetica';font-size:33.292px;">system is taking</text>
+                <text x="328px" y="1153.76px" style="font-family:'Helvetica';font-size:33.292px;">forever to load,</text>
+                <text x="328px" y="1193.76px" style="font-family:'Helvetica';font-size:33.292px;">awkward silence.</text>
+                <text x="328px" y="1233.76px" style="font-family:'Helvetica';font-size:33.292px;">May forget to get</text>
+                <text x="328px" y="1273.76px" style="font-family:'Helvetica';font-size:33.292px;">the down</text>
+                <text x="328px" y="1313.76px" style="font-family:'Helvetica';font-size:33.292px;">payment, or miss</text>
+                <text x="328px" y="1353.76px" style="font-family:'Helvetica';font-size:33.292px;">some vital</text>
+                <text x="328px" y="1393.76px" style="font-family:'Helvetica';font-size:33.292px;">paperwork.</text>
+                <text x="328px" y="1433.76px" style="font-family:'Helvetica';font-size:33.292px;">&quot;Before I let you</text>
+                <text x="328px" y="1473.76px" style="font-family:'Helvetica';font-size:33.292px;">go, we have to</text>
+                <text x="328px" y="1513.76px" style="font-family:'Helvetica';font-size:33.292px;">wait for the system</text>
+                <text x="328px" y="1553.76px" style="font-family:'Helvetica';font-size:33.292px;">to load so we can</text>
+                <text x="328px" y="1593.76px" style="font-family:'Helvetica';font-size:33.292px;">document.&quot;</text>
+                <text x="328px" y="1633.76px" style="font-family:'Helvetica';font-size:33.292px;">Might lose that</text>
+                <g transform="matrix(33.2917,0,0,33.2917,464.896,1673.76)">
+                </g>
+                <text x="328px" y="1673.76px" style="font-family:'Helvetica';font-size:33.292px;">customer</text>
+            </g>
+            <g transform="matrix(0.24,0,0,0.24,174.025,37.908)">
+                <text x="472.73px" y="73.759px" style="font-family:'Helvetica';font-size:33.292px;">the small city where</text>
+                <text x="472.73px" y="113.759px" style="font-family:'Helvetica';font-size:33.292px;">agency is based, because</text>
+                <text x="472.73px" y="153.759px" style="font-family:'Helvetica';font-size:33.292px;">it exudes trust. &quot;My agent</text>
+                <text x="472.73px" y="193.759px" style="font-family:'Helvetica';font-size:33.292px;">is the mayor,<tspan x="663.307px " y="193.759px "> </tspan>I trust her.<tspan x="822.437px " y="193.759px ">&quot;</tspan></text>
+                <text x="472.73px" y="233.759px" style="font-family:'Helvetica';font-size:33.292px;">Sometimes have</text>
+                <text x="472.73px" y="273.759px" style="font-family:'Helvetica';font-size:33.292px;">community events, e.g. a</text>
+                <text x="472.73px" y="313.759px" style="font-family:'Helvetica';font-size:33.292px;">fair for the community.</text>
+                <text x="472.73px" y="353.759px" style="font-family:'Helvetica';font-size:33.292px;">Or going to a speech club.</text>
+                <text x="472.73px" y="393.759px" style="font-family:'Helvetica';font-size:33.292px;">Make friends.</text>
+                <text x="228.98px" y="570.967px" style="font-family:'Helvetica';font-size:62.5px;fill:rgb(51,51,51);">Personal Lines</text>
+                <text x="347.73px" y="665.009px" style="font-family:'Helvetica';font-size:33.292px;">Did a lot of the personal.</text>
+                <text x="347.73px" y="705.009px" style="font-family:'Helvetica';font-size:33.292px;">P/L: Sometimes customers walk in</text>
+                <text x="347.73px" y="745.009px" style="font-family:'Helvetica';font-size:33.292px;">and assume agent is the bad guy.</text>
+                <text x="585.23px" y="785.009px" style="font-family:'Helvetica';font-size:33.292px;">Have to deal with</text>
+                <text x="585.23px" y="825.009px" style="font-family:'Helvetica';font-size:33.292px;">that.</text>
+                <text x="228.98px" y="989.259px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:50px;fill:rgb(51,51,51);">Commercial Lines</text>
+                <text x="347.73px" y="1077.51px" style="font-family:'Helvetica';font-size:33.292px;">Can stay C/L <tspan x="549.401px " y="1077.51px ">a</tspan>gent their whole</text>
+                <text x="347.73px" y="1117.51px" style="font-family:'Helvetica';font-size:33.292px;">lives, because can make so much</text>
+                <text x="347.73px" y="1157.51px" style="font-family:'Helvetica';font-size:33.292px;">money.</text>
+                <text x="472.73px" y="1197.51px" style="font-family:'Helvetica';font-size:33.292px;">One large account can be</text>
+                <text x="472.73px" y="1237.51px" style="font-family:'Helvetica';font-size:33.292px;">enough for the whole year</text>
+                <text x="472.73px" y="1277.51px" style="font-family:'Helvetica';font-size:33.292px;">Agency will take care of</text>
+                <text x="472.73px" y="1317.51px" style="font-family:'Helvetica';font-size:33.292px;">them.</text>
+                <text x="347.73px" y="1357.51px" style="font-family:'Helvetica';font-size:33.292px;">Wife could spend all day to land</text>
+                <text x="347.73px" y="1397.51px" style="font-family:'Helvetica';font-size:33.292px;">one commercial account.</text>
+                <text x="472.73px" y="1437.51px" style="font-family:'Helvetica';font-size:33.292px;">Had to send quotes out.</text>
+                <g transform="matrix(33.2917,0,0,33.2917,596.698,1477.51)">
+                </g>
+                <g transform="matrix(33.2917,0,0,33.2917,605.946,1477.51)">
+                </g>
+                <text x="472.73px" y="1477.51px" style="font-family:'Helvetica';font-size:33.292px;">Have to ﬁnd a market</text>
+                <g transform="matrix(33.2917,0,0,33.2917,740.987,1517.51)">
+                </g>
+                <g transform="matrix(33.2917,0,0,33.2917,750.236,1517.51)">
+                </g>
+                <text x="472.73px" y="1517.51px" style="font-family:'Helvetica';font-size:33.292px;">sometimes just to ﬁnd a</text>
+                <text x="472.73px" y="1557.51px" style="font-family:'Helvetica';font-size:33.292px;">carrier to broker with.</text>
+                <text x="472.73px" y="1597.51px" style="font-family:'Helvetica';font-size:33.292px;">Who specializes with this?</text>
+                <text x="472.73px" y="1637.51px" style="font-family:'Helvetica';font-size:33.292px;">Don&apos;<tspan x="541.178px " y="1637.51px ">t</tspan> cut corners with</text>
+                <text x="472.73px" y="1677.51px" style="font-family:'Helvetica';font-size:33.292px;">commercial coverage.</text>
+                <text x="472.73px" y="1717.51px" style="font-family:'Helvetica';font-size:33.292px;">Didn&apos;<tspan x="548.568px " y="1717.51px ">t</tspan> take commercial</text>
+                <text x="472.73px" y="1757.51px" style="font-family:'Helvetica';font-size:33.292px;">very lightly.</text>
+                <text x="472.73px" y="1797.51px" style="font-family:'Helvetica';font-size:33.292px;">Made sure wife looked</text>
+                <text x="472.73px" y="1837.51px" style="font-family:'Helvetica';font-size:33.292px;">over the policy.</text>
+                <text x="597.73px" y="1877.51px" style="font-family:'Helvetica';font-size:33.292px;">Looking at big</text>
+                <text x="597.73px" y="1917.51px" style="font-family:'Helvetica';font-size:33.292px;">lawsuits.</text>
+                <text x="597.73px" y="1957.51px" style="font-family:'Helvetica';font-size:33.292px;">Commercial</text>
+                <text x="597.73px" y="1997.51px" style="font-family:'Helvetica';font-size:33.292px;">accounts</text>
+                <text x="722.73px" y="2037.51px" style="font-family:'Helvetica';font-size:33.292px;">e.g. tow</text>
+                <text x="722.73px" y="2077.51px" style="font-family:'Helvetica';font-size:33.292px;">companie</text>
+                <text x="722.73px" y="2117.51px" style="font-family:'Helvetica';font-size:33.292px;">s easy to</text>
+                <text x="722.73px" y="2157.51px" style="font-family:'Helvetica';font-size:33.292px;">rate,</text>
+                <text x="722.73px" y="2197.51px" style="font-family:'Helvetica';font-size:33.292px;">but oil and</text>
+                <text x="722.73px" y="2237.51px" style="font-family:'Helvetica';font-size:33.292px;">gas,</text>
+                <text x="722.73px" y="2277.51px" style="font-family:'Helvetica';font-size:33.292px;">aviation,</text>
+                <text x="722.73px" y="2317.51px" style="font-family:'Helvetica';font-size:33.292px;">are</text>
+                <text x="722.73px" y="2357.51px" style="font-family:'Helvetica';font-size:33.292px;">complicat</text>
+                <g transform="matrix(33.2917,0,0,33.2917,769,2397.51)">
+                </g>
+                <text x="722.73px" y="2397.51px" style="font-family:'Helvetica';font-size:33.292px;">ed.</text>
+            </g>
+        </g>
+    </g>
+</svg>

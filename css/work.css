@@ -121,3 +121,16 @@ section p + ul {
   line-height: 1.2;
   color: var(--color-gray-80);
 }
+
+.footnote {
+  border-top: 0.16129vw solid var(--color-gray-70);
+  margin-top: 1vw;
+  padding-top: 1vw;
+  font-size: 1vw;
+}
+
+.hilite {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+}
+

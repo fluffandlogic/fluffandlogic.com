@@ -32,17 +32,39 @@
                 background-color: var(--color-lime-green);
             }
 
-            .analysis {
+            .first-pass {
                 grid-column: span 12;
-                background-color: var(--color-gray-20);
+                background-color: var(--color-pale-green);
+            }
+            .first-pass .footnote {
+                border-color: var(--color-dark-green);
+            }
+
+            .personas {
+                grid-column: span 12;
+                background-color: var(--color-beige);
+            }
+            .personas .figure {
+                background-color: var(--color-white);
+                border-color: var(--color-gold);
             }
 
             .flows {
                 grid-column: span 12;
-                background-color: var(--color-alice-blue);
+                background-color: var(--color-gray-20);
             }
 
             .wireframes {
+                grid-column: span 12;
+                background-color: var(--color-beige);
+            }
+
+            .review {
+                grid-column: span 12;
+                background-color: var(--color-periwinkle);
+            }
+
+            .second-pass {
                 grid-column: span 12;
                 background-color: var(--color-pale-green);
             }
@@ -50,6 +72,11 @@
             .screens {
                 grid-column: span 12;
                 background-color: var(--color-turquoise);
+            }
+
+            .conclusion {
+                grid-column: span 12;
+                background-color: var(--color-coral);
             }
 
             .grid {
@@ -60,6 +87,16 @@
             .grid img {
                 width: 48%;
                 border-color: var(--color-dark-green);
+            }
+            .about table,
+            .about th,
+            .about td
+            {
+                border-color: var(--color-dark-green);
+            }
+            .about td {
+                vertical-align: top;
+                padding-right: 2vw;
             }
         </style>
     </head>
@@ -89,35 +126,217 @@
                  </h3>
 
                  <p>
-                     In commercial insurance, an insurance agent usually has to submit a request for insurance to
-                     multiple insurance companies, as usually no single company is willing to handle the entire insurance policy.
-                     The process of submitting and tracking these requests is called a Submission.
+                     There are two types of insurance, personal and commercial insurance.
                  </p>
+
+                 <table>
+                     <tr>
+                         <th style="width: 50%;">Personal Insurance</th>
+                         <th style="width: 50%;">Commercial Insurance</th>
+                     </tr>
+                     <tr>
+                         <td>
+                             Insurance for individuals to cover their homes, cars,
+                             motorcycles, boats, etc.
+                         </td>
+                         <td>
+                             Insurance for businesses to insure their
+                             places of work, their vehicles, the equipment in their offices, and more.
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             Insurance agents work on commissions. The commissions on personal insurance policies are very low.
+                         </td>
+                         <td>
+                             Commercial insurance offers much higher commissions.
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             Agent has to spend every day making dozens of calls so they can earn enough to make a living.
+
+                         </td>
+                         <td>
+                             Agent only needs to submit a handful of commercial insurance policies a month to make a profit.
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             Forms for a personal insurance form can usually be submitted in a couple of minutes.
+                         </td>
+                         <td>
+                             Agent has to fill in many complicated forms, contact multiple insurance
+                             companies to see which aspect of the business the company will insure, submit the required forms,
+                             and then wait weeks or months to find out if each insurance company accepted or rejected their
+                             submission.
+                         </td>
+                     </tr>
+                 </table>
+
+
+                 <p>
+                     For commercial insurance agents, keeping track of all these submissions is demanding and time
+                     consuming, but also presented a <span class="hilite">lucrative market opportunity</span> for EZLynx.
+                 </p>
+
              </section>
 
-             <section class="analysis">
-                 <h3>Analysis</h3>
+             <section class="first-pass">
+                 <h3>First Pass</h3>
+                 <h4>Monday: I get blindsided</h4>
+                 <p>
+                     EZLynx hired a new Product Manager Maverick<sup>*</sup> to lead the Commercial
+                     Submission project. The <strong>first problem</strong>:
+                     <span class="hilite">Maverick had never worked with a product designer</span>, and
+                     didn't feel that one was needed to launch a software product. My manager, Dean<sup>*</sup>,
+                     the VP of Product had seen the positive impact I had had on the product team since joining EZLynx. He
+                     insisted that Maverick work with me on this project. Maverick was not happy about this.
+                 </p>
+
+                 <p>
+                     <strong>Problem #2: </strong> Maverick blindsided me with an unexpected announcement &mdash; he had
+                     scheduled the project to go into development the following week! And he was telling me this on a
+                     Monday! I asked Maverick if he could move the development date so I could have more time to work on
+                     the designs, but he insisted that he couldn't (or wouldn't). I had <span class="hilite">less than five days</span>
+                     to research, analyze, ideate, and turn around some mockups or wireframes for the development team!
+                 </p>
+
+                 <p>
+                     Given the incredibly short time span, I had to plan ahead what I was going to deliver each day
+                     (see below). I wouldn't have time to create mockups, so my final deliverable would be a set of
+                     wireframes.
+                 </p>
+
+                 <img src="img/ux-lifecycle.svg" alt="">
+
+                 <div class="footnote"><sup>*</sup> Names changed to protect the innocent</div>
+             </section>
+
+             <section class="personas">
+                 <h3>Tuesday</h3>
+
+                 <h4>Personas</h4>
+
+                 <p>
+                     Long before this project started, there were plans in the the EZLynx roadmap to work on more
+                     products for commercial insurance agents. I had requested and gotten permission to interview some of
+                     those commercial agents. Based on those interviews, I had built a couple of commercial insurance
+                     personas.
+                 </p>
+
+                 <p>
+                     I was able to use those personas for this project.
+                 </p>
+
+                 <div class="grid">
+                     <img class="figure" src="img/persona-1-1.svg" alt="">
+                     <img class="figure" src="img/persona-1-2.svg" alt="">
+                     <img class="figure" src="img/persona-2-1.svg" alt="">
+                     <img class="figure" src="img/persona-2-2.svg" alt="">
+                 </div>
+
+                 <h4>
+                     Research
+                 </h4>
+
+                 <p>
+                     I interviewed Maverick and dug deeper into the commercial insurance submission process.
+                 </p>
+
                  <img class="figure" src="/work/ezlynx/submission/img/discovery.png" alt="">
+
+                 <div class="footnote"><sup>*</sup> Names changed to protect the innocent</div>
              </section>
 
              <section class="flows">
-                 <h3>Flows</h3>
+                 <h3>
+                     Wednesday
+                 </h3>
+
+                 <h4>User Flows</h4>
+
                  <p>
-                     <img class="figure" src="/work/ezlynx/submission/img/journey.svg" alt="">
+                     I worked with two of my colleagues , DJ<sup>*</sup> and Reese<sup>*</sup>, who were business
+                     analysts working on commercial insurance products for help with whiteboarding the flow since I
+                     couldn't do it alone on such short notice. I then met with Michael to review and iterate over the
+                     user flows. I  then documented them as shown below.
                  </p>
-                 <p>
-                    <img class="figure" src="/work/ezlynx/submission/img/flow.svg" alt="">
-                 </p>
+
+                 <img class="figure" src="/work/ezlynx/submission/img/journey.svg" alt="">
              </section>
 
              <section class="wireframes">
-                 <h3>Wireframes</h3>
+                 <h3>
+                     Thursday
+                 </h3>
+                 <h4>Wireframes</h4>
+                 <p>
+                     I didn't have time to design any high fidelity mockups, so I put together some wireframes for the
+                     development team. I had spent the previous year building a design system using Material Design as
+                     a foundation and Angular Material as the component library in collaboration with the front end
+                     engineers in the Dallas office where I worked. I knew that the team would be able to use my
+                     wireframes to figure out what components to use and where.
+                 </p>
 
                  <div class="grid">
                      <img class="figure" src="/work/ezlynx/submission/img/wireframe1.png" alt="">
                      <img class="figure" src="/work/ezlynx/submission/img/wireframe2.png" alt="">
                      <img class="figure" src="/work/ezlynx/submission/img/wireframe3.png" alt="">
                  </div><p>
+             </section>
+
+             <section class="review">
+                 <h3>
+                     Friday
+                 </h3>
+                 <h4>
+                     Review
+                 </h4>
+                 <p>
+                    I met with Maverick on Friday to go over the wireframes for Submission Center. I was proud of the
+                     work that DJ, Reese, and I had done in such a short time. After showing the wireframes to Michael,
+                     he had one last surprise for me: he wasn't going to use my wireframes. He was going to work with
+                     the development team on whatever ideas he had already decided on before I started.
+                 </p>
+
+                 <p>
+                     I was disappointed, but since Maverick was the product manager for Submission Center, there was
+                     nothing I could do. I informed my manager, Dean. He was not happy either, but decided not to pursue
+                     it further.
+                 </p>
+                 <p>
+                     I moved on with my other projects.
+                 </p>
+             </section>
+
+             <section class="second-pass">
+                <h3>
+                    Second Pass
+                </h3>
+
+                <p>
+                 A couple of months later, Dean called me into his office. Customers were <strong>very upset</strong>
+                 with the Submission Center product that Maverick had launched. It turns out, the user flow and the
+                 interface that Maverick's team designed were terrible. Dean was upset too. Maverick was finally ready
+                 to work with me, and without the resistance he had shown the first time. And, I would have a lot more
+                 time to work on the designs this time 😁. Dean wanted the design to be right.
+                </p>
+
+                 <h4>
+                     Re-examining the user flows
+                 </h4>
+                 <p>
+                     I got some unexpected help from a colleague John<sup>*</sup> who had been researching commercial
+                     insurance for a project he was working on. We met and whiteboarded the flow of documents and
+                     artefacts between the insurance agent, the policy provider (e.g. State Farm), and the customer.
+                     I was able to add the user flows below to the earlier flows I had whiteboarded in my discussions
+                     with Maverick. I've included a sample of the user flows below.
+                 </p>
+
+                 <div class="footnote"><sup>*</sup> Names changed to protect the innocent</div>
+
+                 <img class="figure" src="/work/ezlynx/submission/img/flow.svg" alt="">
 
              </section>
 
@@ -125,6 +344,21 @@
                  <h3>
                      Screens
                  </h3>
+
+                 <p>
+                     I took advantage of the additional time to review my mockups with Maverick, my other colleagues in
+                     product &mdash; including DJ and Reese &mdash; and the front end developers in Dallas to make sure
+                     the designs I was proposing were feasible and usable. We iterated over the designs over a couple of
+                     weeks, and I did some in-house usability testing to validate the flow. Finally, I reviewed the
+                     screens with Dean to make sure he was happy with the new designs.
+                 </p>
+
+                 <p>
+                     Note that Submission Center product itself is based on the EZLynx 5 design system which I had
+                     designed. EZLynx 5 was based on Material Design. The core of the app (top navigation, left
+                     navigation, and the left sidebar) were still based on the old EZLynx 4 design.
+                 </p>
+
                  <p>
                      <img class="figure" src="/work/ezlynx/submission/img/dashboard.png" alt="">
                  </p>
@@ -133,6 +367,24 @@
                  </p>
                  <p>
                      <img class="figure" src="/work/ezlynx/submission/img/coverage.png" alt="">
+                 </p>
+             </section>
+
+             <section class="conclusion">
+                 <h3>
+                     Conclusion
+                 </h3>
+                 <p>
+                    This project was one of many at EZLynx that demonstrated the value of user experience design
+                     and product design as a valuable part of the software development lifecycle. We reviewed the
+                     updated designs with our preferred customers and they were enthusiastic about the new design.
+                     The new design gives users a birds eye view of all their submissions in one place, and helps
+                     the user manage the tangled mess of lines of businesses, customer policies, and insurance
+                     providers.
+                 </p>
+                 <p>
+                     Submission Center went into production and was one of the first real products in EZLynx commercial
+                     roadmap.
                  </p>
              </section>
 
