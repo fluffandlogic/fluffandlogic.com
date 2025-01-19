@@ -18,11 +18,6 @@
 
             .intro-logo {
                 grid-column : span 4;
-                height: 30.9677vw;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
                 background: var(--color-affair) url(/img/spiral.svg) no-repeat center center;
                 background-size: cover;
                 color: var(--color-white);
@@ -30,12 +25,6 @@
 
             .intro-text {
                 grid-column: span 8;
-                height: 30.9677vw;
-                display: flex;
-                align-items: flex-end;
-                font-weight: 300;
-                font-size: 3.2258vw;
-                line-height: 1.2;
             }
 
             .funding {
@@ -64,7 +53,6 @@
 
             .research {
                 grid-column : span 12;
-                display: flex;
                 flex-direction: row;
                 background-color: var(--color-beige);
             }
@@ -117,13 +105,19 @@
                 color: var(--color-dark-red);
             }
 
+            @media screen and (max-width: 768px) {
+                .research {
+                    flex-direction: column;
+                }
+            }
+
 
         </style>
     </head>
     <body>
 
         <header class="brand">
-            <h1><a href="/">Fluff &amp; Logic</a></h1>
+            <h1><a href="/">Sherif Tariq</a></h1>
 
             <nav class="brand-nav">
                 <a href="/" class="brand-nav-link">Home</a>
@@ -258,7 +252,7 @@
 
             <section class="mobile-first">
                 <h3>
-                    The future is<br> mobile first.
+                    The future is<br> mobile first
                 </h3>
                 <p>
                     As we continued to explore how users would use the app, I referenced some user research I had done
@@ -275,7 +269,7 @@
 
             <section class="onboarding">
                 <h3>
-                    Onboarding has to be dead simple.
+                    Onboarding has to be<br> dead simple
                 </h3>
 
                 <p>
@@ -297,15 +291,9 @@
                     <img class="mobile-screen" src="img/step1.png" alt="">
                     <img class="mobile-screen" src="img/step2.png" alt="">
                     <img class="mobile-screen" src="img/step3.png" alt="">
-                </div>
-
-                <div class="media-row">
                     <img class="mobile-screen" src="img/step4.png" alt="">
                     <img class="mobile-screen" src="img/step5.png" alt="">
                     <img class="mobile-screen" src="img/step6.png" alt="">
-                </div>
-
-                <div class="media-row">
                     <img class="mobile-screen" src="img/step7.png" alt="">
                     <img class="mobile-screen" src="img/step8.png" alt="">
                     <img class="mobile-screen" src="img/step9.png" alt="">

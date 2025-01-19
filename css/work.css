@@ -2,41 +2,7 @@
 @import url("_brand.css");
 @import url("_footer.css");
 
-h2 {
-  margin: 0;
-  font-weight: 900;
-  font-size: 5.16129vw; /* 40px */
-  text-transform: uppercase;
-  line-height: 1;
-}
 
-h3 {
-  margin: 0 0 1vw 0;
-  font-weight: 900;
-  font-size: 3.2258vw; /* 40px */
-  text-transform: uppercase;
-  line-height: 1;
-}
-
-h4 {
-  margin: 0;
-  font-weight: 700;
-  font-size: 2.5806vw; /* 32px */
-  text-transform: uppercase;
-  line-height: 1;
-}
-
-
-p, li, td {
-  font-weight: 300;
-  font-size: 1.6129vw; /* 20px */
-  line-height: 1.6;
-}
-th {
-  font-weight: 700;
-  font-size: 1.6129vw; /* 20px */
-  line-height: 1.6;
-}
 ul {
   margin: 0;
 }
@@ -47,7 +13,7 @@ td,th {
 section {
   display: flex;
   gap: 1.93548vw;
-  padding: 4.51613vw; /* 24px = 1.93548vw  56px */
+  padding: clamp(1rem, 4.51613vw, 4rem); /* 24px = 1.93548vw  56px */
 }
 
 section p {
@@ -66,11 +32,12 @@ section p + ul {
 
 .media-row {
   display: flex;
-  justify-content: space-between;
-  gap: 6.4516vw; /* 80px */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: clamp(0.25rem,6.4516vw, 4rem); /* 80px */
 }
 .media-row img {
-  width: 24vw;
+  width: 22%;
   height: auto;
 }
 
@@ -93,31 +60,20 @@ section p + ul {
   margin-bottom: 1.93548vw;
 }
 
-.main {
-  display: grid;
-  margin: 0 1.9354838vw 0; /* 0 24px 0 */
-  gap: 3.87097vw 1.9354838vw; /* 24px 24px */
-}
-
 .intro-logo {
-  grid-column : span 4;
-  height: 30.9677vw;
+  width: clamp(3rem, 31vw, 31rem);
+  height: clamp(3rem, 31vw, 31rem);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: var(--color-cyan) url(/img/spiral-blue.svg) no-repeat center center;
-  background-size: cover;
-  color: var(--color-black);
 }
 
 .intro-text {
-  grid-column: span 8;
-  height: 30.9677vw;
   display: flex;
   align-items: flex-end;
   font-weight: 300;
-  font-size: 3.2258vw;
+  font-size: clamp(1rem, 3.2vw, 3.5rem);
   line-height: 1.2;
   color: var(--color-gray-80);
 }

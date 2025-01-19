@@ -7,24 +7,21 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="css/home.css" type="text/css">
 
         <link rel="stylesheet" href="/css/work.css">
         <style>
             .main {
-                margin: 0 1.9354838vw 0; /* 0 24px 0 */
-            }
-
-            .main {
-                display: grid;
                 grid-template-columns: repeat(12, 1fr);
                 grid-template-rows: repeat(4, auto);
-                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
             }
             .intro-logo {
+                grid-column : span 4;
                 background: var(--color-red) url(/img/stripes-coral.svg) no-repeat center center;
                 background-size: cover;
                 color: var(--color-white);
+            }
+            .intro-text {
+                grid-column: span 8;
             }
 
             .about {
@@ -102,7 +99,7 @@
     </head>
     <body>
         <header class="brand">
-            <h1><a href="/">Fluff &amp; Logic</a></h1>
+            <h1><a href="/">Sherif Tariq</a></h1>
 
             <nav class="brand-nav">
                 <a href="/" class="brand-nav-link">Home</a>

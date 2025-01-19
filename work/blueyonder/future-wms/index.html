@@ -7,31 +7,28 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="css/home.css" type="text/css">
 
         <link rel="stylesheet" href="/css/work.css">
         <style>
             .main {
-                margin: 0 1.9354838vw 0; /* 0 24px 0 */
-            }
-
-            .main {
-                display: grid;
                 grid-template-columns: repeat(12, 1fr);
                 grid-template-rows: repeat(8, auto);
-                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
             }
 
             .intro-logo {
+                grid-column : span 4;
                 background: var(--color-cyan) url(/img/spiral-blue.svg) no-repeat center center;
                 background-size: cover;
                 color: var(--color-black);
+                font-size: 90%;
+            }
+            .intro-text {
+                grid-column: span 8;
             }
 
             .about {
                 grid-column: span 12;
                 background-color: var(--color-alice-blue);
-                flex-direction: row;
             }
             .about-title {
                 display: flex;
@@ -118,7 +115,7 @@
     </head>
     <body>
         <header class="brand">
-            <h1><a href="/">Fluff &amp; Logic</a></h1>
+            <h1><a href="/">Sherif Tariq</a></h1>
 
             <nav class="brand-nav">
                 <a href="/" class="brand-nav-link">Home</a>
@@ -137,34 +134,38 @@
             </div>
 
             <section class="about">
-                <div class="about-title">
-                    <h3>
-                        Warehouse 2030
-                    </h3>
-                </div>
-                <div class="about-desc">
-                    <p>
-                        The Warehouse Management System (WMS) is one of the most popular of the over two hundred products that
-                        Blue Yonder sells as part of their supply chain suite. Warehouse management is extremely complex.
-                        It's a very manual process, requiring <span class="hilite">15-18 months</span> of data entry and configuration with the help of
-                        experienced consultants guiding the customer through populating the thousands of fields necessary
-                        to create a digital twin of the customer's physical warehouse. And that's just for one warehouse!
-                    </p>
+                <h3>
+                    Warehouse 2030
+                </h3>
 
-                    <p>
-                        One of our senior product directors asked me if I could explore what a future version of
-                        of the app could look like. What will WMS look like in <span class="hilite">10 years</span>? What
-                        can of current and future
-                        technologies can we envision being used to streamline the process of
-                        <span class="hilite">mapping</span> the warehouse? How do
-                        we <span class="hilite">reduce the time</span> to set up a new warehouse from 18 months down to a
-                        few weeks? Can we use <span class="hilite">machine learning</span> to understand the volumes of
-                        data sitting in our databases and distill them into a simpler onboarding flow?
-                    </p>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            The Warehouse Management System (WMS) is one of the most popular of the over two hundred products that
+                            Blue Yonder sells as part of their supply chain suite. Warehouse management is extremely complex.
+                            It's a very manual process, requiring <span class="hilite">15-18 months</span> of data entry and configuration with the help of
+                            experienced consultants guiding the customer through populating the thousands of fields necessary
+                            to create a digital twin of the customer's physical warehouse. And that's just for one warehouse!
+                        </p>
+                    </div>
 
-                    <p>This wasn't an officially budgeted project, so I only had more than about 3 weeks to work on it,
-                        alongside my other budgeted projects .</p>
+                    <div class="col">
+                        <p>
+                            One of our senior product directors asked me if I could explore what a future version of
+                            of the app could look like. What will WMS look like in <span class="hilite">10 years</span>? What
+                            can of current and future
+                            technologies can we envision being used to streamline the process of
+                            <span class="hilite">mapping</span> the warehouse? How do
+                            we <span class="hilite">reduce the time</span> to set up a new warehouse from 18 months down to a
+                            few weeks? Can we use <span class="hilite">machine learning</span> to understand the volumes of
+                            data sitting in our databases and distill them into a simpler onboarding flow?
+                        </p>
+                    </div>
                 </div>
+
+                <p>This wasn't an officially budgeted project, so I only had about 3 weeks to work on it,
+                    along side my other budgeted projects .</p>
+
             </section>
 
             <section class="discovery">
@@ -231,16 +232,24 @@
                 <h3>
                     Personas
                 </h3>
-                <p>
-                    The first step was to try and figure out what personas worked in a warehouse. While I was able to
-                    come up with about 3-4 personas, Maren's research revealed over a half dozen more, for a total of a
-                    dozen personas. This was a lot more personas than I've ever worked with on any previous project.
-                    Figuring out the primary (and possibly secondary and tertiary) persona I was going to target for
-                    the Warehouse 2030 project would take a while.
-                </p>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            The first step was to try and figure out what personas worked in a warehouse. While I was able to
+                            come up with about 3-4 personas, Maren's research revealed over a half dozen more, for a total of a
+                            dozen personas. This was a lot more personas than I've ever worked with on any previous project.
+                            Figuring out the primary (and possibly secondary and tertiary) persona I was going to target for
+                            the Warehouse 2030 project would take a while.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Since the goal of this project was to reduce the time to create a digital twin of a warehouse, I
+                            decided to focus on the <span class="hilite">Regional DC Manager</span> persona.
+                        </p>
+                    </div>
+                </div>
 
-                <p>Since the goal of this project was to reduce the time to create a digital twin of a warehouse, I
-                    decided to focus on the <span class="hilite">Regional DC Manager</span> persona.</p>
 
                 <img class="figure" src="/work/blueyonder/future-wms/img/personas.png" alt="">
             </section>
@@ -249,19 +258,26 @@
                 <h3>
                     Mental Model
                 </h3>
-                <p>
-                    Since I was new to warehouse management, I was still unsure what the various personas did in a
-                    warehouse. Instead of simply zooming out and focusing only on the Regional DC Manager persona's tasks,
-                    I zoomed into the warehouse to get a high level understanding of how a modern warehouse functions
-                    and what the various personas do.
-                </p>
-                <p>
-                    This ended up being very useful later on when it came time to
-                    <span class="hilite">create a new streamlined flow</span> for the Regional DC Manager. (It turns out
-                    their job is to configure the warehouse to make it easier for the other personas to do their jobs as
-                    efficiently as possible. Without understanding how the warehouse functions, I would not have been
-                    able to create the final mockups.)
-                </p>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            Since I was new to warehouse management, I was still unsure what the various personas did in a
+                            warehouse. Instead of simply zooming out and focusing only on the Regional DC Manager persona's tasks,
+                            I zoomed into the warehouse to get a high level understanding of how a modern warehouse functions
+                            and what the various personas do.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            This ended up being very useful later on when it came time to
+                            <span class="hilite">create a new streamlined flow</span> for the Regional DC Manager. (It turns out
+                            their job is to configure the warehouse to make it easier for the other personas to do their jobs as
+                            efficiently as possible. Without understanding how the warehouse functions, I would not have been
+                            able to create the final mockups.)
+                        </p>
+                    </div>
+                </div>
+
                 <img class="figure" src="/work/blueyonder/future-wms/img/mental-model.png" alt="">
             </section>
 
@@ -281,38 +297,44 @@
                     WMS doesn't do.
                 </p>
 
-                <h4>
-                    1. Simulate A Site
-                </h4>
+                <div class="row">
+                    <div class="col">
+                        <h4>
+                            1. Simulate A Site
+                        </h4>
 
-                <p>
-                    One of the most interesting aspects of this new version of WMS is the ability to simulate a site
-                    without having to install it on the customer cloud. This allows the customer to endlessly tweak
-                    their settings without impacting their own customers and employees, and only publish the
-                    configuration once everything is properly setup.
-                </p>
-
-                <h4>
-                    2. Draw A Site
-                </h4>
-                <p>
-                    Imagine that the Regional DC Manager is scouting for a location for a new warehouse. They open up a map,
-                    and find a place where they want to place the warehouse. They can then draw the warehouse using
-                    simple CAD like drawing tools, while collaborating with other stakeholders and architects. This
-                    ability to visually edit the warehouse on a map (instead of entering abstract numbers) would reduce
-                    the time to setup considerably and provide a much more concrete way to collaborate with other
-                    stakeholders.
-                </p>
-
-                <h4>
-                    3. Locate On A Map
-                </h4>
-                <p>
-                    Today, trying to locate a specific warehouse requires the Manager to know the cryptic alphanumeric
-                    code that represents that warehouse. How much easier would it be, if the Manager could simply enter
-                    an address, and then zoom in or out of a graphical map, and then click on the warehouse they're
-                    referencing?
-                </p>
+                        <p>
+                            One of the most interesting aspects of this new version of WMS is the ability to simulate a site
+                            without having to install it on the customer cloud. This allows the customer to endlessly tweak
+                            their settings without impacting their own customers and employees, and only publish the
+                            configuration once everything is properly setup.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4>
+                            2. Draw A Site
+                        </h4>
+                        <p>
+                            Imagine that the Regional DC Manager is scouting for a location for a new warehouse. They open up a map,
+                            and find a place where they want to place the warehouse. They can then draw the warehouse using
+                            simple CAD like drawing tools, while collaborating with other stakeholders and architects. This
+                            ability to visually edit the warehouse on a map (instead of entering abstract numbers) would reduce
+                            the time to setup considerably and provide a much more concrete way to collaborate with other
+                            stakeholders.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4>
+                            3. Locate On A Map
+                        </h4>
+                        <p>
+                            Today, trying to locate a specific warehouse requires the Manager to know the cryptic alphanumeric
+                            code that represents that warehouse. How much easier would it be, if the Manager could simply enter
+                            an address, and then zoom in or out of a graphical map, and then click on the warehouse they're
+                            referencing?
+                        </p>
+                    </div>
+                </div>
 
             </section>
 
@@ -334,20 +356,25 @@
                 <h3>
                     Screens
                 </h3>
-                <p>
-                    Finally, it was time to take all the above research and distill them into a set of high fidelity screens
-                    in Figma. At the time I created these mockups, the Blue Yonder design system team in Karslruhe (Germany)
-                    was still putting the finishing touches to the Luminate design system (the Blue Yonder design system
-                    for our SaaS platform). For these mockups, I used whatever components were available, created new
-                    components in the style of the design system, and took screenshots of the rest as placeholders to be
-                    replaced if the project ever became official.
-                </p>
-
-                <p>
-                    The screens below follow a scenario where a DC Regional Manager has logged into her account and is
-                    viewing the list of warehouses under her purview. For this scenario she wants to scout a location for
-                    a new warehouse, draw the warehouse on the map, configure it, and simulate it.
-                </p>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            Finally, it was time to take all the above research and distill them into a set of high fidelity screens
+                            in Figma. At the time I created these mockups, the Blue Yonder design system team in Karslruhe (Germany)
+                            was still putting the finishing touches to the Luminate design system (the Blue Yonder design system
+                            for our SaaS platform). For these mockups, I used whatever components were available, created new
+                            components in the style of the design system, and took screenshots of the rest as placeholders to be
+                            replaced if the project ever became official.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            The screens below follow a scenario where a DC Regional Manager has logged into her account and is
+                            viewing the list of warehouses under her purview. For this scenario she wants to scout a location for
+                            a new warehouse, draw the warehouse on the map, configure it, and simulate it.
+                        </p>
+                    </div>
+                </div>
 
                 <div class="row">
                     <div class="col">

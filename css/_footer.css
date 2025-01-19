@@ -32,7 +32,7 @@
 
 footer {
     margin-top: 1.9354838vw;
-    height: 19.3548387vw;
+    min-height: 20vw;
     padding: 1.9354838vw;
     position: relative;
     background-color: var(--color-gray-10);
@@ -40,16 +40,20 @@ footer {
     font-size: 1.129vw;
     overflow: hidden;
 }
+footer P {
+    font-size: 1.45vw;
+    margin-bottom: 0;
+}
 footer::after {
-    content: "FLUFF AND LOGIC";
+    content: "Sherif Tariq";
     text-transform: uppercase;
     position: absolute;
-    left: -0.80645vw;
-    bottom: -2.177419vw;
+    left: -0.8vw;
+    bottom: -3vw;
     font-weight: 700;
     white-space: nowrap;
     line-height: 1;
-    font-size: 12.2887vw;
+    font-size: 16.2vw;
     letter-spacing: -7px;
     color: rgba(137,137,137, .17);
 }

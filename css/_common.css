@@ -46,7 +46,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.25rem;
+    font-size: clamp(2rem, 1.25rem, 1.25rem);
 }
 
 header, footer, nav, section, main {
@@ -65,14 +65,55 @@ a:hover {
 h1 {
     margin: 0;
     font-weight: 900;
-    font-size: 3.54838vw;
+    font-size: clamp(1rem, 3.5vw, 4rem); ;
     line-height: 1.1;
     text-transform: uppercase;
 }
 
-p {
+h2 {
     margin: 0;
+    font-weight: 900;
+    font-size: clamp(1rem, 3.3vw, 7.5rem); /* 40px */
+    text-transform: uppercase;
+    line-height: 1;
 }
+
+h3 {
+    margin: 0;
+    font-weight: 900;
+    font-size: clamp(1rem, 3.2vw, 4rem); /* 32px */
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: clamp(0.9rem, 2.5806vw, 3rem); /* 28px */
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+p {
+    margin: 0 0 1.6129vw 0;
+}
+
+p, li, td {
+    font-weight: 300;
+    font-size: clamp(0.7rem, 1.7vw, 2.5rem); /* 20px */
+    line-height: 1.52;
+}
+
+th {
+    font-weight: 700;
+    font-size: clamp(1rem, 1.7vw, 2.5rem); /* 20px */
+    line-height: 1.48;
+}
+
+h3 + p {
+    margin-top: 1.6129vw;
+}
+
 
 table {
     border-collapse: collapse;
@@ -102,4 +143,24 @@ td ul {
 }
 .col {
     flex: 1;
+}
+
+.main {
+    display: grid;
+    gap: 3.87097vw 1.9354838vw; /* 48px 24px */
+    margin:1.9354838vw auto 0 auto; /* 24px auto 0 auto*/
+    width: clamp(22rem, 90%, 80rem);
+}
+
+.help p {
+    margin-bottom: 0;
+}
+
+/* Mobile and Tablet */
+@media screen and (max-width: 768px) {
+    .row,
+    section {
+        flex-direction: column;
+    }
+
 }
