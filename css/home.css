@@ -137,11 +137,12 @@
   align-items: center;
   justify-content: center;
   height: 5.80645vw;
+  color: var(--color-dark-green);
 }
 .location-media {
   position: relative;
   width: 100%;
-  height: 20vw;
+  height: 16.9vw;
 }
 .location-media-img {
   position: absolute;
@@ -216,6 +217,10 @@
   margin-bottom: 1.9354838vw;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   letter-spacing: .5px;
+}
+.skill .skill-ican,
+.skill .skill-cards .skill-card {
+  font-weight: 700;
 }
 .skill-col {
   width: 14.51612vw;
