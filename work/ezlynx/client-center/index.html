@@ -16,21 +16,26 @@
         <link rel="stylesheet" href="/css/work.css">
         <style>
             .main {
-                margin: 0 1.9354838vw 0; /* 0 24px 0 */
-                display: grid;
                 grid-template-columns: repeat(12, 1fr);
                 grid-template-rows: repeat(4, auto);
-                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
             }
             .intro-logo {
                 background: var(--color-red) url(/img/stripes-coral.svg) no-repeat center center;
                 background-size: cover;
                 color: var(--color-white);
             }
+            .intro-text {
+                grid-column: span 8;
+            }
 
             .about {
                 grid-column: span 12;
                 background-color: var(--color-pale-green);
+            }
+
+            .kickoff {
+                grid-column: span 12;
+                background-color: var(--color-gray-10);
             }
 
             .analysis {
@@ -81,24 +86,56 @@
                 </p>
             </section>
 
+            <section class="kickoff">
+                <h3>Kick Off</h3>
+
+                <h4>Objectives</h4>
+
+                <ul>
+                    <li>Increase Usage</li>
+                    <li>Increase Self Service Instead of calling agent</li>
+                    <li>Increase engagement 20% year over year</li>
+                </ul>
+
+                <h4>
+                    How do we measure it?
+                </h4>
+
+                <ul>
+                    <li>Database Requests</li>
+                    <li>FullStory</li>
+                </ul>
+
+                <h4>
+                    Guiding Principles
+                </h4>
+                <ul>
+                    <li>One-click access to ID Cards Fewer clicks</li>
+                    <li>Best-in-class mobile experience</li>
+                    <li>Improved findability</li>
+                </ul>
+
+            </section>
+
             <section class="analysis">
                 <h3>Analysis</h3>
-                <img class="portfolio-img" src="/work/ezlynx/client-center/img/interview.png" alt="">
+                <img class="portfolio-img" src="/work/ezlynx/client-center/img/interview1.svg" alt="">
+                <img class="portfolio-img" src="/work/ezlynx/client-center/img/interview2.svg" alt="">
             </section>
 
             <section class="priority">
                 <h3>Prioritization</h3>
-                <img class="portfolio-img" src="/work/ezlynx/client-center/img/2x2.png" alt="">
+                <img class="portfolio-img" src="/work/ezlynx/client-center/img/2x2.svg" alt="">
             </section>
 
             <section class="screens">
                 <h3>Screens</h3>
                 <div class="grid">
-                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/home.png" alt="">
-                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/claims.png" alt="">
-                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/claims2.png" alt="">
-                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/search.png" alt="">
-                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/vehicles.png" alt="">
+                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/mobile-home.png" alt="">
+                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/mobile-search.png" alt="">
+                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/mobile-chat.png" alt="">
+                    <img class="mobile-screen" src="/work/ezlynx/client-center/img/mobile-policy.png" alt="">
+
                 </div>
             </section>
 

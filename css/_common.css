@@ -149,7 +149,7 @@ td ul {
     display: grid;
     gap: 3.87097vw 1.9354838vw; /* 48px 24px */
     margin:1.9354838vw auto 0 auto; /* 24px auto 0 auto*/
-    width: clamp(22rem, 90%, 80rem);
+    width: clamp(22rem, 90%, 128rem);
 }
 
 .help p {
