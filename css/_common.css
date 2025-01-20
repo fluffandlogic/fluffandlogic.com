@@ -100,13 +100,13 @@ p {
 
 p, li, td {
     font-weight: 300;
-    font-size: clamp(0.7rem, 1.7vw, 2.5rem); /* 20px */
+    font-size: clamp(0.7rem, 1.7vw, 2.3rem); /* 20px */
     line-height: 1.52;
 }
 
 th {
     font-weight: 700;
-    font-size: clamp(1rem, 1.7vw, 2.5rem); /* 20px */
+    font-size: clamp(1rem, 1.7vw, 2.3rem); /* 20px */
     line-height: 1.48;
 }
 
