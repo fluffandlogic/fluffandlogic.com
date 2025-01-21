@@ -16,16 +16,18 @@
         <link rel="stylesheet" href="/css/work.css">
         <style>
             .main {
-                margin: 0 1.9354838vw 0; /* 0 24px 0 */
-                display: grid;
                 grid-template-columns: repeat(12, 1fr);
                 grid-template-rows: repeat(4, auto);
-                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
             }
+
             .intro-logo {
+                grid-column : span 4;
                 background: var(--color-red) url(/img/stripes-coral.svg) no-repeat center center;
                 background-size: cover;
                 color: var(--color-white);
+            }
+            .intro-text {
+                grid-column: span 8;
             }
 
             .about {
@@ -47,7 +49,10 @@
                 grid-column: span 12;
                 background-color: var(--color-celadon);
             }
-            
+            .conclusion {
+                grid-column: span 12;
+                background-color: var(--color-coral);
+            }
         </style>
     </head>
     <body>
@@ -76,16 +81,105 @@
                 </h3>
 
                 <p>
-                    Converting the legacy EZLynx web app into a mobile / responsive app was a massive effort.
-                    Below are a sample of the mockup from my experiments to squeeze the incredibly complex app into
-                    a mobile device.
+                    The EZLynx web platform that I inherited when I joined the company was <span class="hilite">not
+                    responsive</span> i.e. it was designed to work on desktop only. There was a mobile version of the
+                    code, so engineers had to maintain <span class="hilite">two copies of the code</span>,
+                    one for the desktop version, and one for mobile. It was becoming increasingly difficult to maintain
+                    feature parity between the two. Over time, the mobile version had started to develop a lot of bugs
+                    that made it harder and harder to update.
                 </p>
+
+                <p>
+                    I spent over a year making a business case to the executive team to update the front-end design. I
+                    presented a number of advantages including:
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>Make the web app responsive from desktop to tablet to mobile phone.</li>
+                            <li>Removing the need to maintain a separate mobile code base.</li>
+                            <li>Enable theming, something that was not possible in the legacy platform due to the complexity of
+                                the code and the length of time required.</li>
+                            <li>
+                                Give the developers a <span class="hilite">design system</span> with a shared
+                                component library.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p>Creating a design system would offer additional advantages:</p>
+                        <ul>
+                            <li>
+                                Speed up development.
+                            </li>
+                            <li>
+                                Reduce tech debt.
+                            </li>
+                            <li>
+                                Ensure platform wide design consistency.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p>&nbsp;</p>
+
+                <h4>
+                    EZLynx 5: The New Design System
+                </h4>
+
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            Once I got buy in from the executives and the development team, it took many more months of hard work
+                            to build the design system. I used Material 2 as a foundation for the design system as it came
+                            pre-packaged with a fantastic library of fonts, icons, and a beautiful color palette, and a deeply
+                            researched and thoughtful set of guidelines on how to create an amazing customer experience.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            At the time I was acting as both a design leader and an individual contributor, managing 9 scrum
+                            teams, coordinating between 6 product managers, and building up a small design team. I was always
+                            looking for any good design decisions that could save me time and help my team be productive.
+                        </p>
+
+                        <p>
+                            The new design system was called EZLynx 5.
+                        </p>
+                    </div>
+                </div>
+
             </section>
 
             <section class="screens">
                 <h3>
                     Screens
                 </h3>
+
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            I started ideating on the mobile responsive screens after I had put the finishing touches to the
+                            desktop and tablet responsive screens. Based on my past experience doing responsive design, I knew
+                            that I had to tackle the designs for each breakpoint separately.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Shrinking the new EZLynx 5 desktop screens to  mobile ended up being a massive effort. A typical
+                            EZLynx screen has dozens of fields. I had to make a lot of adjustments to the flow,
+                            spacing, font sizes, and layout to fit them on a smaller screen, and ensure that the touch targets
+                            were still big enough to reduce frustration.
+                        </p>
+                    </div>
+                </div>
+
+                <p>
+                    Below are a sample of the mockup from my experiments to squeeze the incredibly complex app into
+                    a mobile device.
+                </p>
+
                 <div class="grid">
                     <img class="mobile-screen" src="img/homepage.png" alt="">
                     <img class="mobile-screen" src="img/dashboard.png" alt="">
@@ -95,6 +189,24 @@
                     <img class="mobile-screen" src="img/preferences.png" alt="">
                 </div>
             </section>
+
+            <section class="conclusion">
+                <h3>
+                    Conclusion
+                </h3>
+                <p>
+                    EZLynx 5 was the biggest responsive design project I have worked on. I ended up working with three
+                    (and eventually four) scrum teams across two geographic dispersed locations &mdash; Dallas (Texas,
+                    USA) and Bangalore (India).
+                </p>
+                <p>
+                    I worked closely with the front-end team to ensure the mobile tweaks to the code were integrated and
+                    tested thoroughly before they went to production, which happened just a month before the pandemic hit.
+                    Despite launching such a major change at a very anxiety inducing time for our customers, I'm proud
+                    to say that we had almost 97% positive feedback on the new design. I consider that a rousing success.
+                </p>
+            </section>
+
             <div class="help">
                 <p class="help-text">So, How can I help you?</p>
                 <div class="actions">
