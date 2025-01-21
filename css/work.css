@@ -3,8 +3,9 @@
 @import url("_footer.css");
 
 
-ul {
-  margin: 0;
+ul,
+ol {
+  margin: 0 0 1vw 0;
 }
 td,th {
   vertical-align: middle;
@@ -20,8 +21,9 @@ section p {
   margin-bottom: 1.2vw;
 }
 
-section p + ul {
-  margin-top: -1.93548vw;
+section p + ul,
+section p + ol{
+  margin-top: -1vw;
 }
 
 .mobile-screen {
@@ -54,11 +56,27 @@ section p + ul {
   border-color: var(--color-dark-green);
 }
 
-
+.figures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .figure {
   border: 0.32258vw solid var(--color-black);
   width: 80%;
   margin: 0 auto 1.93548vw auto;
+}
+
+.mosaic {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+.mosaic .figure {
+  object-fit: contain;
+  width: 40%;
+  object-position: left top;
+  background-color: var(--color-white);
 }
 
 .intro-logo {
@@ -81,7 +99,8 @@ section p + ul {
 
 .footnote {
   border-top: 0.16129vw solid var(--color-gray-70);
-  margin-top: 1vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   padding-top: 1vw;
   font-size: 1vw;
 }

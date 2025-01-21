@@ -20,7 +20,7 @@
     --color-affair: #5D4593;
     --color-veronica: #854EFF;
     --color-orchid: #E48BF9;
-    --color-plum: #CFA3D7;
+    --color-plum: #e1bcea;
     --color-periwinkle:#C4BAFF;
     --color-navy: #035481;
     --color-celadon: #b1d0c8;
@@ -87,7 +87,7 @@ h3 {
 }
 
 h4 {
-    margin: 0 0 0.8vw 0;
+    margin: 0 0 1.2vw 0;
     font-weight: 700;
     font-size: clamp(0.9rem, 2.5806vw, 3rem); /* 28px */
     text-transform: uppercase;
@@ -114,6 +114,7 @@ table {
     border-collapse: collapse;
     border-bottom: 3px solid var(--color-gray-70);
     width: 100%;
+    margin-bottom: 2vw;
 }
 th {
     padding-top: .5vw;
