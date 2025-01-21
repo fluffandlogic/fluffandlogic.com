@@ -2,8 +2,26 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 4.516129vw 1.9354838vw 3vw;
+    background: #40B375 url(../img/header-bg.jpg) no-repeat left center;
+    background-size: cover;
+    height:clamp(5rem, 16vw, 18rem);
+    margin-bottom: 4.516129vw;
+    padding-left: clamp(1.4rem, 5.3vw, 8rem);
+    padding-right: 1.9354838vw;
+    border-bottom: 1px solid rgba(64,179,117,.3);
     color: var(--color-gray-80);
+}
+.brand h1 {
+    width: 25vw;
+    height: 11vw;
+    background: url(../img/logo.svg) no-repeat left top;
+    background-size: contain;
+}
+.brand h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
 }
 .brand-nav {
     display: flex;
@@ -16,6 +34,7 @@
 }
 .brand-nav-link {
     display: flex;
+    color: var(--color-black);
 }
 .brand a:hover {
     color: var(--color-indigo);
@@ -25,6 +44,6 @@
 }
 .brand-nav-link-active,
 .brand-nav-link-active:hover {
-    color: var(--color-gray-20) !important;
+    opacity: 0.3;
     cursor: default;
 }
