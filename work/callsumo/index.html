@@ -12,16 +12,16 @@
         <link rel="stylesheet" href="/css/work.css">
         <style>
             .main {
-                margin: 0 1.9354838vw 0; /* 0 24px 0 */
-                display: grid;
                 grid-template-columns: repeat(12, 1fr);
                 grid-template-rows: repeat(4, auto);
-                gap: 3.87097vw 1.9354838vw; /* 24px 24px */
             }
             .intro-logo {
                 background: var(--color-orange) url(/img/stripes-coral.svg) no-repeat center center;
                 background-size: cover;
                 color: var(--color-white);
+            }
+            .intro-text {
+                grid-column: span 8;
             }
 
             .about {

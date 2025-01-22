@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2550 3300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard1" x="0" y="0" width="2550" height="3300" style="fill:white;"/>
+    <g id="Artboard11" serif:id="Artboard1">
+        <g transform="matrix(4.16667,0,0,4.16667,0,0)">
+            <clipPath id="_clip1">
+                <rect x="48" y="48" width="516" height="695.96" clip-rule="nonzero"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,0,0,1,0,31.87)">
+                    <rect x="47.96" y="16.13" width="527.29" height="727.87" style="fill:white;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-516.15)">
+                    <rect x="227.48" y="645.15" width="58.91" height="17.85" style="fill:rgb(240,240,240);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-516.15)">
+                    <rect x="286.39" y="645.15" width="98.1" height="17.85" style="fill:rgb(240,240,240);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-534.01)">
+                    <rect x="227.1" y="662.63" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,-516.16)">
+                    <rect x="286.01" y="644.78" width="0.75" height="18.6" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,-498.31)">
+                    <rect x="227.1" y="644.78" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-516.16)">
+                    <rect x="227.1" y="644.78" width="0.75" height="18.6" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-534.01)">
+                    <rect x="286.01" y="662.63" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,-516.16)">
+                    <rect x="384.11" y="644.78" width="0.75" height="18.6" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,-498.31)">
+                    <rect x="286.01" y="644.78" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-516.16)">
+                    <rect x="286.01" y="644.78" width="0.75" height="18.6" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-498.31)">
+                    <rect x="227.1" y="644.78" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,-470.33)">
+                    <rect x="286.01" y="616.8" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,-442.35)">
+                    <rect x="227.1" y="616.8" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-470.33)">
+                    <rect x="227.1" y="616.8" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-498.31)">
+                    <rect x="286.01" y="644.78" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,-470.33)">
+                    <rect x="384.11" y="616.8" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,-442.35)">
+                    <rect x="286.01" y="616.8" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-470.33)">
+                    <rect x="286.01" y="616.8" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-442.35)">
+                    <rect x="227.1" y="616.8" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,-414.38)">
+                    <rect x="286.01" y="588.83" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,-386.41)">
+                    <rect x="227.1" y="588.83" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-414.38)">
+                    <rect x="227.1" y="588.83" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-442.35)">
+                    <rect x="286.01" y="616.8" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,-414.38)">
+                    <rect x="384.11" y="588.83" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,-386.41)">
+                    <rect x="286.01" y="588.83" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-414.38)">
+                    <rect x="286.01" y="588.83" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-386.41)">
+                    <rect x="227.1" y="588.83" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,-358.43)">
+                    <rect x="286.01" y="560.85" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,-330.45)">
+                    <rect x="227.1" y="560.85" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-358.43)">
+                    <rect x="227.1" y="560.85" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-386.41)">
+                    <rect x="286.01" y="588.83" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,-358.43)">
+                    <rect x="384.11" y="560.85" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,-330.45)">
+                    <rect x="286.01" y="560.85" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-358.43)">
+                    <rect x="286.01" y="560.85" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-330.45)">
+                    <rect x="227.1" y="560.85" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,-206.48)">
+                    <rect x="286.01" y="436.88" width="0.75" height="124.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,-82.51)">
+                    <rect x="227.1" y="436.88" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-206.48)">
+                    <rect x="227.1" y="436.88" width="0.75" height="124.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-330.45)">
+                    <rect x="286.01" y="560.85" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,-206.48)">
+                    <rect x="384.11" y="436.88" width="0.75" height="124.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,-82.51)">
+                    <rect x="286.01" y="436.88" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-206.48)">
+                    <rect x="286.01" y="436.88" width="0.75" height="124.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-82.51)">
+                    <rect x="227.1" y="436.88" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,-54.53)">
+                    <rect x="286.01" y="408.9" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,-26.55)">
+                    <rect x="227.1" y="408.9" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-54.53)">
+                    <rect x="227.1" y="408.9" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-82.51)">
+                    <rect x="286.01" y="436.88" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,-54.53)">
+                    <rect x="384.11" y="408.9" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,-26.55)">
+                    <rect x="286.01" y="408.9" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-54.53)">
+                    <rect x="286.01" y="408.9" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-26.55)">
+                    <rect x="227.1" y="408.9" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,20.63)">
+                    <rect x="286.01" y="361.72" width="0.75" height="47.93" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,67.81)">
+                    <rect x="227.1" y="361.72" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,20.63)">
+                    <rect x="227.1" y="361.72" width="0.75" height="47.93" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-26.55)">
+                    <rect x="286.01" y="408.9" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,20.63)">
+                    <rect x="384.11" y="361.72" width="0.75" height="47.93" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,67.81)">
+                    <rect x="286.01" y="361.72" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,20.63)">
+                    <rect x="286.01" y="361.72" width="0.75" height="47.93" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,67.81)">
+                    <rect x="227.1" y="361.72" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,95.78)">
+                    <rect x="286.01" y="333.75" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,123.75)">
+                    <rect x="227.1" y="333.75" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,95.78)">
+                    <rect x="227.1" y="333.75" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,67.81)">
+                    <rect x="286.01" y="361.72" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,95.78)">
+                    <rect x="384.11" y="333.75" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,123.75)">
+                    <rect x="286.01" y="333.75" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,95.78)">
+                    <rect x="286.01" y="333.75" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,123.75)">
+                    <rect x="227.1" y="333.75" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,142.12)">
+                    <rect x="286.01" y="315.38" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,160.49)">
+                    <rect x="227.1" y="315.38" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,142.12)">
+                    <rect x="227.1" y="315.38" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,123.75)">
+                    <rect x="286.01" y="333.75" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,142.12)">
+                    <rect x="384.11" y="315.38" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,160.49)">
+                    <rect x="286.01" y="315.38" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,142.12)">
+                    <rect x="286.01" y="315.38" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,160.49)">
+                    <rect x="227.1" y="315.38" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,178.87)">
+                    <rect x="286.01" y="297" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,197.25)">
+                    <rect x="227.1" y="297" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,178.87)">
+                    <rect x="227.1" y="297" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,160.49)">
+                    <rect x="286.01" y="315.38" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,178.87)">
+                    <rect x="384.11" y="297" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,197.25)">
+                    <rect x="286.01" y="297" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,178.87)">
+                    <rect x="286.01" y="297" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,197.25)">
+                    <rect x="227.1" y="297" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,225.23)">
+                    <rect x="286.01" y="269.02" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,253.21)">
+                    <rect x="227.1" y="269.02" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,225.23)">
+                    <rect x="227.1" y="269.02" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,197.25)">
+                    <rect x="286.01" y="297" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,225.23)">
+                    <rect x="384.11" y="269.02" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,253.21)">
+                    <rect x="286.01" y="269.02" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,225.23)">
+                    <rect x="286.01" y="269.02" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,253.21)">
+                    <rect x="227.1" y="269.02" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,281.18)">
+                    <rect x="286.01" y="241.05" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,309.15)">
+                    <rect x="227.1" y="241.05" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,281.18)">
+                    <rect x="227.1" y="241.05" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,253.21)">
+                    <rect x="286.01" y="269.02" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,281.18)">
+                    <rect x="384.11" y="241.05" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,309.15)">
+                    <rect x="286.01" y="241.05" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,281.18)">
+                    <rect x="286.01" y="241.05" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,309.15)">
+                    <rect x="227.1" y="241.05" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,327.53)">
+                    <rect x="286.01" y="222.67" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,345.91)">
+                    <rect x="227.1" y="222.67" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,327.53)">
+                    <rect x="227.1" y="222.67" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,309.15)">
+                    <rect x="286.01" y="241.05" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,327.53)">
+                    <rect x="384.11" y="222.67" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,345.91)">
+                    <rect x="286.01" y="222.67" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,327.53)">
+                    <rect x="286.01" y="222.67" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,345.91)">
+                    <rect x="227.1" y="222.67" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,364.28)">
+                    <rect x="286.01" y="204.3" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,382.65)">
+                    <rect x="227.1" y="204.3" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,364.28)">
+                    <rect x="227.1" y="204.3" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,345.91)">
+                    <rect x="286.01" y="222.67" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,364.28)">
+                    <rect x="384.11" y="204.3" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,382.65)">
+                    <rect x="286.01" y="204.3" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,364.28)">
+                    <rect x="286.01" y="204.3" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,382.65)">
+                    <rect x="227.1" y="204.3" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,401.03)">
+                    <rect x="286.01" y="185.92" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,419.41)">
+                    <rect x="227.1" y="185.92" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,401.03)">
+                    <rect x="227.1" y="185.92" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,382.65)">
+                    <rect x="286.01" y="204.3" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,401.03)">
+                    <rect x="384.11" y="185.92" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,419.41)">
+                    <rect x="286.01" y="185.92" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,401.03)">
+                    <rect x="286.01" y="185.92" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,419.41)">
+                    <rect x="227.1" y="185.92" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,437.78)">
+                    <rect x="286.01" y="167.55" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,456.15)">
+                    <rect x="227.1" y="167.55" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,437.78)">
+                    <rect x="227.1" y="167.55" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,419.41)">
+                    <rect x="286.01" y="185.92" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,437.78)">
+                    <rect x="384.11" y="167.55" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,456.15)">
+                    <rect x="286.01" y="167.55" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,437.78)">
+                    <rect x="286.01" y="167.55" width="0.75" height="19.12" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,456.15)">
+                    <rect x="227.1" y="167.55" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,484.12)">
+                    <rect x="286.01" y="139.58" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,512.09)">
+                    <rect x="227.1" y="139.58" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,484.12)">
+                    <rect x="227.1" y="139.58" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,456.15)">
+                    <rect x="286.01" y="167.55" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,484.12)">
+                    <rect x="384.11" y="139.58" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,512.09)">
+                    <rect x="286.01" y="139.58" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,484.12)">
+                    <rect x="286.01" y="139.58" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,512.09)">
+                    <rect x="227.1" y="139.58" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,540.07)">
+                    <rect x="286.01" y="111.6" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,568.05)">
+                    <rect x="227.1" y="111.6" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,540.07)">
+                    <rect x="227.1" y="111.6" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,512.09)">
+                    <rect x="286.01" y="139.58" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,540.07)">
+                    <rect x="384.11" y="111.6" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,568.05)">
+                    <rect x="286.01" y="111.6" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,540.07)">
+                    <rect x="286.01" y="111.6" width="0.75" height="28.73" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,568.05)">
+                    <rect x="227.1" y="111.6" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,596.02)">
+                    <rect x="286.01" y="83.63" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,623.99)">
+                    <rect x="227.1" y="83.63" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,596.02)">
+                    <rect x="227.1" y="83.63" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,568.05)">
+                    <rect x="286.01" y="111.6" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,596.02)">
+                    <rect x="384.11" y="83.63" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,623.99)">
+                    <rect x="286.01" y="83.63" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,596.02)">
+                    <rect x="286.01" y="83.63" width="0.75" height="28.72" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,623.99)">
+                    <rect x="227.1" y="83.63" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,642.37)">
+                    <rect x="286.01" y="65.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,513.86,660.75)">
+                    <rect x="227.1" y="65.25" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,642.37)">
+                    <rect x="227.1" y="65.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,623.99)">
+                    <rect x="286.01" y="83.63" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,642.37)">
+                    <rect x="384.11" y="65.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,670.87,660.75)">
+                    <rect x="286.01" y="65.25" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,642.37)">
+                    <rect x="286.01" y="65.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,695.99)">
+                    <rect x="227.1" y="47.63" width="59.66" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,572.77,714.37)">
+                    <rect x="286.01" y="29.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,714.37)">
+                    <rect x="227.1" y="29.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,695.99)">
+                    <rect x="286.01" y="47.63" width="98.85" height="0.75" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(-1,0,0,1,768.97,714.37)">
+                    <rect x="384.11" y="29.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,714.37)">
+                    <rect x="286.01" y="29.25" width="0.75" height="19.13" style="fill:rgb(221,221,221);"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,661.88,270.75)">
+                    <circle cx="70.315" cy="591.565" r="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,652.275,280.355)">
+                    <ellipse cx="70.315" cy="581.96" rx="1.54" ry="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,642.68,289.95)">
+                    <circle cx="70.315" cy="572.365" r="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,577.58,355.05)">
+                    <circle cx="70.315" cy="507.265" r="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,548.775,383.855)">
+                    <ellipse cx="70.315" cy="478.46" rx="1.54" ry="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,519.865,412.765)">
+                    <ellipse cx="70.315" cy="449.55" rx="1.54" ry="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,416.775,515.855)">
+                    <ellipse cx="70.315" cy="346.46" rx="1.54" ry="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,397.575,535.055)">
+                    <ellipse cx="70.315" cy="327.26" rx="1.54" ry="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,378.375,554.255)">
+                    <ellipse cx="70.315" cy="308.06" rx="1.54" ry="1.535"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,359.175,573.455)">
+                    <ellipse cx="70.315" cy="288.86" rx="1.54" ry="1.535"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,355.27)">
+                    <rect x="68.78" y="216.83" width="3.07" height="3.07"/>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,50.8136,507.162)">
+                    <text x="66.86px" y="691.199px" style="font-family:'Helvetica';font-size:33.292px;">1.</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,94.6197,731.199)">
+                    </g>
+                    <text x="66.86px" y="731.199px" style="font-family:'Helvetica';font-size:33.292px;">2.</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,73.6136,529.05)">
+                    <text x="96.86px" y="719.999px" style="font-family:'Helvetica';font-size:33.292px;">a.</text>
+                    <text x="96.86px" y="759.999px" style="font-family:'Helvetica';font-size:33.292px;">b.</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,124.63,799.999)">
+                    </g>
+                    <text x="98.735px" y="799.999px" style="font-family:'Helvetica';font-size:33.292px;">c.</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,36.48,41.1987)">
+                    <text x="54.25px" y="108.005px" style="font-family:'Helvetica';font-size:75px;fill:rgb(51,51,51);">Assets Management</text>
+                    <text x="54.25px" y="210.672px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:62.5px;fill:rgb(51,51,51);">Goal (What)</text>
+                    <text x="48px" y="304.255px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:33.292px;">To<tspan x="88.669px " y="304.255px "> </tspan>create an asset management platform</text>
+                    <text x="48px" y="344.755px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:33.292px;">while continuing to be a comparative</text>
+                    <text x="48px" y="385.214px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:33.292px;">rater.</text>
+                    <text x="48px" y="456.464px" style="font-family:'Helvetica';font-size:33.292px;">Able to pass leads for things we don&apos;<tspan x="590.176px " y="456.464px ">t</tspan> rate</text>
+                    <text x="48px" y="496.464px" style="font-family:'Helvetica';font-size:33.292px;">and to uncover additional leads for our</text>
+                    <text x="48px" y="536.464px" style="font-family:'Helvetica';font-size:33.292px;">agents and 3rd party marketplace vendors</text>
+                    <text x="48px" y="607.714px" style="font-family:'Helvetica';font-size:33.292px;">Cross-market to rate for the following:</text>
+                    <text x="173px" y="678.964px" style="font-family:'Helvetica';font-size:33.292px;">Ve<tspan x="213.713px " y="678.964px ">h</tspan>icles</text>
+                    <text x="173px" y="718.964px" style="font-family:'Helvetica';font-size:33.292px;">Equipment</text>
+                    <text x="173px" y="758.964px" style="font-family:'Helvetica';font-size:33.292px;">Property</text>
+                    <text x="54.25px" y="937.089px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:62.5px;fill:rgb(51,51,51);">Why</text>
+                    <text x="173px" y="1030.21px" style="font-family:'Helvetica';font-size:33.292px;">Agents are really good order takers</text>
+                    <text x="173px" y="1070.21px" style="font-family:'Helvetica';font-size:33.292px;">i.e. they will cover exactly what you</text>
+                    <text x="173px" y="1110.21px" style="font-family:'Helvetica';font-size:33.292px;">ask them about, nothing more.</text>
+                    <text x="173px" y="1150.21px" style="font-family:'Helvetica';font-size:33.292px;">Not really good at &quot;add-ons&quot; (like</text>
+                    <text x="173px" y="1190.21px" style="font-family:'Helvetica';font-size:33.292px;">&quot;Do you want fries with that?&quot; at</text>
+                    <text x="173px" y="1230.21px" style="font-family:'Helvetica';font-size:33.292px;">McDonalds&quot;)</text>
+                    <text x="173px" y="1270.67px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:33.292px;">Ty<tspan x="211.849px " y="1270.67px ">p</tspan>es of A<tspan x="343.177px " y="1270.67px ">s</tspan>sets (&quot;What you</text>
+                    <text x="173px" y="1310.67px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:33.292px;">own&quot;)</text>
+                    <text x="54.25px" y="1488.34px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:62.5px;fill:rgb(51,51,51);">How</text>
+                    <text x="54.25px" y="1611.92px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:50px;fill:rgb(51,51,51);">Ve<tspan x="115.402px " y="1611.92px ">r</tspan>sion 1: A<tspan x="345.988px " y="1611.92px ">s</tspan>sets Ta<tspan x="546.1px " y="1611.92px ">b</tspan></text>
+                    <text x="173px" y="1700.21px" style="font-family:'Helvetica';font-size:33.292px;">Either add from <tspan x="408.015px 430.218px " y="1700.21px 1700.21px ">Ap</tspan>plicant or <tspan x="594.872px 617.075px " y="1700.21px 1700.21px ">As</tspan>sets</text>
+                    <text x="173px" y="1740.21px" style="font-family:'Helvetica';font-size:33.292px;">tab</text>
+                    <text x="173px" y="1780.21px" style="font-family:'Helvetica';font-size:33.292px;">Assets are always</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,398.722,1820.21)">
+                    </g>
+                    <g transform="matrix(33.2917,0,0,33.2917,407.971,1820.21)">
+                    </g>
+                    <text x="173px" y="1820.21px" style="font-family:'Helvetica';font-size:33.292px;">Applicant-speciﬁc</text>
+                    <text x="173px" y="1860.21px" style="font-family:'Helvetica';font-size:33.292px;">Modifying an asset can trigger</text>
+                    <text x="173px" y="1900.21px" style="font-family:'Helvetica';font-size:33.292px;">re-quoting</text>
+                    <text x="173px" y="1940.21px" style="font-family:'Helvetica';font-size:33.292px;">Create a look-up service within</text>
+                    <text x="173px" y="1980.21px" style="font-family:'Helvetica';font-size:33.292px;">EZLy<tspan x="250.695px " y="1980.21px ">n</tspan>x (&quot;App Exchange&quot;)</text>
+                    <text x="48px" y="2051.46px" style="font-family:'Helvetica';font-size:33.292px;">Fields</text>
+                    <text x="48px" y="2122.71px" style="font-family:'Helvetica';font-size:33.292px;">Ve<tspan x="88.714px " y="2122.71px ">h</tspan>icles•<tspan x="183.064px 192.319px " y="2122.71px 2122.71px ">– </tspan>Prelim (Simple) and Detailed</text>
+                    <text x="48px" y="2162.71px" style="font-family:'Helvetica';font-size:33.292px;">(Advanced Vi<tspan x="245.976px " y="2162.71px ">e</tspan>w)</text>
+                    <text x="173px" y="2233.96px" style="font-family:'Helvetica';font-size:33.292px;">Pre-Fill <tspan x="285.837px 308.041px " y="2233.96px 2233.96px ">As</tspan>sets</text>
+                    <text x="48px" y="2305.21px" style="font-family:'Helvetica';font-size:33.292px;">Home, vehicles•<tspan x="284.802px 294.057px " y="2305.21px 2305.21px ">– </tspan>store as assets today!</text>
+                    <text x="54.25px" y="2469.42px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:50px;fill:rgb(51,51,51);">Ve<tspan x="115.409px " y="2469.42px ">r</tspan>sion 2: Guidance +</text>
+                    <text x="54.25px" y="2544.42px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:50px;fill:rgb(51,51,51);">Cross Sell</text>
+                    <text x="173px" y="2632.71px" style="font-family:'Helvetica';font-size:33.292px;">Customer calls</text>
+                    <text x="173px" y="2672.71px" style="font-family:'Helvetica';font-size:33.292px;">Agent runs through &quot;new customer&quot;</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,243.28,2712.71)">
+                    </g>
+                    <g transform="matrix(33.2917,0,0,33.2917,252.529,2712.71)">
+                    </g>
+                    <text x="173px" y="2712.71px" style="font-family:'Helvetica';font-size:33.292px;">workﬂow</text>
+                    <text x="298px" y="2752.71px" style="font-family:'Helvetica';font-size:33.292px;">Intro</text>
+                    <text x="298px" y="2792.71px" style="font-family:'Helvetica';font-size:33.292px;">What needs do you have</text>
+                    <text x="298px" y="2832.71px" style="font-family:'Helvetica';font-size:33.292px;">What exposures do you</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,370.181,2872.71)">
+                    </g>
+                    <text x="298px" y="2872.71px" style="font-family:'Helvetica';font-size:33.292px;">have</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,174.025,61.5327)">
+                    <text x="228.98px" y="125.947px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:62.5px;fill:rgb(51,51,51);">What Constitutes an</text>
+                    <text x="228.98px" y="219.697px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:62.5px;fill:rgb(51,51,51);">Asset?</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,316.431,330.489)">
+                    </g>
+                    <text x="246.147px" y="330.489px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:33.292px;">LOB</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,102.676)">
+                    <text x="482.485px" y="159.06px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:33.292px;">Asset</text>
+                    <text x="231.86px" y="234.06px" style="font-family:'Helvetica';font-size:33.292px;">Inland Marine <tspan x="477.318px " y="234.06px ">A</tspan>nything that can be</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,629.067,274.06)">
+                    </g>
+                    <text x="477.318px" y="274.06px" style="font-family:'Helvetica';font-size:33.292px;">scheduled</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,137.635)">
+                    <text x="231.86px" y="204.979px" style="font-family:'Helvetica';font-size:33.292px;">Wo<tspan x="281.8px " y="204.979px ">r</tspan>kers</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,320.654,244.937)">
+                    </g>
+                    <text x="231.86px" y="244.937px" style="font-family:'Helvetica';font-size:33.292px;">Comp</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,137.635)">
+                    <g transform="matrix(33.2917,0,0,33.2917,394.412,204.979)">
+                    </g>
+                    <text x="290.77px" y="204.979px" style="font-family:'Helvetica';font-size:33.292px;">People</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,158.892)">
+                    <text x="231.86px" y="232.949px" style="font-family:'Helvetica';font-size:33.292px;">General</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,342.854,272.949)">
+                    </g>
+                    <text x="231.86px" y="272.949px" style="font-family:'Helvetica';font-size:33.292px;">Liability</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,158.892)">
+                    <g transform="matrix(33.2917,0,0,33.2917,466.594,232.949)">
+                    </g>
+                    <text x="290.77px" y="232.949px" style="font-family:'Helvetica';font-size:33.292px;">Va<tspan x="331.485px " y="232.949px ">c</tspan>ant land</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,180.157)">
+                    <g transform="matrix(33.2917,0,0,33.2917,357.669,260.929)">
+                    </g>
+                    <text x="231.86px" y="260.929px" style="font-family:'Helvetica';font-size:33.292px;">Property</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,233.525,180.157)">
+                    <text x="307.27px" y="260.929px" style="font-family:'Helvetica';font-size:33.292px;">Computer</text>
+                    <text x="307.27px" y="300.887px" style="font-family:'Helvetica';font-size:33.292px;">Structurre + its</text>
+                    <text x="307.27px" y="340.929px" style="font-family:'Helvetica';font-size:33.292px;">contents</text>
+                    <text x="307.27px" y="380.929px" style="font-family:'Helvetica';font-size:33.292px;">Equipment</text>
+                    <text x="307.27px" y="420.929px" style="font-family:'Helvetica';font-size:33.292px;">Recreational</text>
+                    <text x="307.27px" y="460.887px" style="font-family:'Helvetica';font-size:33.292px;">vehicles</text>
+                    <text x="307.27px" y="500.887px" style="font-family:'Helvetica';font-size:33.292px;">Four-wheelers</text>
+                    <text x="307.27px" y="540.929px" style="font-family:'Helvetica';font-size:33.292px;">Rental properties</text>
+                    <text x="307.27px" y="580.929px" style="font-family:'Helvetica';font-size:33.292px;">Tr<tspan x="338.694px " y="580.929px ">a</tspan>ilers</text>
+                    <text x="307.27px" y="620.929px" style="font-family:'Helvetica';font-size:33.292px;">Lake houses</text>
+                    <text x="307.27px" y="660.887px" style="font-family:'Helvetica';font-size:33.292px;">Crops</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,390.532,700.887)">
+                    </g>
+                    <text x="307.27px" y="700.887px" style="font-family:'Helvetica';font-size:33.292px;">Signs</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,274.374)">
+                    <text x="231.86px" y="384.899px" style="font-family:'Helvetica';font-size:33.292px;">Auto</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,431.577,424.899)">
+                    </g>
+                    <text x="231.86px" y="424.899px" style="font-family:'Helvetica';font-size:33.292px;">(Commercial)</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,274.374)">
+                    <g transform="matrix(33.2917,0,0,33.2917,416.579,384.899)">
+                    </g>
+                    <text x="290.77px" y="384.899px" style="font-family:'Helvetica';font-size:33.292px;">Ve<tspan x="331.483px " y="384.899px ">h</tspan>icles</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,295.639)">
+                    <text x="231.86px" y="412.879px" style="font-family:'Helvetica';font-size:33.292px;">Auto</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,385.401,452.879)">
+                    </g>
+                    <text x="231.86px" y="452.879px" style="font-family:'Helvetica';font-size:33.292px;">(Personal)</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,233.525,295.639)">
+                    <text x="307.27px" y="412.879px" style="font-family:'Helvetica';font-size:33.292px;">Classic auto</text>
+                    <text x="307.27px" y="452.879px" style="font-family:'Helvetica';font-size:33.292px;">Classic watercraft</text>
+                    <text x="307.27px" y="492.879px" style="font-family:'Helvetica';font-size:33.292px;">Wa<tspan x="357.209px " y="492.879px ">t</tspan>ercrafts</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,409.043,532.879)">
+                    </g>
+                    <text x="307.27px" y="532.879px" style="font-family:'Helvetica';font-size:33.292px;">Ya<tspan x="347.989px " y="532.879px ">c</tspan>hts</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,331.488)">
+                    <g transform="matrix(33.2917,0,0,33.2917,385.396,460.049)">
+                    </g>
+                    <text x="231.86px" y="460.049px" style="font-family:'Helvetica';font-size:33.292px;">Wa<tspan x="281.798px " y="460.049px ">t</tspan>ercraft</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,233.525,331.488)">
+                    <text x="307.27px" y="460.049px" style="font-family:'Helvetica';font-size:33.292px;">Wa<tspan x="357.209px " y="460.049px ">t</tspan>ercrafts</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,409.043,500.049)">
+                    </g>
+                    <text x="307.27px" y="500.049px" style="font-family:'Helvetica';font-size:33.292px;">Ya<tspan x="347.989px " y="500.049px ">c</tspan>hts</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,352.746)">
+                    <g transform="matrix(33.2917,0,0,33.2917,342.821,488.019)">
+                    </g>
+                    <text x="231.86px" y="488.019px" style="font-family:'Helvetica';font-size:33.292px;">Tr<tspan x="263.284px " y="488.019px ">a</tspan>ilers</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,352.746)">
+                    <g transform="matrix(33.2917,0,0,33.2917,401.731,488.019)">
+                    </g>
+                    <text x="290.77px" y="488.019px" style="font-family:'Helvetica';font-size:33.292px;">Tr<tspan x="322.194px " y="488.019px ">a</tspan>ilers</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,366.714)">
+                    <g transform="matrix(33.2917,0,0,33.2917,350.284,506.399)">
+                    </g>
+                    <text x="231.86px" y="506.399px" style="font-family:'Helvetica';font-size:33.292px;">Av<tspan x="270.707px " y="506.399px ">i</tspan>ation</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,366.714)">
+                    <g transform="matrix(33.2917,0,0,33.2917,392.543,506.399)">
+                    </g>
+                    <text x="290.77px" y="506.399px" style="font-family:'Helvetica';font-size:33.292px;">Planes</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,380.676)">
+                    <text x="231.86px" y="524.769px" style="font-family:'Helvetica';font-size:33.292px;">Boiler +</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,385.401,564.81)">
+                    </g>
+                    <text x="231.86px" y="564.81px" style="font-family:'Helvetica';font-size:33.292px;">Machinery</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,380.676)">
+                    <g transform="matrix(33.2917,0,0,33.2917,636.743,524.769)">
+                    </g>
+                    <text x="290.77px" y="524.769px" style="font-family:'Helvetica';font-size:33.292px;">Boilers, machinery,<tspan x="573.827px " y="524.769px "> </tspan>etc.</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,401.94)">
+                    <text x="231.86px" y="552.749px" style="font-family:'Helvetica';font-size:33.292px;">Canine/Anim</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,274.407,592.749)">
+                    </g>
+                    <text x="231.86px" y="592.749px" style="font-family:'Helvetica';font-size:33.292px;">als</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,401.94)">
+                    <g transform="matrix(33.2917,0,0,33.2917,427.67,552.749)">
+                    </g>
+                    <text x="290.77px" y="552.749px" style="font-family:'Helvetica';font-size:33.292px;">Animals?</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,423.205)">
+                    <g transform="matrix(33.2917,0,0,33.2917,335.502,580.729)">
+                    </g>
+                    <text x="231.86px" y="580.729px" style="font-family:'Helvetica';font-size:33.292px;">Equine</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,423.205)">
+                    <g transform="matrix(33.2917,0,0,33.2917,414.72,580.729)">
+                    </g>
+                    <text x="290.77px" y="580.729px" style="font-family:'Helvetica';font-size:33.292px;">Horses?</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,437.166)">
+                    <g transform="matrix(33.2917,0,0,33.2917,363.234,599.099)">
+                    </g>
+                    <text x="231.86px" y="599.099px" style="font-family:'Helvetica';font-size:33.292px;">Fine <tspan x="304.049px 326.254px " y="599.099px 599.099px ">Ar</tspan>ts</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,437.166)">
+                    <g transform="matrix(33.2917,0,0,33.2917,422.111,599.099)">
+                    </g>
+                    <text x="290.77px" y="599.099px" style="font-family:'Helvetica';font-size:33.292px;">Artwork?</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,451.135)">
+                    <g transform="matrix(33.2917,0,0,33.2917,363.162,617.479)">
+                    </g>
+                    <text x="231.86px" y="617.479px" style="font-family:'Helvetica';font-size:33.292px;">Firearms</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,451.135)">
+                    <text x="477.318px" y="617.479px" style="font-family:'Helvetica';font-size:33.292px;">Guns?</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,580.887,694.02)">
+                    </g>
+                    <text x="231.86px" y="694.02px" style="font-family:'Helvetica';font-size:33.292px;">Over the hole <tspan x="477.318px " y="694.02px ">O</tspan>il rigs</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,479.065)">
+                    <text x="231.86px" y="654.229px" style="font-family:'Helvetica';font-size:33.292px;">Mine</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,368.794,694.229)">
+                    </g>
+                    <text x="231.86px" y="694.229px" style="font-family:'Helvetica';font-size:33.292px;">coverage</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,479.065)">
+                    <g transform="matrix(33.2917,0,0,33.2917,309.285,654.229)">
+                    </g>
+                    <text x="290.77px" y="654.229px" style="font-family:'Helvetica';font-size:33.292px;">?</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,500.322)">
+                    <text x="231.86px" y="682.199px" style="font-family:'Helvetica';font-size:33.292px;">Mobile home <tspan x="477.318px " y="682.199px ">M</tspan>obile home + its</text>
+                    <text x="477.318px" y="722.199px" style="font-family:'Helvetica';font-size:33.292px;">contents?</text>
+                    <text x="231.86px" y="798.782px" style="font-family:'Helvetica';font-size:33.292px;">Recreational</text>
+                    <g transform="matrix(33.2917,0,0,33.2917,341.028,838.782)">
+                    </g>
+                    <text x="231.86px" y="838.782px" style="font-family:'Helvetica';font-size:33.292px;">Ve<tspan x="272.573px " y="838.782px ">h</tspan>icle</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,220.985,521.587)">
+                    <g transform="matrix(33.2917,0,0,33.2917,561.87,710.179)">
+                    </g>
+                    <text x="290.77px" y="710.179px" style="font-family:'Helvetica';font-size:33.292px;">RV<tspan x="337.015px " y="710.179px "> </tspan>+ its contents?</text>
+                </g>
+                <g transform="matrix(0.24,0,0,0.24,176.214,542.844)">
+                    <g transform="matrix(33.2917,0,0,33.2917,405.776,738.149)">
+                    </g>
+                    <text x="231.86px" y="738.149px" style="font-family:'Helvetica';font-size:33.292px;">Residences</text>
+                </g>
+                <g transform="matrix(0,-1,-1,0,852.525,538.655)">
+                    <ellipse cx="299.59" cy="552.935" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,842.93,548.25)">
+                    <circle cx="299.59" cy="543.34" r="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,823.725,567.455)">
+                    <ellipse cx="299.59" cy="524.135" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,814.125,577.055)">
+                    <ellipse cx="299.59" cy="514.535" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,794.93,596.25)">
+                    <circle cx="299.59" cy="495.34" r="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,785.325,605.855)">
+                    <ellipse cx="299.59" cy="485.735" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,775.725,615.455)">
+                    <ellipse cx="299.59" cy="476.135" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,766.125,625.055)">
+                    <ellipse cx="299.59" cy="466.535" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,756.53,634.65)">
+                    <circle cx="299.59" cy="456.94" r="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,746.93,644.25)">
+                    <circle cx="299.59" cy="447.34" r="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,700.575,690.605)">
+                    <ellipse cx="299.59" cy="400.985" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,690.975,700.205)">
+                    <ellipse cx="299.59" cy="391.385" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,681.375,709.805)">
+                    <ellipse cx="299.59" cy="381.785" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,671.775,719.405)">
+                    <ellipse cx="299.59" cy="372.185" rx="1.535" ry="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,653.4,737.78)">
+                    <circle cx="299.59" cy="353.81" r="1.54"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,643.8,747.38)">
+                    <circle cx="299.59" cy="344.21" r="1.54"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

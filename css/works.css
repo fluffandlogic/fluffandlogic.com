@@ -69,15 +69,20 @@
   grid-column: span 3;
   background-color: var(--color-pale-green);
 }
+
 .ezlynxmobile {
-  grid-column: span 5;
+  grid-column: span 4;
   height: 30.96774vw;
   background-color: var(--color-turquoise);
 }
-.certs {
-  grid-column: span 7;
-  background-color: var(--color-orchid);
+.asset {
+  grid-column: span 8;
+  background-color: var(--color-celadon);
 }
+.asset p {
+  color: var(--color-black);
+}
+
 .cocoa {
   grid-column: span 5;
   background-color: var(--color-coral);
@@ -86,14 +91,10 @@
   grid-column: span 7;
   background-color: var(--color-coral);
 }
-.asset {
+.certs {
   grid-column: span 8;
-  background-color: var(--color-dark-red);
+  background-color: var(--color-orchid);
 }
-.asset p {
-  color: var(--color-white);
-}
-
 .onyx {
   grid-column: span 4;
   background-color: var(--color-periwinkle);
