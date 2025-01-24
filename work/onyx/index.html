@@ -33,23 +33,11 @@
         .six-weeks {
           grid-column: span 12;
           background-color: var(--color-light-yellow);
-          flex-direction: row;
-          gap: 1.93548vw;
         }
-        .six-weeks-title {
-          display: flex;
-          align-items: center;
-          width: 31%;
-        }
-        .six-weeks-desc {
-          display: flex;
-          align-items: center;
-          width: 69%;
-        }
-
-        .schedule {
-          grid-column: span 12;
-          background-color: var(--color-gray-10);
+        .six-weeks table,
+        .six-weeks td,
+        .six-weeks th {
+          border-color: var(--color-dark-green);
         }
 
         .kickoff {
@@ -60,6 +48,7 @@
         }
         .kickoff img {
           background-color: var(--color-white);
+          border-color: var(--color-gold);
         }
         .kickoff-desc {
           width: 30%;
@@ -72,13 +61,17 @@
           grid-column: span 12;
           background-color: var(--color-lime-green);
         }
-        .journey-desc {
-          column-count: 2;
-          column-gap: 1.93548vw;
+        .journey img {
+          border-color: var(--color-dark-green);
         }
         .prototype {
           grid-column: span 12;
           background-color: var(--color-white);
+        }
+
+        .conclusion {
+          grid-column: span 12;
+          background-color: var(--color-coral);
         }
       </style>
     </head>
@@ -98,37 +91,34 @@
           <h2>Onyx</h2>
         </div>
         <div class="intro-text">
-          Onyx CenterSource is a leading global provider of B2B payments and business intelligence solutions to the hospitality industry.
+          Onyx CenterSource is a leading global provider of B2B payments and business intelligence solutions to the
+          hospitality industry.
         </div>
         <section class="about">
 
           <h3>Event Management</h3>
 
           <p>
-          Hotels use commissions to build long-term relationships with event managers and event planners and encourage them
-          to use their facilities and services in the future. Onyx handled the commissions process and the payment back and
-          forth between hotel chains and event managers, freeing up the hotels and event managers to do what they do best:
-          ensure the guests have the best experience they can have.
+            Hotels use commissions to build long-term relationships with event managers and event planners and encourage
+            them to use their facilities and services in the future. Onyx handled the commissions process and the
+            payment back and forth between hotel chains and event managers. Onyx wanted to know if there were any
+            revenue opportunities by expanding into the event marketplace. The Onyx executive team tapped Slalom to
+            present a proposal regarding this opportunity.
           </p>
         </section>
 
         <section class="six-weeks">
-          <div class="six-weeks-title">
-            <h3>
-              Six Weeks.
-            </h3>
-          </div>
-          <div class="six-weeks-desc">
-            <p>
-              That was all the time we were given to do the discovery and design and present a business requirements document
-              to the Onyx executive team. I had to carefully schedule every step of my user experience process right from the
-              start. The key was to start with the outcome in mind. I then walked back week by week to figure out what Product
-              artifacts we would need each week to get to the final deliverable.
-            </p>
-          </div>
-        </section>
+          <h3>
+            Six Weeks
+          </h3>
 
-        <section class="schedule">
+          <p>
+            That was all the time we were given to do the discovery and design and present a business requirements document
+            to the Onyx executive team. I had to carefully schedule every step of my user experience process right from the
+            start. The key was to start with the outcome in mind. I then walked back week by week to figure out what Product
+            artifacts we would need each week to get to the final deliverable.
+          </p>
+
           <table class="data-table">
             <tr>
               <th>Time</th>
@@ -205,30 +195,31 @@
         </section>
 
         <section class="kickoff">
-          <img class="figure" src="img/onyx-workflow-1.svg" alt="" style="width: 68%">
 
           <div class="kickoff-desc">
             <h3>KickOff</h3>
 
             <p>
-              I kicked off the user research by interviewing various users in the events process, including event managers on both
-              the hotel and event side. I developed a set of personas and mapped each persona’s user flow to understand where the
-              pain points were. To the left are some of the user flows.
+              I kicked off the user research by interviewing various users in the events process, including event
+              managers on both the hotel and event side. I developed a set of personas and mapped each persona’s user
+              flow to understand where the pain points were.
+            </p>
+
+            <p>
+              To the right are some of the user flows.
             </p>
           </div>
+
+          <img class="figure" src="img/onyx-workflow-1.svg" alt="">
         </section>
 
         <section class="journey">
           <h3>Journey Map</h3>
 
-          <div class="journey-desc">
-            <p>
-              I realized that there was much overlap between the various personas involved in the event management workflow.
-            </p>
-            <p>
-              I used a journey map to show all that information in an easy-to-digest, scannable way.
-            </p>
-          </div>
+          <p>
+            I realized that there was much overlap between the various personas involved in the event management workflow.
+            I used a journey map to show all that information in an easy-to-digest, scannable way.
+          </p>
 
           <img class="figure" src="img/onyx-journey-map.png" alt="">
 
@@ -245,7 +236,19 @@
             <img src="img/onyx-home.jpeg" alt="" style="width: 48%">
             <img src="img/onyx-event.jpeg" alt="" style="width: 48%">
           </div>
+        </section>
 
+        <section class="conclusion">
+          <h3>
+            Conclusion
+          </h3>
+          <p>
+            This project was a pilot for Onyx to see if it was worth it to pursue it further. Onyx was in the commissions
+            business; event management was completely new to them. My prototype and the BRD we included as part of our
+            presentation proved to Onyx's exec team that there was an opportunity to expand beyond commissions and into the
+            events industry. As a result of this project, Onyx awarded Slalom additional funding for a small development
+            team to convert my prototype into a full-blown product.
+          </p>
         </section>
 
         <div class="help">
