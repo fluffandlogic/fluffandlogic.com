@@ -10,109 +10,108 @@
 .work-link {
   display: flex;
   position: relative;
-  height: 30.96774vw;
-  border: 0.16129vw solid var(--color-gray-70);
+  height: 20rem;
   background-size: cover;
+  background-color: #d5e5cc;
+  border-bottom: 1px solid #949d9836;
+  overflow: hidden;
 }
 .work-link img {
-  width: 100%;
+  width: auto;
   height: auto;
-  object-fit: cover;
+  margin: 1rem auto 0 auto;
+  object-fit: contain;
   transition: opacity 0.2s ease-in;
 }
 .work-link p {
-  opacity: 0;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 1.9354838vw;
+  /*width: calc(100% - 2rem);*/
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(1.5rem, 2.580645vw, 2.580645vw);
-  font-weight: 900;
-  color: var(--color-gray-90);
+  margin: 0;
+  /*border-radius: 2rem;*/
+  padding: 1rem;
+  opacity: 0;
+  /*background-color: #255861e3;*/
+  background: rgb(37, 97, 95);
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   transition: opacity 0.2s ease-in;
-}
-.work-link:hover > img {
-  opacity: 0.1;
 }
 .work-link:hover > img + p {
   opacity: 1;
 }
 
-.api {
-  grid-column: span 12;
-  background-color: var(--color-glo-green);
-}
-
 .yobi {
   grid-column: span 4;
-  background-color: var(--color-affair) ;
+  /*background-color: var(--color-affair) ;*/
 }
 .yobi p {
-  color: var(--color-white);
+  /*color: var(--color-white);*/
 }
 .wms {
-  grid-column: span 8;
-  background-color: var(--color-cyan);
+  grid-column: span 4;
+  /*background-color: var(--color-cyan);*/
 }
+.api {
+  grid-column: span 4;
+  /*background-color: var(--color-glo-green);*/
+}
+
 .submissions {
-  grid-column: span 9;
-  background-color: var(--color-lime-green);
+  grid-column: span 4;
+  /*background-color: var(--color-lime-green);*/
 }
 .clientcenter {
-  grid-column: span 3;
-  background-color: var(--color-pale-green);
+  grid-column: span 4;
+  /*background-color: var(--color-pale-green);*/
 }
 
 .ezlynxmobile {
   grid-column: span 4;
-  height: 30.96774vw;
-  background-color: var(--color-turquoise);
+  /*background-color: var(--color-turquoise);*/
 }
 .asset {
-  grid-column: span 8;
-  background-color: var(--color-celadon);
-}
-.asset p {
-  color: var(--color-black);
+  grid-column: span 4;
+  /*background-color: var(--color-celadon);*/
 }
 
 .cocoa {
-  grid-column: span 5;
-  background-color: var(--color-coral);
+  grid-column: span 4;
+  /*background-color: var(--color-coral);*/
 }
 .ezlynx {
-  grid-column: span 7;
-  background-color: var(--color-coral);
+  grid-column: span 4;
+  /*background-color: var(--color-coral);*/
 }
 .certs {
-  grid-column: span 8;
-  background-color: var(--color-orchid);
+  grid-column: span 4;
+  /*background-color: var(--color-orchid);*/
 }
 .onyx {
   grid-column: span 4;
-  background-color: var(--color-periwinkle);
+  /*background-color: var(--color-periwinkle);*/
 }
 .npi {
   grid-column: span 4;
-  background-color: var(--color-celadon);
+  /*background-color: var(--color-celadon);*/
 }
 .covidiq {
   grid-column: span 4;
-  background-color: var(--color-turquoise);
+  /*background-color: var(--color-turquoise);*/
 }
 .callsumo {
   grid-column: span 4;
-  background-color: var(--color-dark-green);
+  /*background-color: var(--color-dark-green);*/
 }
 .callsumo p {
-  color: var(--color-white);
+  /*color: var(--color-white);*/
 }
 
 @media screen and (max-width: 848px) {

@@ -65,7 +65,7 @@ a:hover {
 h1 {
     margin: 0;
     font-weight: 900;
-    font-size: clamp(1rem, 3.5vw, 4rem); ;
+    font-size: 4rem; /* mobile: 1rem */
     line-height: 1.1;
     text-transform: uppercase;
 }
@@ -73,40 +73,40 @@ h1 {
 h2 {
     margin: 0;
     font-weight: 900;
-    font-size: clamp(1rem, 3.3vw, 7.5rem); /* 40px */
+    font-size: 3.5rem; /* mobile: 1rem */
     text-transform: uppercase;
     line-height: 1;
 }
 
 h3 {
-    margin: 0 0 1.6129vw 0;
+    margin: 0 0 1.4rem 0;
     font-weight: 900;
-    font-size: clamp(1rem, 3.2vw, 3.7rem); /* 32px */
+    font-size: 3.25rem; /* mobile: 1rem */
     text-transform: uppercase;
     line-height: 1;
 }
 
 h4 {
-    margin: 0 0 1.2vw 0;
+    margin: 0 0 1.2rem 0;
     font-weight: 700;
-    font-size: clamp(0.9rem, 2.5806vw, 3rem); /* 28px */
+    font-size: 2.5rem; /* mobile: 0.9rem */
     text-transform: uppercase;
     line-height: 1;
 }
 
 p {
-    margin: 0 0 1.6129vw 0;
+    margin: 0 0 1.4rem 0;
 }
 
 p, li, td {
     font-weight: 300;
-    font-size: clamp(0.7rem, 1.7vw, 1.6rem); /* 20px */
+    font-size: 1.6rem; /* mobile 0.7 */
     line-height: 1.45;
 }
 
 th {
     font-weight: 700;
-    font-size: clamp(.7rem, 1.7vw, 1.6rem); /* 20px */
+    font-size: 1.6rem; /* mobile 0.7rem */
     line-height: 1.45;
 }
 
@@ -114,18 +114,18 @@ table {
     border-collapse: collapse;
     border-bottom: 3px solid var(--color-gray-70);
     width: 100%;
-    margin-bottom: 2vw;
+    margin-bottom: 2rem;
 }
 th {
-    padding-top: .5vw;
-    padding-bottom: .5vw;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     border-bottom: 3px solid var(--color-gray-70);
     font-weight: 900;
     text-align: left;
 }
 td {
-    padding-top: .5vw;
-    padding-bottom: .5vw;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     vertical-align: middle;
     border-bottom: 1px solid var(--color-gray-70);
 }
@@ -135,7 +135,7 @@ td ul {
 
 .row {
     display: flex;
-    gap: 2.25vw;
+    gap: 2.25rem;
 }
 .col {
     flex: 1;
@@ -143,9 +143,9 @@ td ul {
 
 .main {
     display: grid;
-    gap: 1.9354838vw 1.9354838vw; /* 48px 24px 3.87097vw */
-    margin:1.9354838vw auto 0 auto; /* 24px auto 0 auto*/
-    width: clamp(22rem, 90%, 120rem);
+    gap: 1.5rem 1.5rem; /* vertical horizontal */
+    margin: 1.5rem auto 0 auto; /* 24px auto 0 auto*/
+    width: 120rem; /* mobile: 22rem */
 }
 
 .help p {

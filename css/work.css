@@ -5,7 +5,7 @@
 
 ul,
 ol {
-  margin: 0 0 1vw 0;
+  margin: 0 0 1rem 0;
 }
 td,th {
   vertical-align: middle;
@@ -13,31 +13,30 @@ td,th {
 
 section {
   display: flex;
-  /*gap: 1.93548vw;*/
-  padding: clamp(1rem, 4.51613vw, 4rem); /* 24px = 1.93548vw  56px */
+  padding: 4rem; /* mobile 1rem */
 }
 
 section p {
-  margin-bottom: 1.2vw;
+  margin-bottom: 1.2rem;
 }
 
 section p + ul,
 section p + ol{
-  margin-top: -1vw;
+  margin-top: -1rem;
 }
 
 .mobile-screen {
-  border-radius:  2.3vw;
-  border: 0.32258vw solid var(--color-black);
-  border-bottom-width: 0.96774vw;
+  border-radius:  2.3rem;
+  border: 2px solid var(--color-black);
+  border-bottom-width: 6px;
 }
 
 .media-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: clamp(0.25rem,6.4516vw, 4rem); /* 80px */
-  margin-top: 1.93548vw;
+  gap: 4rem; /* mobile 0.25rem */
+  margin-top: 2rem;
 }
 .media-row img {
   width: 22%;
@@ -47,7 +46,7 @@ section p + ol{
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.93548vw;
+  gap: 2rem;
 }
 .grid img {
   width: 30%;
@@ -62,9 +61,9 @@ section p + ol{
   align-items: center;
 }
 .figure {
-  border: 0.32258vw solid var(--color-black);
+  border: 2px solid var(--color-black);
   width: 80%;
-  margin: 0 auto 1.93548vw auto;
+  margin: 0 auto 2rem auto;
 }
 
 .mosaic {
@@ -80,8 +79,8 @@ section p + ol{
 }
 
 .intro-logo {
-  width: clamp(3rem, 31vw, 31rem);
-  height: clamp(3rem, 31vw, 31rem);
+  width: 20rem; /* mobile: 3rem */
+  height: 20rem; /* mobile: 3rem */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,17 +91,17 @@ section p + ol{
   display: flex;
   align-items: flex-end;
   font-weight: 300;
-  font-size: clamp(1rem, 3vw, 3.2rem);
+  font-size: 2.2rem; /* mobile: 1rem */
   line-height: 1.2;
   color: var(--color-gray-80);
 }
 
 .footnote {
-  border-top: 0.16129vw solid var(--color-gray-70);
-  margin-top: 2vw;
-  margin-bottom: 2vw;
-  padding-top: 1vw;
-  font-size: 1vw;
+  border-top: 2px solid var(--color-gray-70);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  font-size: 1rem;
 }
 
 .hilite {

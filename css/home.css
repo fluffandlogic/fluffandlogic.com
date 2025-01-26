@@ -16,25 +16,25 @@
 }
 
 .hello {
-  grid-column: span 5;
+  grid-column: span 2;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30.9vw;
+  height: 20rem;
   background: var(--color-affair) url(../img/spiral.svg) no-repeat center center;
   background-size: cover;
   color: var(--color-periwinkle);
   font-weight: 900;
 }
 .hello-text-hello {
-  font-size: 5.16vw;
+  font-size: 5rem;
 }
 .hello-text-im {
-  font-size: 11.37vw;
+  font-size: 7rem;
   line-height: 0.7;
 }
 .hello-text-sherif {
-  font-size: 4.27vw;
+  font-size: 4.1rem;
 }
 
 .product {
