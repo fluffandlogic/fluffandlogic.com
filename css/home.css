@@ -16,7 +16,7 @@
 }
 
 .hello {
-  grid-column: span 2;
+  grid-column: span 3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,18 +27,18 @@
   font-weight: 900;
 }
 .hello-text-hello {
-  font-size: 5rem;
+  font-size: 3.1rem;
 }
 .hello-text-im {
   font-size: 7rem;
   line-height: 0.7;
 }
 .hello-text-sherif {
-  font-size: 4.1rem;
+  font-size: 2.6rem;
 }
 
 .product {
-  grid-column: span 7;
+  grid-column: span 3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,51 +48,50 @@
   font-weight: 900;
 }
 .product-text-iama {
-  font-size: 7.4879vw;
+  font-size: 5rem;
   line-height: .9;
 }
 .product-text-product {
-  font-size: 4.7444vw;
+  font-size: 3.2rem;
   line-height: .9;
 }
 .product-text-designer {
-  font-size: 4.681vw;
+  font-size: 3rem;
   line-height: .9;
 }
 .product-text-manager {
-  font-size: 4.55887vw;
+  font-size: 3rem;
   line-height: .9;
 }
 .product-text-strategist {
-  font-size: 3.734677vw;
+  font-size: 2.45rem;
   line-height: .9;
 }
 
 .design {
-  grid-column: span 12;
+  grid-column: span 6;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 25.80645vw;
+  height: 20rem;
   background-color: var(--color-beige);
-  color: var(--color-gray-60);
-  font-size: 2.580645vw;
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
 }
 
 .design-text {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
-  width: 38.870968vw;
-  padding-left: 1.935484vw;
+  width: 50%;
+  padding-left: clamp(1rem, 1vw, 3rem);
+  color: var(--color-gray-60);
+  font-size: clamp(0.8rem, 2vw, 2rem);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
 }
 .design-media {
-  width: 55.32258vw;
-  height: 25.80645vw;
+  width: 50%;
+  height: 100%;
   position: relative;
 }
 .design-media-img {
@@ -101,6 +100,9 @@
   top: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .design-media-img img {
   width: 100%;
@@ -120,61 +122,34 @@
 }
 
 .location {
-  grid-column: span 12;
+  grid-column: span 6;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  text-align: center;
   background-color: var(--color-lime-green);
-  color: var(--color-light-yellow);
-  font-size: 1.93548vw;
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
 }
 .location-text {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 5.80645vw;
+  font-size: 1.6rem;
+  padding: 3rem 1rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
   color: var(--color-dark-green);
 }
 .location-media {
   position: relative;
   width: 100%;
-  height: 16.9vw;
+  height: 12.3rem;
+  color: var(--color-light-yellow);
+  overflow: hidden;
 }
-.location-media-img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-.location-media-img img {
+.location-media img {
   width: 100%;
   height: auto;
-}
-.location-world {
-  z-index: 1;
-}
-.location-canada {
-  z-index: 2;
-}
-.location-usa {
-  z-index: 3;
-}
-.location-mexico {
-  z-index: 4;
-}
-.location-ukraine {
-  z-index: 5;
-}
-.location-germany {
-  z-index: 6;
-}
-.location-india {
-  z-index: 7;
 }
 
 .requirement {
@@ -182,69 +157,63 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 7.741935vw;
   background-color: var(--color-orange);
   color: var(--color-light-yellow);
-  font-size: 2.58064vw;
+  font-size: 2rem;
+  padding: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1;
+  text-align: center;
 }
 
 .skill {
-  grid-column: span 12;
+  grid-column: span 6;
   display: flex;
   flex-direction: column;
-  height: 25.7vw;
-  padding: 1.9354838vw 1.9354838vw 0;
+  height: 100%;
+  padding: 1rem 2rem 0;
   background-color: var(--color-alice-blue);
-  color: var(--color-gray-70);
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1.1;
-  letter-spacing: 2px;
 }
 .skill-cards {
-  padding-top: 1vw;
+  padding-top: 0.5rem;
   display: flex;
-  gap: 1.9354838vw;
+  gap: 1rem;
   overflow-y: hidden;
 }
 .skill-card {
   background-color: var(--color-light-yellow);
-  padding: 1.6129vw;
-  margin-bottom: 1.9354838vw;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  letter-spacing: 1px;
-}
-.skill .skill-ican {
-  font-weight: 900;
-  font-size: 2vw;
-  margin-bottom: 0;
-}
-.skill .skill-cards .skill-card {
+  padding: 1rem;
+  min-height: 4rem;
+  margin-bottom: 1rem;
+  color: var(--color-gray-70);
   font-weight: 700;
-  font-size: 1.3vw;
+  font-size: clamp(0.5rem, 1.2vw, 1.3rem);
+  text-transform: uppercase;
+  line-height: 1.1;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.skill-ican {
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--color-gray-70);
+  text-transform: uppercase;
 }
 .skill-col {
-  width: 14.51612vw;
+  width: 20%;
 }
 .skill-col-wide {
   flex-grow: 1;
 }
 
 .design-system {
-  grid-column: span 12;
+  grid-column: span 6;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 25.80645vw;
+  height: 19rem;
   background-color: var(--color-beige);
-  color: var(--color-gray-60);
-  font-size: 2.580645vw;
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
 }
 .design-system-media {
   width: 50%;
@@ -258,29 +227,194 @@
 }
 .design-system-text {
   width: 50%;
-  padding: 1.9354838vw;
+  padding: 1rem;
   display: flex;
   justify-content: center;
+  color: var(--color-gray-60);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .startup {
-  grid-column: span 12;
+  grid-column: span 6;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 25.80645vw;
+  height: 19rem;
   background: var(--color-navy) url(../img/bridge.jpg) no-repeat right bottom;
   background-size: contain;
+}
+.startup-text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-left: 2rem;
   color: var(--color-white);
-  font-size: 2.580645vw;
+  font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
-}
-.startup-text {
-  width: 41.666667%;
-  display: flex;
-  justify-content: center;
-  padding-left: 1.9354838vw;
+
 }
 
+@media screen and (max-width: 1280px) {
+  .main {
+    width: 90%;
+  }
+  .hello {
+    grid-column: span 6; height: 14rem;
+  }
+  .product {
+    grid-column: span 6;
+  }
+  .design {
+    grid-column: span 12; height: 13rem;
+  }
+  .location {
+    grid-column: span 12;
+  }
+  .skill {
+    grid-column: span 12; height: 15rem;
+  }
+  .requirement {
+    grid-column: span 12;
+  }
+  .design-system {
+    grid-column: span 12;
+  }
+  .startup {
+    grid-column: span 12;
+  }
+
+  .design-media-img img {
+    width: 75%;
+  }
+
+  .product-text-iama {
+    font-size: 3.2rem;
+  }
+  .product-text-product {
+    font-size: 2.05rem;
+  }
+  .product-text-designer {
+    font-size: 2rem;
+  }
+  .product-text-manager {
+    font-size: 2rem;
+  }
+  .product-text-strategist {
+    font-size: 1.65rem;
+  }
+
+  .location-text {
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  .location-media {
+    height: 13rem;
+  }
+  .skill-ican {
+    font-size: 1.1rem;
+  }
+  .requirement {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+  }
+  .design-system {
+    height: 15rem;
+  }
+  .design-system-text {
+    font-size: 1.5rem;
+  }
+  .startup {
+    height: 11rem;
+  }
+  .startup-text {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  main
+  .hello,
+  .product,
+  .design,
+  .location-media,
+  .skill,
+  .design-system,
+  .startup {
+    height: auto;
+  }
+  .hello {
+    padding: 0.5rem;
+  }
+  .hello-text-hello {
+    font-size: 1.5rem;
+  }
+  .hello-text-im {
+    font-size: 3.3rem;
+  }
+  .hello-text-sherif {
+    font-size: 1.2rem;
+  }
+
+  .product-text-iama {
+    font-size: 1.3rem;
+  }
+  .product-text-product {
+    font-size: 0.85rem;
+  }
+  .product-text-designer {
+    font-size: 0.85rem;
+  }
+  .product-text-manager {
+    font-size: 0.82rem;
+  }
+  .product-text-strategist {
+    font-size: 0.68rem;
+  }
+  .design-text {
+    padding: 0.5rem;
+  }
+  .location-text {
+    font-size: 0.9rem;
+  }
+
+  .skill {
+    padding: 0.5rem 0.5rem 0;
+  }
+  .skill-cards {
+    gap: 0.5rem;
+  }
+  .skill-card {
+    padding: 0.5rem;
+  }
+  .skill-ican {
+    font-size: 0.7rem;
+  }
+
+  .requirement {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+
+  .design-system-text {
+    font-size: 0.8rem;
+  }
+
+  .startup-text {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .help-actions {
+    gap: 0.5rem;
+  }
+  .help-action {
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    font-size: 0.5rem;
+  }
+}

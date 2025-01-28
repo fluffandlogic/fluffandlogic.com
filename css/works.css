@@ -8,12 +8,13 @@
   grid-template-rows: repeat(8, auto);
 }
 .work-link {
+  grid-column: span 4;
   display: flex;
   position: relative;
   height: 20rem;
   background-size: cover;
-  background-color: #d5e5cc;
-  border-bottom: 1px solid #949d9836;
+  background-color: #eee;
+  border: 2px solid #e3e3e3;
   overflow: hidden;
 }
 .work-link img {
@@ -48,72 +49,16 @@
   opacity: 1;
 }
 
-.yobi {
-  grid-column: span 4;
-  /*background-color: var(--color-affair) ;*/
-}
-.yobi p {
-  /*color: var(--color-white);*/
-}
-.wms {
-  grid-column: span 4;
-  /*background-color: var(--color-cyan);*/
-}
-.api {
-  grid-column: span 4;
-  /*background-color: var(--color-glo-green);*/
+
+@media screen and (max-width: 1280px) {
+  .work-link {
+    grid-column: span 6;
+  }
 }
 
-.submissions {
-  grid-column: span 4;
-  /*background-color: var(--color-lime-green);*/
-}
-.clientcenter {
-  grid-column: span 4;
-  /*background-color: var(--color-pale-green);*/
+@media screen and (max-width: 768px) {
+  .work-link {
+    grid-column: span 12;
+  }
 }
 
-.ezlynxmobile {
-  grid-column: span 4;
-  /*background-color: var(--color-turquoise);*/
-}
-.asset {
-  grid-column: span 4;
-  /*background-color: var(--color-celadon);*/
-}
-
-.cocoa {
-  grid-column: span 4;
-  /*background-color: var(--color-coral);*/
-}
-.ezlynx {
-  grid-column: span 4;
-  /*background-color: var(--color-coral);*/
-}
-.certs {
-  grid-column: span 4;
-  /*background-color: var(--color-orchid);*/
-}
-.onyx {
-  grid-column: span 4;
-  /*background-color: var(--color-periwinkle);*/
-}
-.npi {
-  grid-column: span 4;
-  /*background-color: var(--color-celadon);*/
-}
-.covidiq {
-  grid-column: span 4;
-  /*background-color: var(--color-turquoise);*/
-}
-.callsumo {
-  grid-column: span 4;
-  /*background-color: var(--color-dark-green);*/
-}
-.callsumo p {
-  /*color: var(--color-white);*/
-}
-
-@media screen and (max-width: 848px) {
-
-}

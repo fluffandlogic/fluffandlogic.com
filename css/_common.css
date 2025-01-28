@@ -145,7 +145,7 @@ td ul {
     display: grid;
     gap: 1.5rem 1.5rem; /* vertical horizontal */
     margin: 1.5rem auto 0 auto; /* 24px auto 0 auto*/
-    width: 120rem; /* mobile: 22rem */
+    width: clamp(20rem, 90%, 120rem);
 }
 
 .help p {
@@ -153,10 +153,24 @@ td ul {
 }
 
 /* Mobile and Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .row,
     section {
         flex-direction: column;
     }
-
 }
+@media screen and (max-width: 640px) {
+
+    .main {
+        display: grid;
+        gap: 0.5rem 0.5rem;
+        margin: 1rem auto 0 auto;
+    }
+    .intro-logo {
+        grid-column : span 12 !important;
+    }
+    .intro-text {
+        grid-column: span 12;
+    }
+}
+

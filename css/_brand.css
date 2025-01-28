@@ -6,8 +6,8 @@
     background-size: cover;
     height: 7.5rem;
     margin-bottom: 4rem;
-    padding-left: 8rem; /* mobile 1.4rem */
-    padding-right: 8rem;
+    padding-left: 4rem; /* mobile 1.4rem */
+    padding-right: 4rem;
     border-bottom: 1px solid rgba(64,179,117,.3);
     color: var(--color-gray-80);
 }
@@ -46,4 +46,28 @@
 .brand-nav-link-active:hover {
     opacity: 0.3;
     cursor: default;
+}
+
+@media screen and (max-width: 1280px) {
+    .brand h1 {
+        width: 8rem;
+        height: 4rem;
+    }
+    .brand {
+        height: 4rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .brand-nav {
+        gap: 1rem;
+        font-size: clamp(0.7rem, 1vw, 0.9rem);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .brand {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 }

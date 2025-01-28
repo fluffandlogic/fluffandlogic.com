@@ -109,3 +109,13 @@ section p + ol{
   color: var(--color-white);
 }
 
+@media screen and (max-width: 1280px) {
+  .intro-logo {
+    grid-column : span 12 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+

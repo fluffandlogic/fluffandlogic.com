@@ -1,13 +1,13 @@
-.help,
-.help p {
+.help {
     grid-column: span 12;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 7rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 2rem 1rem;
     background-color: var(--color-affair);
+}
+.help,
+.help p {
     color: var(--color-periwinkle);
     font-size: 2rem;
     font-weight: 700;
@@ -24,9 +24,10 @@
 .help-action {
     border: 1px solid var(--color-periwinkle);
     border-radius: .5rem;
-    font-size: 1.25rem;
-    color: var(--color-periwinkle);
     padding: 0.5rem 1rem;
+    color: var(--color-periwinkle);
+    font-size: 1.25rem;
+    text-align: center;
     transition: color .2s ease-in;
 }
 .help-action:hover {
@@ -35,9 +36,9 @@
 }
 
 footer {
-    margin: 0 auto;
-    width: 120rem;
-    min-height: 21rem;
+    margin: 2rem auto 0;
+    width: 100%;
+    min-height: 14rem;
     padding: 2rem;
     position: relative;
     background-color: var(--color-gray-10);
@@ -45,9 +46,10 @@ footer {
     font-size: 1.2vw;
     overflow: hidden;
 }
-footer P {
+footer p {
     font-size: 1rem;
-    margin-bottom: 0;
+    width: clamp(20rem, 90%, 120rem);
+    margin: 0 auto;
 }
 footer::after {
     content: "Sherif Tariq";
@@ -57,8 +59,36 @@ footer::after {
     bottom: -1.7vw;
     font-weight: 700;
     white-space: nowrap;
+    width: 100%;
+    text-align: center;
     line-height: 1;
     font-size: 12vw;
     letter-spacing: -7px;
     color: rgba(137,137,137, .17);
+}
+@media screen and (max-width: 1280px) {
+    footer p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .help {
+        padding: 0.5rem;
+    }
+    .help,
+    .help p {
+        color: var(--color-periwinkle);
+        font-size: 0.7rem;
+    }
+    .help-action {
+        font-size: 0.6rem;
+    }
+    footer {
+        padding: 0.5rem;
+        min-height: 5rem;
+    }
+    footer::after {
+        letter-spacing: -1px;
+    }
 }

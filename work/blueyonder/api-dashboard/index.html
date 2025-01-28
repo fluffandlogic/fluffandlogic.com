@@ -11,11 +11,6 @@
 
         <link rel="stylesheet" href="/css/work.css">
         <style>
-            .main {
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-rows: repeat(4, auto);
-            }
-
             .intro-logo {
                 grid-column : span 4;
                 background: var(--color-cyan) url(/img/spiral-blue.svg) no-repeat center center;
@@ -129,8 +124,8 @@
                 API Usage And Reporting Dashboard
             </h3>
 
-            <div class="about-desc">
-                <p>
+            <div class="row">
+                <p class="col">
                     One the thirteen scrum teams I supported throughout my time at Blue Yonder was the API Management
                     team. One of the products I built for the team was a dashboard to monitor the health and status
                     of their APIs. Until then, the operations team did not have a single place to monitor the health
@@ -138,8 +133,10 @@
                     customer would call and point it out.
                 </p>
 
-                <p>The goal of the API Dashboard was to give the API operations team a way to monitor the health
-                    of their APIs and surface problems before our customers noticed.</p>
+                <p class="col">
+                    The goal of the API Dashboard was to give the API operations team a way to monitor the health
+                    of their APIs and surface problems before our customers noticed.
+                </p>
             </div>
         </section>
 
