@@ -46,7 +46,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: clamp(2rem, 1.25rem, 1.25rem);
+    font-size: clamp(0.7rem, 1.5vw, 1.25rem);
 }
 
 header, footer, nav, section, main {
@@ -65,7 +65,7 @@ a:hover {
 h1 {
     margin: 0;
     font-weight: 900;
-    font-size: 4rem; /* mobile: 1rem */
+    font-size: 4rem;
     line-height: 1.1;
     text-transform: uppercase;
 }
@@ -73,7 +73,7 @@ h1 {
 h2 {
     margin: 0;
     font-weight: 900;
-    font-size: 3.5rem; /* mobile: 1rem */
+    font-size: 3.5rem;
     text-transform: uppercase;
     line-height: 1;
 }
@@ -81,7 +81,7 @@ h2 {
 h3 {
     margin: 0 0 1.4rem 0;
     font-weight: 900;
-    font-size: 3.25rem; /* mobile: 1rem */
+    font-size: 3.25rem;
     text-transform: uppercase;
     line-height: 1;
 }
@@ -89,7 +89,7 @@ h3 {
 h4 {
     margin: 0 0 1.2rem 0;
     font-weight: 700;
-    font-size: 2.5rem; /* mobile: 0.9rem */
+    font-size: 2.5rem;
     text-transform: uppercase;
     line-height: 1;
 }
@@ -144,7 +144,7 @@ td ul {
 .main {
     display: grid;
     gap: 1.5rem 1.5rem; /* vertical horizontal */
-    margin: 1.5rem auto 0 auto; /* 24px auto 0 auto*/
+    margin: 1.5rem auto 0 auto;
     width: clamp(20rem, 90%, 120rem);
 }
 
@@ -160,17 +160,32 @@ td ul {
     }
 }
 @media screen and (max-width: 640px) {
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+    }
+    h4 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1rem;
+    }
+    p,li,td, th {
+        font-size: 0.9rem;
+    }
+    p {
+        margin-bottom: 0.5rem;
+    }
+    .row {
+        gap: 0.5rem;
+    }
 
     .main {
         display: grid;
-        gap: 0.5rem 0.5rem;
+        gap: 1rem 1rem;
         margin: 1rem auto 0 auto;
-    }
-    .intro-logo {
-        grid-column : span 12 !important;
-    }
-    .intro-text {
-        grid-column: span 12;
     }
 }
 

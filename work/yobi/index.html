@@ -31,16 +31,6 @@
                 grid-column: span 12;
                 background-color: var(--color-affair);
                 color: var(--color-white);
-                flex-direction: row;
-                gap: 1.93548vw;
-            }
-            .funding-title {
-                width:31%;
-                display: flex;
-                align-items: center;
-            }
-            .funding-desc {
-                width: 69%;
             }
             .funding .hilite {
                 background-color: var(--color-veronica);
@@ -67,13 +57,6 @@
             }
             .iteration .hilite {
                 background-color: var(--color-celadon);
-            }
-            .iteration-media {
-                margin-right: 1.6129vw;
-                width: 69%;
-            }
-            .iteration-text {
-                width: 31%
             }
             .iteration-media img {
                 border: 2px solid var(--color-black);
@@ -138,22 +121,24 @@
             </div>
 
             <section class="funding">
-                <div class="funding-title">
-                    <h3>
-                        But first,<br> they’re going<br> to need funding
-                    </h3>
-                </div>
-                <div class="funding-desc">
-                    <p>
-                        Back in 2019, Yobi was just an idea. Silicon Valley is overflowing with incredibly brilliant and hard-working
-                        entrepreneurs working on the next big idea. To scale their ideas into million (and billion) dollar
-                        companies they need funding from venture capitalists and other investors so they can build a team and
-                        start growing.
-                    </p>
-                    <p>
-                        Yobi’s founder, Ahmed Reza, was candid about the problem: to secure much needed investment,
-                        <span class="hilite">the product design and the pitch</span> had to look amazing. That’s where I came in.
-                    </p>
+                <div class="row">
+                    <div class="funding-title col">
+                        <h3>
+                            But first,<br> they’re going<br> to need funding
+                        </h3>
+                    </div>
+                    <div class="funding-desc col">
+                        <p>
+                            Back in 2019, Yobi was just an idea. Silicon Valley is overflowing with incredibly brilliant and hard-working
+                            entrepreneurs working on the next big idea. To scale their ideas into million (and billion) dollar
+                            companies they need funding from venture capitalists and other investors so they can build a team and
+                            start growing.
+                        </p>
+                        <p>
+                            Yobi’s founder, Ahmed Reza, was candid about the problem: to secure much needed investment,
+                            <span class="hilite">the product design and the pitch</span> had to look amazing. That’s where I came in.
+                        </p>
+                    </div>
                 </div>
             </section>
 
@@ -180,7 +165,7 @@
                         deck to make an outstanding impression during funding presentations.
                     </p>
                 </div>
-                <img src="img/ux-lifecycle.svg"
+                <img class="flow" src="img/ux-lifecycle.svg"
                      alt="UX lifecycle: Research (Ahmed), Personas (Ahmed), Mockups (Sherif), Branding (Sherif), Pitch Deck (Ahmed + Sherif)">
             </section>
 
@@ -231,25 +216,27 @@
 
 
             <section class="iteration">
-                <div class="iteration-media">
-                    <img src="img/yobi-desktop.png" alt="" style="width: 100%; height: auto;">
-                </div>
-                <div class="iteration-text">
-                    <h3>
-                        The first iteration.
-                    </h3>
+                <div class="row">
+                    <div class="iteration-media col">
+                        <img src="img/yobi-desktop.png" alt="" style="width: 100%; height: auto;">
+                    </div>
+                    <div class="iteration-text col">
+                        <h3>
+                            The first iteration.
+                        </h3>
 
-                    <p>
-                        The first idea for Yobi was a desktop or web app. I was able to use my experience designing
-                        intuitive UIs for complex enterprise apps to take the founder's idea and turn it into a first step.
-                    </p>
+                        <p>
+                            The first idea for Yobi was a desktop or web app. I was able to use my experience designing
+                            intuitive UIs for complex enterprise apps to take the founder's idea and turn it into a first step.
+                        </p>
 
-                    <p>
-                        At this point, I hadn't finalized the color palette yet. I experimented with a variety of colors
-                        but couldn't settle on any particular palette. I eventually switched to a
-                        <span class="hilite">grayscale</span> palette so I could focus on the
-                        <span class="hilite">interface</span> instead of the <span class="hilite">visual design</span>.
-                    </p>
+                        <p>
+                            At this point, I hadn't finalized the color palette yet. I experimented with a variety of colors
+                            but couldn't settle on any particular palette. I eventually switched to a
+                            <span class="hilite">grayscale</span> palette so I could focus on the
+                            <span class="hilite">interface</span> instead of the <span class="hilite">visual design</span>.
+                        </p>
+                    </div>
                 </div>
             </section>
 
