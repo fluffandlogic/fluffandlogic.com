@@ -42,6 +42,12 @@ section p + ol{
   width: 22%;
   height: auto;
 }
+.screenshot {
+  width: 100%;
+  margin: 2rem auto;
+  border: 1rem solid #313131;
+  border-radius: 1.25rem;
+}
 
 .grid {
   display: flex;
@@ -192,4 +198,3 @@ section p + ol{
   }
 
 }
-

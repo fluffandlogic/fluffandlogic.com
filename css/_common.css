@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     --color-black: #000;
     --color-gray-90: #313131;
@@ -46,7 +47,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: clamp(0.7rem, 1.5vw, 1.25rem);
+    font-size: clamp(0.7rem, 1.5vw, 1.15rem);
 }
 
 header, footer, nav, section, main {
@@ -100,7 +101,7 @@ p {
 
 p, li, td {
     font-weight: 300;
-    font-size: 1.6rem; /* mobile 0.7 */
+    font-size: 1.4rem; /* mobile 0.7 */
     line-height: 1.45;
 }
 
@@ -188,4 +189,3 @@ td ul {
         margin: 1rem auto 0 auto;
     }
 }
-
