@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+
+    background: #FFC8DD;
+    background: radial-gradient(ellipse at left top, rgba(255, 200, 221, 1) 0%, rgba(255, 255, 255, 1) 30%);
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+}
+
+/*<weight>: Use a value from 100 to 900*/
+/* <uniquifier>: Use a unique and descriptive class name*/
+
+.inter-light {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1 {
+    margin: 2rem;
+    width: 50%;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1.15;
+}
+header {
+    display: block;
+    padding-bottom: 30vh;
+    margin-top: 2rem;
+}
+.output {
+    margin: 2rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+}
+.image,
+.details {
+    width: 47vw;
+    height: 50vh;
+    color: #283618;
+}
+.image {
+    position: relative;
+    background-color: #212121;
+    color: white;
+    overflow: hidden;
+    /*border: 1px solid #fff;*/
+}
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.image p {
+    background-color: rgba(0,0,0,.2);
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 3rem 1rem;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    justify-content: start;
+    font-size: 2.5rem;
+}
+.details {
+    background-color: #606c38 ;
+}
