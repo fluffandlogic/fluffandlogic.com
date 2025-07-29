@@ -11,9 +11,9 @@ body {
     font-style: normal;
 
     background: #FFC8DD;
+    color: #000;
     background: radial-gradient(ellipse at left top, rgba(255, 200, 221, 1) 0%, rgba(255, 255, 255, 1) 30%);
     background-repeat: no-repeat;
-    background-size: 100% 20%;
 }
 
 /*<weight>: Use a value from 100 to 900*/
@@ -26,24 +26,26 @@ body {
     font-style: normal;
 }
 
-h1 {
-    margin: 2rem;
-    width: 50%;
+h1,h2,h3,h4,h5 {
+    margin: 0;
     font-weight: 300;
+}
+
+h2 {
+    margin-left: 2rem;
     font-size: 3rem;
     line-height: 1.15;
 }
-header {
-    display: block;
-    padding-bottom: 30vh;
-    margin-top: 2rem;
+a {
+    text-decoration: none;
+    color: #000;
 }
 .output {
     margin: 2rem;
     font-size: 0.75rem;
     font-weight: 300;
 }
-.container {
+.portfolio {
     display: flex;
     flex-direction: column;
 }
@@ -52,7 +54,7 @@ header {
 }
 .image,
 .details {
-    width: 47vw;
+    width: 50%;
     height: 50vh;
     color: #283618;
 }
@@ -82,7 +84,87 @@ header {
     align-items: end;
     justify-content: start;
     font-size: 2.5rem;
+    font-weight: 300;
 }
-.details {
-    background-color: #606c38 ;
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 0.6rem;
+}
+
+
+.inquiry {
+    margin-top: 6rem;
+    margin-left: 1rem;
+}
+
+.inquiry h3 {
+    font-size: 2rem;
+}
+.inquiry .contact {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+.inquiry .photo {
+    width: 2rem;
+    height: 2rem;
+    background-color: #f0f0f0;
+}
+.inquiry .name {
+}
+.inquiry .title {
+    font-size: 0.65rem;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.67rem;
+    font-weight: 300;
+}
+.main-footer-social {
+    display: flex;
+    gap: 0.75rem;
+}
+.main-footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.1rem;
+    padding: 0.1rem 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    font-style: italic;
+}
+.main-footer-legal {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .7rem;
+}
+.main-sidebar {
+    padding-left: 2rem;
+}
+.main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
