@@ -5,9 +5,10 @@ gsap.registerPlugin(
 );
 
 window.onload = ()=> {
-    load('/test/nav.html', '.main-nav');
-    load('/test/footer.html', '.main-footer');
-    load('/test/home.html', '.main-content', anim);
+    load('/test/home.html', '.main-content');
+    document.querySelector('.nav-about').onclick = () => {
+        load('/test/about.html', '.main-content');
+    }
 };
 
 function anim() {
@@ -41,7 +42,7 @@ function anim() {
     });
 }
 
-function load(filename, destination, code) {
+function load(filename, destination) {
     fetch(filename)
         .then(response => {
             if (!response.ok) throw new Error('Could not load file');
@@ -49,8 +50,7 @@ function load(filename, destination, code) {
         })
         .then(data => {
             document.querySelector(destination).innerHTML = data;
-            if (code) code();
-
+            anim();
         })
         .catch(error=> {
             console.error('Error loading the content: ', error);
