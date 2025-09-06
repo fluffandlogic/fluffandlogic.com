@@ -6,9 +6,23 @@ gsap.registerPlugin(
 
 window.onload = ()=> {
     load('/test/home.html', '.main-content');
+
+    document.querySelector('.nav-home').onclick = () => {
+        load('/test/home.html', '.main-content');
+    }
     document.querySelector('.nav-about').onclick = () => {
         load('/test/about.html', '.main-content');
     }
+    document.querySelector('.nav-projects').onclick = () => {
+        load('/test/projects.html', '.main-content');
+    }
+    document.querySelector('.nav-approach').onclick = () => {
+        load('/test/approach.html', '.main-content');
+    }
+    document.querySelector('.nav-contact').onclick = () => {
+        load('/test/contact.html', '.main-content');
+    }
+
 };
 
 function anim() {
