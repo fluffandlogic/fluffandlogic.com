@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/home.css" type="text/css">
+
+    <title>I'm Sherif. Product designer, manager, strategist.</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <h1>Contact Form</h1>
+        <div>
+            <div>
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name">
+            </div>
+            <div>
+                <label for="contact-email">Email</label>
+                <input type="text" id="contact-email">
+            </div>
+            <div>
+                <label for="contact-company">Company</label>
+                <input type="text" id="contact-company">
+            </div>
+            <div>
+                <label for="contact-budget">Budget</label>
+                <input type="text" id="contact-budget">
+            </div>
+            <div>
+                <label for="contact-message">Message</label>
+                <input type="text" id="contact-message">
+            </div>
+            <div>
+                <button id="contact-submit">Send</button>
+            </div>
+        </div>
+
+
+<script>
+    async function postData(url, data) {
+        try {
+            const response = await fetch(url, {
+                method: 'POST', // Specify the HTTP method as POST
+                headers: {
+                    'Content-Type': 'application/json' // Indicate the content type of the body
+                },
+                body: JSON.stringify(data) // Convert the data object to a JSON string
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const responseData = await response.json(); // Parse the JSON response
+            if (responseData.success) {
+                console.log('Success: ', responseData.message);
+            }
+
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+
+    document.querySelector('#contact-submit').addEventListener("click", () => {
+        // Example usage:
+        const apiUrl = 'contact.php'; // Replace with your API endpoint
+        const userData = {
+            name: document.querySelector('#contact-name').value,
+            email: document.querySelector('#contact-email').value,
+            company: document.querySelector('#contact-company').value,
+            budget: document.querySelector('#contact-budget').value,
+            message: document.querySelector('#contact-message').value
+        };
+        postData(apiUrl, userData);
+    })
+
+</script>
+
+</body>
