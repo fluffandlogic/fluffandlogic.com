@@ -138,14 +138,14 @@ async function postData() {
     }
 }
 
-document.querySelector('#contact-submit')
-    .addEventListener('click', () => {
-        postData().then( () => {
-            document.querySelector('.contact-form').classList.add('hidden');
-            document.querySelector('.contact-success').classList.remove('hidden');
-
-        })
-    })
+// document.querySelector('#contact-submit')
+//     .addEventListener('click', () => {
+//         postData().then( () => {
+//             document.querySelector('.contact-form').classList.add('hidden');
+//             document.querySelector('.contact-success').classList.remove('hidden');
+//
+//         })
+//     });
 
 
 function runAnimations() {
@@ -160,8 +160,7 @@ function runAnimations() {
 
     let contactAnimation = gsap.timeline();
     let contactTitle =  SplitText.create('.contact-title', { type: 'lines', mask: 'lines' });
-    let contactForm =  SplitText.create('.contact-form', { type: 'lines', mask: 'lines' });
-
+    // let contactForm =  SplitText.create('.contact-form', { type: 'lines', mask: 'lines' });
 
     heroAnimations.from(name.lines, {
         duration: 0.8,
@@ -235,12 +234,12 @@ function runAnimations() {
         y: 100,
         autoAlpha: 0,
     });
-    gsap.from(contactForm.lines, {
-        scrollTrigger: '.contact-form',
-        duration: 0.5,
-        y: 100,
-        autoAlpha: 0,
-    });
+    // gsap.from(contactForm.lines, {
+    //     scrollTrigger: '.contact-form',
+    //     duration: 0.5,
+    //     y: 100,
+    //     autoAlpha: 0,
+    // });
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
