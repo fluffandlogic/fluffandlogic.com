@@ -119,13 +119,6 @@ p {
     color: #283618;
     overflow: hidden;
 }
-.work-image {
-    transform: translateY(-100px);
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    object-fit: cover;
-}
 .work-name {
     position: absolute;
     left: 0;

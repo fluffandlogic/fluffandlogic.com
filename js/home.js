@@ -106,6 +106,7 @@ works.forEach( (work) => {
       </div>
     `;
 });
+document.querySelector('.works').innerHTML = renderedWorks;
 
 async function postData() {
     let data = {};
@@ -196,14 +197,6 @@ function runAnimations() {
         stagger: 0.1,
     });
 
-    gsap.fromTo('.work', {
-        scrollTrigger: '.work',
-        y: 50,
-    },{
-        y:0,
-    });
-
-
     gsap.from('.about-title', {
         scrollTrigger: '.about-title',
         duration: 0.5,
@@ -239,7 +232,6 @@ document.fonts.ready.then(() => {
     gsap.registerPlugin(ScrambleTextPlugin, ScrollTrigger, ScrollToPlugin);
 
     // Load portfolio
-    document.querySelector('.works').innerHTML = renderedWorks;
     document.querySelector('.site-nav')
         .addEventListener('click', (e)=> {
             e.preventDefault();
