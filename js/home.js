@@ -101,9 +101,8 @@ const works = [
 let renderedWorks = '';
 works.forEach( (work) => {
     renderedWorks  += `  
-      <div class="work">
-        <p class="work-name mono">${work.name}</p>
-        <img class="work-image" src="${work.img}" alt="">
+      <div class="work" style="background-image: url(${work.img})">
+        <p class="work-name mono">${work.name}</p>        
       </div>
     `;
 });
@@ -150,37 +149,28 @@ async function postData() {
 
 function runAnimations() {
     let heroAnimations = gsap.timeline();
-    let name = SplitText.create('h1', { type: 'lines', mask: 'lines' });
-    let portfolioTitle = SplitText.create('.portfolio-title', { type: 'lines', mask: 'lines' });
-    // let siteNav = SplitText.create('.site-nav', { type: 'lines', mask: 'lines' });
+
 
     let aboutAnimation = gsap.timeline();
-    let aboutTitle =  SplitText.create('.about-title', { type: 'lines', mask: 'lines' });
-    let aboutDesc =  SplitText.create('.about-desc', { type: 'lines', mask: 'lines' });
 
-    let contactAnimation = gsap.timeline();
-    let contactTitle =  SplitText.create('.contact-title', { type: 'lines', mask: 'lines' });
-    // let contactForm =  SplitText.create('.contact-form', { type: 'lines', mask: 'lines' });
 
-    heroAnimations.from(name.lines, {
+    heroAnimations.from(".title", {
         duration: 0.8,
         y: 100,
         autoAlpha: 0
     });
     heroAnimations.to('.product-title', {
         duration: 1,
-        scrambleText: 'Product Designer / Product Manager / Product Strategist'}
-    );
-    heroAnimations.fromTo('.site-nav', {
+        scrambleText: 'Product Manager / Product Designer / Product Advisor'
+    });
+    heroAnimations.from('.site-nav', {
         duration: 0.1,
         opacity: 0
-    }, {
-        opacity: 1
     });
     heroAnimations.to('.site-nav-home', {
         duration: 0.1,
-        scrambleText: 'Home'}
-    );
+        scrambleText: 'Home'
+    });
     heroAnimations.to('.site-nav-portfolio', {
         duration: 0.1,
         scrambleText: 'Portfolio'}
@@ -193,7 +183,7 @@ function runAnimations() {
         duration: 0.1,
         scrambleText: 'Contact'}
     );
-    heroAnimations.from(portfolioTitle.lines, {
+    heroAnimations.from(".portfolio-title", {
         duration: 0.5,
         y: 100,
         autoAlpha: 0,
@@ -214,45 +204,60 @@ function runAnimations() {
     });
 
 
-    gsap.from(aboutTitle.lines, {
+    gsap.from('.about-title', {
         scrollTrigger: '.about-title',
         duration: 0.5,
         y: 100,
         autoAlpha: 0,
     });
-    gsap.from(aboutDesc.lines, {
+    gsap.from('.about-desc', {
         scrollTrigger: '.about-desc',
         duration: 0.5,
         y: 100,
         autoAlpha: 0,
+        stagger: 0.1
     });
 
 
-    gsap.from(contactTitle.lines, {
+    gsap.from('.contact-title', {
         scrollTrigger: '.contact-title',
         duration: 0.5,
         y: 100,
         autoAlpha: 0,
     });
-    // gsap.from(contactForm.lines, {
-    //     scrollTrigger: '.contact-form',
-    //     duration: 0.5,
-    //     y: 100,
-    //     autoAlpha: 0,
-    // });
+    gsap.from('.airtable-embed', {
+        scrollTrigger: '.airtable-embed',
+        duration: 0.5,
+        y: 100,
+        autoAlpha: 0,
+        stagger: 0.1
+    });
 }
 
-document.addEventListener("DOMContentLoaded", (event) => {
-    document.fonts.ready.then(() => {
-        //Register all GSAP plugins
-        gsap.registerPlugin(ScrambleTextPlugin, ScrollTrigger, ScrollSmoother, ScrollToPlugin, SplitText);
+document.fonts.ready.then(() => {
+    //Register all GSAP plugins
+    gsap.registerPlugin(ScrambleTextPlugin, ScrollTrigger, ScrollToPlugin);
 
-        // Load portfolio
-        document.querySelector('.works').innerHTML = renderedWorks;
+    // Load portfolio
+    document.querySelector('.works').innerHTML = renderedWorks;
+    document.querySelector('.site-nav')
+        .addEventListener('click', (e)=> {
+            e.preventDefault();
+            let elem = e.target.getAttribute('href');
+            gsap.to(window, { duration: 1, scrollTo: elem });
+        });
 
-        // Run all animations
-        runAnimations();
-    });
+    document.querySelectorAll('.btn-back-to-top')
+        .forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            gsap.to(window, { duration: 1, scrollTo: 0});
+        })
+    })
+
+
+    // Run all animations
+    runAnimations();
 });
 
 
